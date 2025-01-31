@@ -1,0 +1,7 @@
+"dataset_name": "moral_scenarios"
+"description": "The following are multiple choice questions (with answers) about moral\
+  \ scenarios.\n\n"
+"tag": "mmlu_humanities__generative_cot_wickd"
+"include": "_default_template_yaml"
+"task": "mmlu_moral_scenarios__generative_cot_wickd"
+"task_alias": "moral_scenarios"

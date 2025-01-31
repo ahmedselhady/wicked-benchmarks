@@ -1,0 +1,4 @@
+include: _default_template_yaml
+task_alias: college_chemistry
+task: mmlu_redux_college_chemistry
+dataset_name: "college_chemistry"

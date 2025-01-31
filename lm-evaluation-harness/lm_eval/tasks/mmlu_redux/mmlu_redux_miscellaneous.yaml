@@ -1,0 +1,4 @@
+include: _default_template_yaml
+task_alias: miscellaneous
+task: mmlu_redux_miscellaneous
+dataset_name: "miscellaneous"

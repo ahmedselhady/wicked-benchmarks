@@ -1,0 +1,4 @@
+include: _default_template_yaml
+task_alias: formal_logic
+task: mmlu_redux_formal_logic
+dataset_name: "formal_logic"

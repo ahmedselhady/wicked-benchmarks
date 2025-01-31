@@ -1,0 +1,4 @@
+include: _default_template_yaml
+task_alias: public_relations
+task: mmlu_redux_public_relations
+dataset_name: "public_relations"

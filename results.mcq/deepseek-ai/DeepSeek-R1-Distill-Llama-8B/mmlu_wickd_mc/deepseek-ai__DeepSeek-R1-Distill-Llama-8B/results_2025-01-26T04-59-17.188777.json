@@ -1,0 +1,3402 @@
+{
+  "results": {
+    "mmlu": {
+      "acc,none": 0.4867540236433556,
+      "acc_stderr,none": 0.004095662473824316,
+      "alias": "mmlu"
+    },
+    "mmlu_humanities": {
+      "acc,none": 0.47056323060573857,
+      "acc_stderr,none": 0.007061221794240739,
+      "alias": " - humanities"
+    },
+    "mmlu_formal_logic": {
+      "alias": "  - formal_logic",
+      "acc,none": 0.46825396825396826,
+      "acc_stderr,none": 0.04463112720677172
+    },
+    "mmlu_high_school_european_history": {
+      "alias": "  - high_school_european_history",
+      "acc,none": 0.6303030303030303,
+      "acc_stderr,none": 0.03769430314512567
+    },
+    "mmlu_high_school_us_history": {
+      "alias": "  - high_school_us_history",
+      "acc,none": 0.6813725490196079,
+      "acc_stderr,none": 0.032702871814820796
+    },
+    "mmlu_high_school_world_history": {
+      "alias": "  - high_school_world_history",
+      "acc,none": 0.7426160337552743,
+      "acc_stderr,none": 0.02845882099146028
+    },
+    "mmlu_international_law": {
+      "alias": "  - international_law",
+      "acc,none": 0.5950413223140496,
+      "acc_stderr,none": 0.044811377559424694
+    },
+    "mmlu_jurisprudence": {
+      "alias": "  - jurisprudence",
+      "acc,none": 0.6111111111111112,
+      "acc_stderr,none": 0.0471282125742677
+    },
+    "mmlu_logical_fallacies": {
+      "alias": "  - logical_fallacies",
+      "acc,none": 0.5276073619631901,
+      "acc_stderr,none": 0.0392237829061099
+    },
+    "mmlu_moral_disputes": {
+      "alias": "  - moral_disputes",
+      "acc,none": 0.5202312138728323,
+      "acc_stderr,none": 0.026897049996382868
+    },
+    "mmlu_moral_scenarios": {
+      "alias": "  - moral_scenarios",
+      "acc,none": 0.32513966480446926,
+      "acc_stderr,none": 0.015666542785053552
+    },
+    "mmlu_philosophy": {
+      "alias": "  - philosophy",
+      "acc,none": 0.5305466237942122,
+      "acc_stderr,none": 0.028345045864840615
+    },
+    "mmlu_prehistory": {
+      "alias": "  - prehistory",
+      "acc,none": 0.5740740740740741,
+      "acc_stderr,none": 0.027513747284379424
+    },
+    "mmlu_professional_law": {
+      "alias": "  - professional_law",
+      "acc,none": 0.3878748370273794,
+      "acc_stderr,none": 0.012444998309675619
+    },
+    "mmlu_world_religions": {
+      "alias": "  - world_religions",
+      "acc,none": 0.5555555555555556,
+      "acc_stderr,none": 0.03811079669833531
+    },
+    "mmlu_other": {
+      "acc,none": 0.5291277759897006,
+      "acc_stderr,none": 0.008773319864305835,
+      "alias": " - other"
+    },
+    "mmlu_business_ethics": {
+      "alias": "  - business_ethics",
+      "acc,none": 0.49,
+      "acc_stderr,none": 0.05024183937956912
+    },
+    "mmlu_clinical_knowledge": {
+      "alias": "  - clinical_knowledge",
+      "acc,none": 0.5811320754716981,
+      "acc_stderr,none": 0.030365050829115205
+    },
+    "mmlu_college_medicine": {
+      "alias": "  - college_medicine",
+      "acc,none": 0.5028901734104047,
+      "acc_stderr,none": 0.03812400565974833
+    },
+    "mmlu_global_facts": {
+      "alias": "  - global_facts",
+      "acc,none": 0.19,
+      "acc_stderr,none": 0.039427724440366234
+    },
+    "mmlu_human_aging": {
+      "alias": "  - human_aging",
+      "acc,none": 0.5291479820627802,
+      "acc_stderr,none": 0.03350073248773404
+    },
+    "mmlu_management": {
+      "alias": "  - management",
+      "acc,none": 0.5436893203883495,
+      "acc_stderr,none": 0.049318019942204146
+    },
+    "mmlu_marketing": {
+      "alias": "  - marketing",
+      "acc,none": 0.6623931623931624,
+      "acc_stderr,none": 0.030980296992618558
+    },
+    "mmlu_medical_genetics": {
+      "alias": "  - medical_genetics",
+      "acc,none": 0.61,
+      "acc_stderr,none": 0.04902071300001975
+    },
+    "mmlu_miscellaneous": {
+      "alias": "  - miscellaneous",
+      "acc,none": 0.5964240102171137,
+      "acc_stderr,none": 0.017544332237926414
+    },
+    "mmlu_nutrition": {
+      "alias": "  - nutrition",
+      "acc,none": 0.565359477124183,
+      "acc_stderr,none": 0.028384256704883034
+    },
+    "mmlu_professional_accounting": {
+      "alias": "  - professional_accounting",
+      "acc,none": 0.3404255319148936,
+      "acc_stderr,none": 0.028267657482650147
+    },
+    "mmlu_professional_medicine": {
+      "alias": "  - professional_medicine",
+      "acc,none": 0.5257352941176471,
+      "acc_stderr,none": 0.030332578094555033
+    },
+    "mmlu_virology": {
+      "alias": "  - virology",
+      "acc,none": 0.39759036144578314,
+      "acc_stderr,none": 0.038099730845402184
+    },
+    "mmlu_social_sciences": {
+      "acc,none": 0.5541111472213195,
+      "acc_stderr,none": 0.00881450140061402,
+      "alias": " - social sciences"
+    },
+    "mmlu_econometrics": {
+      "alias": "  - econometrics",
+      "acc,none": 0.32456140350877194,
+      "acc_stderr,none": 0.044045561573747664
+    },
+    "mmlu_high_school_geography": {
+      "alias": "  - high_school_geography",
+      "acc,none": 0.5808080808080808,
+      "acc_stderr,none": 0.03515520728670417
+    },
+    "mmlu_high_school_government_and_politics": {
+      "alias": "  - high_school_government_and_politics",
+      "acc,none": 0.6528497409326425,
+      "acc_stderr,none": 0.03435696168361355
+    },
+    "mmlu_high_school_macroeconomics": {
+      "alias": "  - high_school_macroeconomics",
+      "acc,none": 0.4897435897435897,
+      "acc_stderr,none": 0.025345672221942374
+    },
+    "mmlu_high_school_microeconomics": {
+      "alias": "  - high_school_microeconomics",
+      "acc,none": 0.48739495798319327,
+      "acc_stderr,none": 0.032468167657521745
+    },
+    "mmlu_high_school_psychology": {
+      "alias": "  - high_school_psychology",
+      "acc,none": 0.6825688073394496,
+      "acc_stderr,none": 0.019957152198460504
+    },
+    "mmlu_human_sexuality": {
+      "alias": "  - human_sexuality",
+      "acc,none": 0.5801526717557252,
+      "acc_stderr,none": 0.04328577215262972
+    },
+    "mmlu_professional_psychology": {
+      "alias": "  - professional_psychology",
+      "acc,none": 0.4869281045751634,
+      "acc_stderr,none": 0.02022092082962691
+    },
+    "mmlu_public_relations": {
+      "alias": "  - public_relations",
+      "acc,none": 0.5272727272727272,
+      "acc_stderr,none": 0.04782001791380061
+    },
+    "mmlu_security_studies": {
+      "alias": "  - security_studies",
+      "acc,none": 0.4816326530612245,
+      "acc_stderr,none": 0.03198761546763127
+    },
+    "mmlu_sociology": {
+      "alias": "  - sociology",
+      "acc,none": 0.681592039800995,
+      "acc_stderr,none": 0.032941184790540944
+    },
+    "mmlu_us_foreign_policy": {
+      "alias": "  - us_foreign_policy",
+      "acc,none": 0.61,
+      "acc_stderr,none": 0.04902071300001974
+    },
+    "mmlu_stem": {
+      "acc,none": 0.4034253092293054,
+      "acc_stderr,none": 0.008540317225760007,
+      "alias": " - stem"
+    },
+    "mmlu_abstract_algebra": {
+      "alias": "  - abstract_algebra",
+      "acc,none": 0.19,
+      "acc_stderr,none": 0.039427724440366234
+    },
+    "mmlu_anatomy": {
+      "alias": "  - anatomy",
+      "acc,none": 0.45185185185185184,
+      "acc_stderr,none": 0.04299268905480863
+    },
+    "mmlu_astronomy": {
+      "alias": "  - astronomy",
+      "acc,none": 0.5,
+      "acc_stderr,none": 0.04068942293855797
+    },
+    "mmlu_college_biology": {
+      "alias": "  - college_biology",
+      "acc,none": 0.5347222222222222,
+      "acc_stderr,none": 0.04171115858181618
+    },
+    "mmlu_college_chemistry": {
+      "alias": "  - college_chemistry",
+      "acc,none": 0.21,
+      "acc_stderr,none": 0.04093601807403326
+    },
+    "mmlu_college_computer_science": {
+      "alias": "  - college_computer_science",
+      "acc,none": 0.42,
+      "acc_stderr,none": 0.049604496374885836
+    },
+    "mmlu_college_mathematics": {
+      "alias": "  - college_mathematics",
+      "acc,none": 0.28,
+      "acc_stderr,none": 0.04512608598542129
+    },
+    "mmlu_college_physics": {
+      "alias": "  - college_physics",
+      "acc,none": 0.3431372549019608,
+      "acc_stderr,none": 0.04724007352383888
+    },
+    "mmlu_computer_security": {
+      "alias": "  - computer_security",
+      "acc,none": 0.62,
+      "acc_stderr,none": 0.048783173121456316
+    },
+    "mmlu_conceptual_physics": {
+      "alias": "  - conceptual_physics",
+      "acc,none": 0.37446808510638296,
+      "acc_stderr,none": 0.03163910665367291
+    },
+    "mmlu_electrical_engineering": {
+      "alias": "  - electrical_engineering",
+      "acc,none": 0.3310344827586207,
+      "acc_stderr,none": 0.039215453124671215
+    },
+    "mmlu_elementary_mathematics": {
+      "alias": "  - elementary_mathematics",
+      "acc,none": 0.4312169312169312,
+      "acc_stderr,none": 0.025506481698138204
+    },
+    "mmlu_high_school_biology": {
+      "alias": "  - high_school_biology",
+      "acc,none": 0.5580645161290323,
+      "acc_stderr,none": 0.028251557906849748
+    },
+    "mmlu_high_school_chemistry": {
+      "alias": "  - high_school_chemistry",
+      "acc,none": 0.42857142857142855,
+      "acc_stderr,none": 0.03481904844438804
+    },
+    "mmlu_high_school_computer_science": {
+      "alias": "  - high_school_computer_science",
+      "acc,none": 0.59,
+      "acc_stderr,none": 0.04943110704237102
+    },
+    "mmlu_high_school_mathematics": {
+      "alias": "  - high_school_mathematics",
+      "acc,none": 0.2962962962962963,
+      "acc_stderr,none": 0.02784081149587192
+    },
+    "mmlu_high_school_physics": {
+      "alias": "  - high_school_physics",
+      "acc,none": 0.2913907284768212,
+      "acc_stderr,none": 0.037101857261199946
+    },
+    "mmlu_high_school_statistics": {
+      "alias": "  - high_school_statistics",
+      "acc,none": 0.3425925925925926,
+      "acc_stderr,none": 0.03236585252602156
+    },
+    "mmlu_machine_learning": {
+      "alias": "  - machine_learning",
+      "acc,none": 0.3125,
+      "acc_stderr,none": 0.043994650575715215
+    }
+  },
+  "groups": {
+    "mmlu": {
+      "acc,none": 0.4867540236433556,
+      "acc_stderr,none": 0.004095662473824316,
+      "alias": "mmlu"
+    },
+    "mmlu_humanities": {
+      "acc,none": 0.47056323060573857,
+      "acc_stderr,none": 0.007061221794240739,
+      "alias": " - humanities"
+    },
+    "mmlu_other": {
+      "acc,none": 0.5291277759897006,
+      "acc_stderr,none": 0.008773319864305835,
+      "alias": " - other"
+    },
+    "mmlu_social_sciences": {
+      "acc,none": 0.5541111472213195,
+      "acc_stderr,none": 0.00881450140061402,
+      "alias": " - social sciences"
+    },
+    "mmlu_stem": {
+      "acc,none": 0.4034253092293054,
+      "acc_stderr,none": 0.008540317225760007,
+      "alias": " - stem"
+    }
+  },
+  "group_subtasks": {
+    "mmlu_humanities": [
+      "mmlu_international_law",
+      "mmlu_professional_law",
+      "mmlu_philosophy",
+      "mmlu_logical_fallacies",
+      "mmlu_formal_logic",
+      "mmlu_high_school_european_history",
+      "mmlu_prehistory",
+      "mmlu_moral_scenarios",
+      "mmlu_world_religions",
+      "mmlu_moral_disputes",
+      "mmlu_high_school_world_history",
+      "mmlu_high_school_us_history",
+      "mmlu_jurisprudence"
+    ],
+    "mmlu_social_sciences": [
+      "mmlu_us_foreign_policy",
+      "mmlu_high_school_government_and_politics",
+      "mmlu_professional_psychology",
+      "mmlu_high_school_macroeconomics",
+      "mmlu_econometrics",
+      "mmlu_high_school_geography",
+      "mmlu_high_school_psychology",
+      "mmlu_human_sexuality",
+      "mmlu_sociology",
+      "mmlu_public_relations",
+      "mmlu_security_studies",
+      "mmlu_high_school_microeconomics"
+    ],
+    "mmlu_other": [
+      "mmlu_miscellaneous",
+      "mmlu_professional_accounting",
+      "mmlu_virology",
+      "mmlu_clinical_knowledge",
+      "mmlu_professional_medicine",
+      "mmlu_medical_genetics",
+      "mmlu_marketing",
+      "mmlu_college_medicine",
+      "mmlu_human_aging",
+      "mmlu_business_ethics",
+      "mmlu_global_facts",
+      "mmlu_management",
+      "mmlu_nutrition"
+    ],
+    "mmlu_stem": [
+      "mmlu_high_school_statistics",
+      "mmlu_electrical_engineering",
+      "mmlu_college_biology",
+      "mmlu_anatomy",
+      "mmlu_college_physics",
+      "mmlu_abstract_algebra",
+      "mmlu_college_mathematics",
+      "mmlu_machine_learning",
+      "mmlu_high_school_biology",
+      "mmlu_computer_security",
+      "mmlu_conceptual_physics",
+      "mmlu_astronomy",
+      "mmlu_college_chemistry",
+      "mmlu_high_school_physics",
+      "mmlu_elementary_mathematics",
+      "mmlu_high_school_mathematics",
+      "mmlu_high_school_chemistry",
+      "mmlu_college_computer_science",
+      "mmlu_high_school_computer_science"
+    ],
+    "mmlu": [
+      "mmlu_stem",
+      "mmlu_other",
+      "mmlu_social_sciences",
+      "mmlu_humanities"
+    ]
+  },
+  "configs": {
+    "mmlu_abstract_algebra": {
+      "task": "mmlu_abstract_algebra",
+      "task_alias": "abstract_algebra",
+      "tag": "mmlu_stem_tasks",
+      "dataset_path": "hails/mmlu_no_train",
+      "dataset_name": "abstract_algebra",
+      "dataset_kwargs": {
+        "trust_remote_code": true
+      },
+      "test_split": "test",
+      "fewshot_split": "dev",
+      "process_docs": "def preprocessing(dataset):\n    \n    def process_doc(doc):\n        \n        original_doc = copy.copy(doc)\n        if can_be_flipped(doc['question']):\n            # randomly select an answer to hide:\n            answer_to_hide = random.choice(doc['choices'])        \n            doc['choices'].remove(answer_to_hide)\n            doc['choices'].append(\"None of the above\")\n            correct_answer = original_doc['choices'][original_doc['answer']]\n            if correct_answer not in doc['choices']:\n                correct_answer = \"None of the above\"\n            \n            doc['answer'] = doc['choices'].index(correct_answer)\n        return doc\n        \n    return dataset.map(process_doc)\n",
+      "doc_to_text": "{{question.strip()}}\nA. {{choices[0]}}\nB. {{choices[1]}}\nC. {{choices[2]}}\nD. {{choices[3]}}\nAnswer:",
+      "doc_to_target": "answer",
+      "doc_to_choice": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "description": "The following are multiple choice questions (with answers) about abstract algebra.\n\n",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "fewshot_config": {
+        "sampler": "first_n"
+      },
+      "num_fewshot": 5,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0
+      }
+    },
+    "mmlu_anatomy": {
+      "task": "mmlu_anatomy",
+      "task_alias": "anatomy",
+      "tag": "mmlu_stem_tasks",
+      "dataset_path": "hails/mmlu_no_train",
+      "dataset_name": "anatomy",
+      "dataset_kwargs": {
+        "trust_remote_code": true
+      },
+      "test_split": "test",
+      "fewshot_split": "dev",
+      "process_docs": "def preprocessing(dataset):\n    \n    def process_doc(doc):\n        \n        original_doc = copy.copy(doc)\n        if can_be_flipped(doc['question']):\n            # randomly select an answer to hide:\n            answer_to_hide = random.choice(doc['choices'])        \n            doc['choices'].remove(answer_to_hide)\n            doc['choices'].append(\"None of the above\")\n            correct_answer = original_doc['choices'][original_doc['answer']]\n            if correct_answer not in doc['choices']:\n                correct_answer = \"None of the above\"\n            \n            doc['answer'] = doc['choices'].index(correct_answer)\n        return doc\n        \n    return dataset.map(process_doc)\n",
+      "doc_to_text": "{{question.strip()}}\nA. {{choices[0]}}\nB. {{choices[1]}}\nC. {{choices[2]}}\nD. {{choices[3]}}\nAnswer:",
+      "doc_to_target": "answer",
+      "doc_to_choice": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "description": "The following are multiple choice questions (with answers) about anatomy.\n\n",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "fewshot_config": {
+        "sampler": "first_n"
+      },
+      "num_fewshot": 5,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0
+      }
+    },
+    "mmlu_astronomy": {
+      "task": "mmlu_astronomy",
+      "task_alias": "astronomy",
+      "tag": "mmlu_stem_tasks",
+      "dataset_path": "hails/mmlu_no_train",
+      "dataset_name": "astronomy",
+      "dataset_kwargs": {
+        "trust_remote_code": true
+      },
+      "test_split": "test",
+      "fewshot_split": "dev",
+      "process_docs": "def preprocessing(dataset):\n    \n    def process_doc(doc):\n        \n        original_doc = copy.copy(doc)\n        if can_be_flipped(doc['question']):\n            # randomly select an answer to hide:\n            answer_to_hide = random.choice(doc['choices'])        \n            doc['choices'].remove(answer_to_hide)\n            doc['choices'].append(\"None of the above\")\n            correct_answer = original_doc['choices'][original_doc['answer']]\n            if correct_answer not in doc['choices']:\n                correct_answer = \"None of the above\"\n            \n            doc['answer'] = doc['choices'].index(correct_answer)\n        return doc\n        \n    return dataset.map(process_doc)\n",
+      "doc_to_text": "{{question.strip()}}\nA. {{choices[0]}}\nB. {{choices[1]}}\nC. {{choices[2]}}\nD. {{choices[3]}}\nAnswer:",
+      "doc_to_target": "answer",
+      "doc_to_choice": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "description": "The following are multiple choice questions (with answers) about astronomy.\n\n",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "fewshot_config": {
+        "sampler": "first_n"
+      },
+      "num_fewshot": 5,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0
+      }
+    },
+    "mmlu_business_ethics": {
+      "task": "mmlu_business_ethics",
+      "task_alias": "business_ethics",
+      "tag": "mmlu_other_tasks",
+      "dataset_path": "hails/mmlu_no_train",
+      "dataset_name": "business_ethics",
+      "dataset_kwargs": {
+        "trust_remote_code": true
+      },
+      "test_split": "test",
+      "fewshot_split": "dev",
+      "process_docs": "def preprocessing(dataset):\n    \n    def process_doc(doc):\n        \n        original_doc = copy.copy(doc)\n        if can_be_flipped(doc['question']):\n            # randomly select an answer to hide:\n            answer_to_hide = random.choice(doc['choices'])        \n            doc['choices'].remove(answer_to_hide)\n            doc['choices'].append(\"None of the above\")\n            correct_answer = original_doc['choices'][original_doc['answer']]\n            if correct_answer not in doc['choices']:\n                correct_answer = \"None of the above\"\n            \n            doc['answer'] = doc['choices'].index(correct_answer)\n        return doc\n        \n    return dataset.map(process_doc)\n",
+      "doc_to_text": "{{question.strip()}}\nA. {{choices[0]}}\nB. {{choices[1]}}\nC. {{choices[2]}}\nD. {{choices[3]}}\nAnswer:",
+      "doc_to_target": "answer",
+      "doc_to_choice": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "description": "The following are multiple choice questions (with answers) about business ethics.\n\n",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "fewshot_config": {
+        "sampler": "first_n"
+      },
+      "num_fewshot": 5,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0
+      }
+    },
+    "mmlu_clinical_knowledge": {
+      "task": "mmlu_clinical_knowledge",
+      "task_alias": "clinical_knowledge",
+      "tag": "mmlu_other_tasks",
+      "dataset_path": "hails/mmlu_no_train",
+      "dataset_name": "clinical_knowledge",
+      "dataset_kwargs": {
+        "trust_remote_code": true
+      },
+      "test_split": "test",
+      "fewshot_split": "dev",
+      "process_docs": "def preprocessing(dataset):\n    \n    def process_doc(doc):\n        \n        original_doc = copy.copy(doc)\n        if can_be_flipped(doc['question']):\n            # randomly select an answer to hide:\n            answer_to_hide = random.choice(doc['choices'])        \n            doc['choices'].remove(answer_to_hide)\n            doc['choices'].append(\"None of the above\")\n            correct_answer = original_doc['choices'][original_doc['answer']]\n            if correct_answer not in doc['choices']:\n                correct_answer = \"None of the above\"\n            \n            doc['answer'] = doc['choices'].index(correct_answer)\n        return doc\n        \n    return dataset.map(process_doc)\n",
+      "doc_to_text": "{{question.strip()}}\nA. {{choices[0]}}\nB. {{choices[1]}}\nC. {{choices[2]}}\nD. {{choices[3]}}\nAnswer:",
+      "doc_to_target": "answer",
+      "doc_to_choice": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "description": "The following are multiple choice questions (with answers) about clinical knowledge.\n\n",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "fewshot_config": {
+        "sampler": "first_n"
+      },
+      "num_fewshot": 5,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0
+      }
+    },
+    "mmlu_college_biology": {
+      "task": "mmlu_college_biology",
+      "task_alias": "college_biology",
+      "tag": "mmlu_stem_tasks",
+      "dataset_path": "hails/mmlu_no_train",
+      "dataset_name": "college_biology",
+      "dataset_kwargs": {
+        "trust_remote_code": true
+      },
+      "test_split": "test",
+      "fewshot_split": "dev",
+      "process_docs": "def preprocessing(dataset):\n    \n    def process_doc(doc):\n        \n        original_doc = copy.copy(doc)\n        if can_be_flipped(doc['question']):\n            # randomly select an answer to hide:\n            answer_to_hide = random.choice(doc['choices'])        \n            doc['choices'].remove(answer_to_hide)\n            doc['choices'].append(\"None of the above\")\n            correct_answer = original_doc['choices'][original_doc['answer']]\n            if correct_answer not in doc['choices']:\n                correct_answer = \"None of the above\"\n            \n            doc['answer'] = doc['choices'].index(correct_answer)\n        return doc\n        \n    return dataset.map(process_doc)\n",
+      "doc_to_text": "{{question.strip()}}\nA. {{choices[0]}}\nB. {{choices[1]}}\nC. {{choices[2]}}\nD. {{choices[3]}}\nAnswer:",
+      "doc_to_target": "answer",
+      "doc_to_choice": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "description": "The following are multiple choice questions (with answers) about college biology.\n\n",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "fewshot_config": {
+        "sampler": "first_n"
+      },
+      "num_fewshot": 5,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0
+      }
+    },
+    "mmlu_college_chemistry": {
+      "task": "mmlu_college_chemistry",
+      "task_alias": "college_chemistry",
+      "tag": "mmlu_stem_tasks",
+      "dataset_path": "hails/mmlu_no_train",
+      "dataset_name": "college_chemistry",
+      "dataset_kwargs": {
+        "trust_remote_code": true
+      },
+      "test_split": "test",
+      "fewshot_split": "dev",
+      "process_docs": "def preprocessing(dataset):\n    \n    def process_doc(doc):\n        \n        original_doc = copy.copy(doc)\n        if can_be_flipped(doc['question']):\n            # randomly select an answer to hide:\n            answer_to_hide = random.choice(doc['choices'])        \n            doc['choices'].remove(answer_to_hide)\n            doc['choices'].append(\"None of the above\")\n            correct_answer = original_doc['choices'][original_doc['answer']]\n            if correct_answer not in doc['choices']:\n                correct_answer = \"None of the above\"\n            \n            doc['answer'] = doc['choices'].index(correct_answer)\n        return doc\n        \n    return dataset.map(process_doc)\n",
+      "doc_to_text": "{{question.strip()}}\nA. {{choices[0]}}\nB. {{choices[1]}}\nC. {{choices[2]}}\nD. {{choices[3]}}\nAnswer:",
+      "doc_to_target": "answer",
+      "doc_to_choice": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "description": "The following are multiple choice questions (with answers) about college chemistry.\n\n",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "fewshot_config": {
+        "sampler": "first_n"
+      },
+      "num_fewshot": 5,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0
+      }
+    },
+    "mmlu_college_computer_science": {
+      "task": "mmlu_college_computer_science",
+      "task_alias": "college_computer_science",
+      "tag": "mmlu_stem_tasks",
+      "dataset_path": "hails/mmlu_no_train",
+      "dataset_name": "college_computer_science",
+      "dataset_kwargs": {
+        "trust_remote_code": true
+      },
+      "test_split": "test",
+      "fewshot_split": "dev",
+      "process_docs": "def preprocessing(dataset):\n    \n    def process_doc(doc):\n        \n        original_doc = copy.copy(doc)\n        if can_be_flipped(doc['question']):\n            # randomly select an answer to hide:\n            answer_to_hide = random.choice(doc['choices'])        \n            doc['choices'].remove(answer_to_hide)\n            doc['choices'].append(\"None of the above\")\n            correct_answer = original_doc['choices'][original_doc['answer']]\n            if correct_answer not in doc['choices']:\n                correct_answer = \"None of the above\"\n            \n            doc['answer'] = doc['choices'].index(correct_answer)\n        return doc\n        \n    return dataset.map(process_doc)\n",
+      "doc_to_text": "{{question.strip()}}\nA. {{choices[0]}}\nB. {{choices[1]}}\nC. {{choices[2]}}\nD. {{choices[3]}}\nAnswer:",
+      "doc_to_target": "answer",
+      "doc_to_choice": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "description": "The following are multiple choice questions (with answers) about college computer science.\n\n",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "fewshot_config": {
+        "sampler": "first_n"
+      },
+      "num_fewshot": 5,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0
+      }
+    },
+    "mmlu_college_mathematics": {
+      "task": "mmlu_college_mathematics",
+      "task_alias": "college_mathematics",
+      "tag": "mmlu_stem_tasks",
+      "dataset_path": "hails/mmlu_no_train",
+      "dataset_name": "college_mathematics",
+      "dataset_kwargs": {
+        "trust_remote_code": true
+      },
+      "test_split": "test",
+      "fewshot_split": "dev",
+      "process_docs": "def preprocessing(dataset):\n    \n    def process_doc(doc):\n        \n        original_doc = copy.copy(doc)\n        if can_be_flipped(doc['question']):\n            # randomly select an answer to hide:\n            answer_to_hide = random.choice(doc['choices'])        \n            doc['choices'].remove(answer_to_hide)\n            doc['choices'].append(\"None of the above\")\n            correct_answer = original_doc['choices'][original_doc['answer']]\n            if correct_answer not in doc['choices']:\n                correct_answer = \"None of the above\"\n            \n            doc['answer'] = doc['choices'].index(correct_answer)\n        return doc\n        \n    return dataset.map(process_doc)\n",
+      "doc_to_text": "{{question.strip()}}\nA. {{choices[0]}}\nB. {{choices[1]}}\nC. {{choices[2]}}\nD. {{choices[3]}}\nAnswer:",
+      "doc_to_target": "answer",
+      "doc_to_choice": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "description": "The following are multiple choice questions (with answers) about college mathematics.\n\n",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "fewshot_config": {
+        "sampler": "first_n"
+      },
+      "num_fewshot": 5,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0
+      }
+    },
+    "mmlu_college_medicine": {
+      "task": "mmlu_college_medicine",
+      "task_alias": "college_medicine",
+      "tag": "mmlu_other_tasks",
+      "dataset_path": "hails/mmlu_no_train",
+      "dataset_name": "college_medicine",
+      "dataset_kwargs": {
+        "trust_remote_code": true
+      },
+      "test_split": "test",
+      "fewshot_split": "dev",
+      "process_docs": "def preprocessing(dataset):\n    \n    def process_doc(doc):\n        \n        original_doc = copy.copy(doc)\n        if can_be_flipped(doc['question']):\n            # randomly select an answer to hide:\n            answer_to_hide = random.choice(doc['choices'])        \n            doc['choices'].remove(answer_to_hide)\n            doc['choices'].append(\"None of the above\")\n            correct_answer = original_doc['choices'][original_doc['answer']]\n            if correct_answer not in doc['choices']:\n                correct_answer = \"None of the above\"\n            \n            doc['answer'] = doc['choices'].index(correct_answer)\n        return doc\n        \n    return dataset.map(process_doc)\n",
+      "doc_to_text": "{{question.strip()}}\nA. {{choices[0]}}\nB. {{choices[1]}}\nC. {{choices[2]}}\nD. {{choices[3]}}\nAnswer:",
+      "doc_to_target": "answer",
+      "doc_to_choice": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "description": "The following are multiple choice questions (with answers) about college medicine.\n\n",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "fewshot_config": {
+        "sampler": "first_n"
+      },
+      "num_fewshot": 5,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0
+      }
+    },
+    "mmlu_college_physics": {
+      "task": "mmlu_college_physics",
+      "task_alias": "college_physics",
+      "tag": "mmlu_stem_tasks",
+      "dataset_path": "hails/mmlu_no_train",
+      "dataset_name": "college_physics",
+      "dataset_kwargs": {
+        "trust_remote_code": true
+      },
+      "test_split": "test",
+      "fewshot_split": "dev",
+      "process_docs": "def preprocessing(dataset):\n    \n    def process_doc(doc):\n        \n        original_doc = copy.copy(doc)\n        if can_be_flipped(doc['question']):\n            # randomly select an answer to hide:\n            answer_to_hide = random.choice(doc['choices'])        \n            doc['choices'].remove(answer_to_hide)\n            doc['choices'].append(\"None of the above\")\n            correct_answer = original_doc['choices'][original_doc['answer']]\n            if correct_answer not in doc['choices']:\n                correct_answer = \"None of the above\"\n            \n            doc['answer'] = doc['choices'].index(correct_answer)\n        return doc\n        \n    return dataset.map(process_doc)\n",
+      "doc_to_text": "{{question.strip()}}\nA. {{choices[0]}}\nB. {{choices[1]}}\nC. {{choices[2]}}\nD. {{choices[3]}}\nAnswer:",
+      "doc_to_target": "answer",
+      "doc_to_choice": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "description": "The following are multiple choice questions (with answers) about college physics.\n\n",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "fewshot_config": {
+        "sampler": "first_n"
+      },
+      "num_fewshot": 5,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0
+      }
+    },
+    "mmlu_computer_security": {
+      "task": "mmlu_computer_security",
+      "task_alias": "computer_security",
+      "tag": "mmlu_stem_tasks",
+      "dataset_path": "hails/mmlu_no_train",
+      "dataset_name": "computer_security",
+      "dataset_kwargs": {
+        "trust_remote_code": true
+      },
+      "test_split": "test",
+      "fewshot_split": "dev",
+      "process_docs": "def preprocessing(dataset):\n    \n    def process_doc(doc):\n        \n        original_doc = copy.copy(doc)\n        if can_be_flipped(doc['question']):\n            # randomly select an answer to hide:\n            answer_to_hide = random.choice(doc['choices'])        \n            doc['choices'].remove(answer_to_hide)\n            doc['choices'].append(\"None of the above\")\n            correct_answer = original_doc['choices'][original_doc['answer']]\n            if correct_answer not in doc['choices']:\n                correct_answer = \"None of the above\"\n            \n            doc['answer'] = doc['choices'].index(correct_answer)\n        return doc\n        \n    return dataset.map(process_doc)\n",
+      "doc_to_text": "{{question.strip()}}\nA. {{choices[0]}}\nB. {{choices[1]}}\nC. {{choices[2]}}\nD. {{choices[3]}}\nAnswer:",
+      "doc_to_target": "answer",
+      "doc_to_choice": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "description": "The following are multiple choice questions (with answers) about computer security.\n\n",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "fewshot_config": {
+        "sampler": "first_n"
+      },
+      "num_fewshot": 5,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0
+      }
+    },
+    "mmlu_conceptual_physics": {
+      "task": "mmlu_conceptual_physics",
+      "task_alias": "conceptual_physics",
+      "tag": "mmlu_stem_tasks",
+      "dataset_path": "hails/mmlu_no_train",
+      "dataset_name": "conceptual_physics",
+      "dataset_kwargs": {
+        "trust_remote_code": true
+      },
+      "test_split": "test",
+      "fewshot_split": "dev",
+      "process_docs": "def preprocessing(dataset):\n    \n    def process_doc(doc):\n        \n        original_doc = copy.copy(doc)\n        if can_be_flipped(doc['question']):\n            # randomly select an answer to hide:\n            answer_to_hide = random.choice(doc['choices'])        \n            doc['choices'].remove(answer_to_hide)\n            doc['choices'].append(\"None of the above\")\n            correct_answer = original_doc['choices'][original_doc['answer']]\n            if correct_answer not in doc['choices']:\n                correct_answer = \"None of the above\"\n            \n            doc['answer'] = doc['choices'].index(correct_answer)\n        return doc\n        \n    return dataset.map(process_doc)\n",
+      "doc_to_text": "{{question.strip()}}\nA. {{choices[0]}}\nB. {{choices[1]}}\nC. {{choices[2]}}\nD. {{choices[3]}}\nAnswer:",
+      "doc_to_target": "answer",
+      "doc_to_choice": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "description": "The following are multiple choice questions (with answers) about conceptual physics.\n\n",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "fewshot_config": {
+        "sampler": "first_n"
+      },
+      "num_fewshot": 5,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0
+      }
+    },
+    "mmlu_econometrics": {
+      "task": "mmlu_econometrics",
+      "task_alias": "econometrics",
+      "tag": "mmlu_social_sciences_tasks",
+      "dataset_path": "hails/mmlu_no_train",
+      "dataset_name": "econometrics",
+      "dataset_kwargs": {
+        "trust_remote_code": true
+      },
+      "test_split": "test",
+      "fewshot_split": "dev",
+      "process_docs": "def preprocessing(dataset):\n    \n    def process_doc(doc):\n        \n        original_doc = copy.copy(doc)\n        if can_be_flipped(doc['question']):\n            # randomly select an answer to hide:\n            answer_to_hide = random.choice(doc['choices'])        \n            doc['choices'].remove(answer_to_hide)\n            doc['choices'].append(\"None of the above\")\n            correct_answer = original_doc['choices'][original_doc['answer']]\n            if correct_answer not in doc['choices']:\n                correct_answer = \"None of the above\"\n            \n            doc['answer'] = doc['choices'].index(correct_answer)\n        return doc\n        \n    return dataset.map(process_doc)\n",
+      "doc_to_text": "{{question.strip()}}\nA. {{choices[0]}}\nB. {{choices[1]}}\nC. {{choices[2]}}\nD. {{choices[3]}}\nAnswer:",
+      "doc_to_target": "answer",
+      "doc_to_choice": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "description": "The following are multiple choice questions (with answers) about econometrics.\n\n",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "fewshot_config": {
+        "sampler": "first_n"
+      },
+      "num_fewshot": 5,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0
+      }
+    },
+    "mmlu_electrical_engineering": {
+      "task": "mmlu_electrical_engineering",
+      "task_alias": "electrical_engineering",
+      "tag": "mmlu_stem_tasks",
+      "dataset_path": "hails/mmlu_no_train",
+      "dataset_name": "electrical_engineering",
+      "dataset_kwargs": {
+        "trust_remote_code": true
+      },
+      "test_split": "test",
+      "fewshot_split": "dev",
+      "process_docs": "def preprocessing(dataset):\n    \n    def process_doc(doc):\n        \n        original_doc = copy.copy(doc)\n        if can_be_flipped(doc['question']):\n            # randomly select an answer to hide:\n            answer_to_hide = random.choice(doc['choices'])        \n            doc['choices'].remove(answer_to_hide)\n            doc['choices'].append(\"None of the above\")\n            correct_answer = original_doc['choices'][original_doc['answer']]\n            if correct_answer not in doc['choices']:\n                correct_answer = \"None of the above\"\n            \n            doc['answer'] = doc['choices'].index(correct_answer)\n        return doc\n        \n    return dataset.map(process_doc)\n",
+      "doc_to_text": "{{question.strip()}}\nA. {{choices[0]}}\nB. {{choices[1]}}\nC. {{choices[2]}}\nD. {{choices[3]}}\nAnswer:",
+      "doc_to_target": "answer",
+      "doc_to_choice": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "description": "The following are multiple choice questions (with answers) about electrical engineering.\n\n",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "fewshot_config": {
+        "sampler": "first_n"
+      },
+      "num_fewshot": 5,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0
+      }
+    },
+    "mmlu_elementary_mathematics": {
+      "task": "mmlu_elementary_mathematics",
+      "task_alias": "elementary_mathematics",
+      "tag": "mmlu_stem_tasks",
+      "dataset_path": "hails/mmlu_no_train",
+      "dataset_name": "elementary_mathematics",
+      "dataset_kwargs": {
+        "trust_remote_code": true
+      },
+      "test_split": "test",
+      "fewshot_split": "dev",
+      "process_docs": "def preprocessing(dataset):\n    \n    def process_doc(doc):\n        \n        original_doc = copy.copy(doc)\n        if can_be_flipped(doc['question']):\n            # randomly select an answer to hide:\n            answer_to_hide = random.choice(doc['choices'])        \n            doc['choices'].remove(answer_to_hide)\n            doc['choices'].append(\"None of the above\")\n            correct_answer = original_doc['choices'][original_doc['answer']]\n            if correct_answer not in doc['choices']:\n                correct_answer = \"None of the above\"\n            \n            doc['answer'] = doc['choices'].index(correct_answer)\n        return doc\n        \n    return dataset.map(process_doc)\n",
+      "doc_to_text": "{{question.strip()}}\nA. {{choices[0]}}\nB. {{choices[1]}}\nC. {{choices[2]}}\nD. {{choices[3]}}\nAnswer:",
+      "doc_to_target": "answer",
+      "doc_to_choice": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "description": "The following are multiple choice questions (with answers) about elementary mathematics.\n\n",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "fewshot_config": {
+        "sampler": "first_n"
+      },
+      "num_fewshot": 5,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0
+      }
+    },
+    "mmlu_formal_logic": {
+      "task": "mmlu_formal_logic",
+      "task_alias": "formal_logic",
+      "tag": "mmlu_humanities_tasks",
+      "dataset_path": "hails/mmlu_no_train",
+      "dataset_name": "formal_logic",
+      "dataset_kwargs": {
+        "trust_remote_code": true
+      },
+      "test_split": "test",
+      "fewshot_split": "dev",
+      "process_docs": "def preprocessing(dataset):\n    \n    def process_doc(doc):\n        \n        original_doc = copy.copy(doc)\n        if can_be_flipped(doc['question']):\n            # randomly select an answer to hide:\n            answer_to_hide = random.choice(doc['choices'])        \n            doc['choices'].remove(answer_to_hide)\n            doc['choices'].append(\"None of the above\")\n            correct_answer = original_doc['choices'][original_doc['answer']]\n            if correct_answer not in doc['choices']:\n                correct_answer = \"None of the above\"\n            \n            doc['answer'] = doc['choices'].index(correct_answer)\n        return doc\n        \n    return dataset.map(process_doc)\n",
+      "doc_to_text": "{{question.strip()}}\nA. {{choices[0]}}\nB. {{choices[1]}}\nC. {{choices[2]}}\nD. {{choices[3]}}\nAnswer:",
+      "doc_to_target": "answer",
+      "doc_to_choice": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "description": "The following are multiple choice questions (with answers) about formal logic.\n\n",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "fewshot_config": {
+        "sampler": "first_n"
+      },
+      "num_fewshot": 5,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0
+      }
+    },
+    "mmlu_global_facts": {
+      "task": "mmlu_global_facts",
+      "task_alias": "global_facts",
+      "tag": "mmlu_other_tasks",
+      "dataset_path": "hails/mmlu_no_train",
+      "dataset_name": "global_facts",
+      "dataset_kwargs": {
+        "trust_remote_code": true
+      },
+      "test_split": "test",
+      "fewshot_split": "dev",
+      "process_docs": "def preprocessing(dataset):\n    \n    def process_doc(doc):\n        \n        original_doc = copy.copy(doc)\n        if can_be_flipped(doc['question']):\n            # randomly select an answer to hide:\n            answer_to_hide = random.choice(doc['choices'])        \n            doc['choices'].remove(answer_to_hide)\n            doc['choices'].append(\"None of the above\")\n            correct_answer = original_doc['choices'][original_doc['answer']]\n            if correct_answer not in doc['choices']:\n                correct_answer = \"None of the above\"\n            \n            doc['answer'] = doc['choices'].index(correct_answer)\n        return doc\n        \n    return dataset.map(process_doc)\n",
+      "doc_to_text": "{{question.strip()}}\nA. {{choices[0]}}\nB. {{choices[1]}}\nC. {{choices[2]}}\nD. {{choices[3]}}\nAnswer:",
+      "doc_to_target": "answer",
+      "doc_to_choice": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "description": "The following are multiple choice questions (with answers) about global facts.\n\n",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "fewshot_config": {
+        "sampler": "first_n"
+      },
+      "num_fewshot": 5,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0
+      }
+    },
+    "mmlu_high_school_biology": {
+      "task": "mmlu_high_school_biology",
+      "task_alias": "high_school_biology",
+      "tag": "mmlu_stem_tasks",
+      "dataset_path": "hails/mmlu_no_train",
+      "dataset_name": "high_school_biology",
+      "dataset_kwargs": {
+        "trust_remote_code": true
+      },
+      "test_split": "test",
+      "fewshot_split": "dev",
+      "process_docs": "def preprocessing(dataset):\n    \n    def process_doc(doc):\n        \n        original_doc = copy.copy(doc)\n        if can_be_flipped(doc['question']):\n            # randomly select an answer to hide:\n            answer_to_hide = random.choice(doc['choices'])        \n            doc['choices'].remove(answer_to_hide)\n            doc['choices'].append(\"None of the above\")\n            correct_answer = original_doc['choices'][original_doc['answer']]\n            if correct_answer not in doc['choices']:\n                correct_answer = \"None of the above\"\n            \n            doc['answer'] = doc['choices'].index(correct_answer)\n        return doc\n        \n    return dataset.map(process_doc)\n",
+      "doc_to_text": "{{question.strip()}}\nA. {{choices[0]}}\nB. {{choices[1]}}\nC. {{choices[2]}}\nD. {{choices[3]}}\nAnswer:",
+      "doc_to_target": "answer",
+      "doc_to_choice": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "description": "The following are multiple choice questions (with answers) about high school biology.\n\n",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "fewshot_config": {
+        "sampler": "first_n"
+      },
+      "num_fewshot": 5,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0
+      }
+    },
+    "mmlu_high_school_chemistry": {
+      "task": "mmlu_high_school_chemistry",
+      "task_alias": "high_school_chemistry",
+      "tag": "mmlu_stem_tasks",
+      "dataset_path": "hails/mmlu_no_train",
+      "dataset_name": "high_school_chemistry",
+      "dataset_kwargs": {
+        "trust_remote_code": true
+      },
+      "test_split": "test",
+      "fewshot_split": "dev",
+      "process_docs": "def preprocessing(dataset):\n    \n    def process_doc(doc):\n        \n        original_doc = copy.copy(doc)\n        if can_be_flipped(doc['question']):\n            # randomly select an answer to hide:\n            answer_to_hide = random.choice(doc['choices'])        \n            doc['choices'].remove(answer_to_hide)\n            doc['choices'].append(\"None of the above\")\n            correct_answer = original_doc['choices'][original_doc['answer']]\n            if correct_answer not in doc['choices']:\n                correct_answer = \"None of the above\"\n            \n            doc['answer'] = doc['choices'].index(correct_answer)\n        return doc\n        \n    return dataset.map(process_doc)\n",
+      "doc_to_text": "{{question.strip()}}\nA. {{choices[0]}}\nB. {{choices[1]}}\nC. {{choices[2]}}\nD. {{choices[3]}}\nAnswer:",
+      "doc_to_target": "answer",
+      "doc_to_choice": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "description": "The following are multiple choice questions (with answers) about high school chemistry.\n\n",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "fewshot_config": {
+        "sampler": "first_n"
+      },
+      "num_fewshot": 5,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0
+      }
+    },
+    "mmlu_high_school_computer_science": {
+      "task": "mmlu_high_school_computer_science",
+      "task_alias": "high_school_computer_science",
+      "tag": "mmlu_stem_tasks",
+      "dataset_path": "hails/mmlu_no_train",
+      "dataset_name": "high_school_computer_science",
+      "dataset_kwargs": {
+        "trust_remote_code": true
+      },
+      "test_split": "test",
+      "fewshot_split": "dev",
+      "process_docs": "def preprocessing(dataset):\n    \n    def process_doc(doc):\n        \n        original_doc = copy.copy(doc)\n        if can_be_flipped(doc['question']):\n            # randomly select an answer to hide:\n            answer_to_hide = random.choice(doc['choices'])        \n            doc['choices'].remove(answer_to_hide)\n            doc['choices'].append(\"None of the above\")\n            correct_answer = original_doc['choices'][original_doc['answer']]\n            if correct_answer not in doc['choices']:\n                correct_answer = \"None of the above\"\n            \n            doc['answer'] = doc['choices'].index(correct_answer)\n        return doc\n        \n    return dataset.map(process_doc)\n",
+      "doc_to_text": "{{question.strip()}}\nA. {{choices[0]}}\nB. {{choices[1]}}\nC. {{choices[2]}}\nD. {{choices[3]}}\nAnswer:",
+      "doc_to_target": "answer",
+      "doc_to_choice": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "description": "The following are multiple choice questions (with answers) about high school computer science.\n\n",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "fewshot_config": {
+        "sampler": "first_n"
+      },
+      "num_fewshot": 5,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0
+      }
+    },
+    "mmlu_high_school_european_history": {
+      "task": "mmlu_high_school_european_history",
+      "task_alias": "high_school_european_history",
+      "tag": "mmlu_humanities_tasks",
+      "dataset_path": "hails/mmlu_no_train",
+      "dataset_name": "high_school_european_history",
+      "dataset_kwargs": {
+        "trust_remote_code": true
+      },
+      "test_split": "test",
+      "fewshot_split": "dev",
+      "process_docs": "def preprocessing(dataset):\n    \n    def process_doc(doc):\n        \n        original_doc = copy.copy(doc)\n        if can_be_flipped(doc['question']):\n            # randomly select an answer to hide:\n            answer_to_hide = random.choice(doc['choices'])        \n            doc['choices'].remove(answer_to_hide)\n            doc['choices'].append(\"None of the above\")\n            correct_answer = original_doc['choices'][original_doc['answer']]\n            if correct_answer not in doc['choices']:\n                correct_answer = \"None of the above\"\n            \n            doc['answer'] = doc['choices'].index(correct_answer)\n        return doc\n        \n    return dataset.map(process_doc)\n",
+      "doc_to_text": "{{question.strip()}}\nA. {{choices[0]}}\nB. {{choices[1]}}\nC. {{choices[2]}}\nD. {{choices[3]}}\nAnswer:",
+      "doc_to_target": "answer",
+      "doc_to_choice": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "description": "The following are multiple choice questions (with answers) about high school european history.\n\n",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "fewshot_config": {
+        "sampler": "first_n"
+      },
+      "num_fewshot": 5,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0
+      }
+    },
+    "mmlu_high_school_geography": {
+      "task": "mmlu_high_school_geography",
+      "task_alias": "high_school_geography",
+      "tag": "mmlu_social_sciences_tasks",
+      "dataset_path": "hails/mmlu_no_train",
+      "dataset_name": "high_school_geography",
+      "dataset_kwargs": {
+        "trust_remote_code": true
+      },
+      "test_split": "test",
+      "fewshot_split": "dev",
+      "process_docs": "def preprocessing(dataset):\n    \n    def process_doc(doc):\n        \n        original_doc = copy.copy(doc)\n        if can_be_flipped(doc['question']):\n            # randomly select an answer to hide:\n            answer_to_hide = random.choice(doc['choices'])        \n            doc['choices'].remove(answer_to_hide)\n            doc['choices'].append(\"None of the above\")\n            correct_answer = original_doc['choices'][original_doc['answer']]\n            if correct_answer not in doc['choices']:\n                correct_answer = \"None of the above\"\n            \n            doc['answer'] = doc['choices'].index(correct_answer)\n        return doc\n        \n    return dataset.map(process_doc)\n",
+      "doc_to_text": "{{question.strip()}}\nA. {{choices[0]}}\nB. {{choices[1]}}\nC. {{choices[2]}}\nD. {{choices[3]}}\nAnswer:",
+      "doc_to_target": "answer",
+      "doc_to_choice": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "description": "The following are multiple choice questions (with answers) about high school geography.\n\n",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "fewshot_config": {
+        "sampler": "first_n"
+      },
+      "num_fewshot": 5,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0
+      }
+    },
+    "mmlu_high_school_government_and_politics": {
+      "task": "mmlu_high_school_government_and_politics",
+      "task_alias": "high_school_government_and_politics",
+      "tag": "mmlu_social_sciences_tasks",
+      "dataset_path": "hails/mmlu_no_train",
+      "dataset_name": "high_school_government_and_politics",
+      "dataset_kwargs": {
+        "trust_remote_code": true
+      },
+      "test_split": "test",
+      "fewshot_split": "dev",
+      "process_docs": "def preprocessing(dataset):\n    \n    def process_doc(doc):\n        \n        original_doc = copy.copy(doc)\n        if can_be_flipped(doc['question']):\n            # randomly select an answer to hide:\n            answer_to_hide = random.choice(doc['choices'])        \n            doc['choices'].remove(answer_to_hide)\n            doc['choices'].append(\"None of the above\")\n            correct_answer = original_doc['choices'][original_doc['answer']]\n            if correct_answer not in doc['choices']:\n                correct_answer = \"None of the above\"\n            \n            doc['answer'] = doc['choices'].index(correct_answer)\n        return doc\n        \n    return dataset.map(process_doc)\n",
+      "doc_to_text": "{{question.strip()}}\nA. {{choices[0]}}\nB. {{choices[1]}}\nC. {{choices[2]}}\nD. {{choices[3]}}\nAnswer:",
+      "doc_to_target": "answer",
+      "doc_to_choice": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "description": "The following are multiple choice questions (with answers) about high school government and politics.\n\n",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "fewshot_config": {
+        "sampler": "first_n"
+      },
+      "num_fewshot": 5,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0
+      }
+    },
+    "mmlu_high_school_macroeconomics": {
+      "task": "mmlu_high_school_macroeconomics",
+      "task_alias": "high_school_macroeconomics",
+      "tag": "mmlu_social_sciences_tasks",
+      "dataset_path": "hails/mmlu_no_train",
+      "dataset_name": "high_school_macroeconomics",
+      "dataset_kwargs": {
+        "trust_remote_code": true
+      },
+      "test_split": "test",
+      "fewshot_split": "dev",
+      "process_docs": "def preprocessing(dataset):\n    \n    def process_doc(doc):\n        \n        original_doc = copy.copy(doc)\n        if can_be_flipped(doc['question']):\n            # randomly select an answer to hide:\n            answer_to_hide = random.choice(doc['choices'])        \n            doc['choices'].remove(answer_to_hide)\n            doc['choices'].append(\"None of the above\")\n            correct_answer = original_doc['choices'][original_doc['answer']]\n            if correct_answer not in doc['choices']:\n                correct_answer = \"None of the above\"\n            \n            doc['answer'] = doc['choices'].index(correct_answer)\n        return doc\n        \n    return dataset.map(process_doc)\n",
+      "doc_to_text": "{{question.strip()}}\nA. {{choices[0]}}\nB. {{choices[1]}}\nC. {{choices[2]}}\nD. {{choices[3]}}\nAnswer:",
+      "doc_to_target": "answer",
+      "doc_to_choice": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "description": "The following are multiple choice questions (with answers) about high school macroeconomics.\n\n",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "fewshot_config": {
+        "sampler": "first_n"
+      },
+      "num_fewshot": 5,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0
+      }
+    },
+    "mmlu_high_school_mathematics": {
+      "task": "mmlu_high_school_mathematics",
+      "task_alias": "high_school_mathematics",
+      "tag": "mmlu_stem_tasks",
+      "dataset_path": "hails/mmlu_no_train",
+      "dataset_name": "high_school_mathematics",
+      "dataset_kwargs": {
+        "trust_remote_code": true
+      },
+      "test_split": "test",
+      "fewshot_split": "dev",
+      "process_docs": "def preprocessing(dataset):\n    \n    def process_doc(doc):\n        \n        original_doc = copy.copy(doc)\n        if can_be_flipped(doc['question']):\n            # randomly select an answer to hide:\n            answer_to_hide = random.choice(doc['choices'])        \n            doc['choices'].remove(answer_to_hide)\n            doc['choices'].append(\"None of the above\")\n            correct_answer = original_doc['choices'][original_doc['answer']]\n            if correct_answer not in doc['choices']:\n                correct_answer = \"None of the above\"\n            \n            doc['answer'] = doc['choices'].index(correct_answer)\n        return doc\n        \n    return dataset.map(process_doc)\n",
+      "doc_to_text": "{{question.strip()}}\nA. {{choices[0]}}\nB. {{choices[1]}}\nC. {{choices[2]}}\nD. {{choices[3]}}\nAnswer:",
+      "doc_to_target": "answer",
+      "doc_to_choice": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "description": "The following are multiple choice questions (with answers) about high school mathematics.\n\n",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "fewshot_config": {
+        "sampler": "first_n"
+      },
+      "num_fewshot": 5,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0
+      }
+    },
+    "mmlu_high_school_microeconomics": {
+      "task": "mmlu_high_school_microeconomics",
+      "task_alias": "high_school_microeconomics",
+      "tag": "mmlu_social_sciences_tasks",
+      "dataset_path": "hails/mmlu_no_train",
+      "dataset_name": "high_school_microeconomics",
+      "dataset_kwargs": {
+        "trust_remote_code": true
+      },
+      "test_split": "test",
+      "fewshot_split": "dev",
+      "process_docs": "def preprocessing(dataset):\n    \n    def process_doc(doc):\n        \n        original_doc = copy.copy(doc)\n        if can_be_flipped(doc['question']):\n            # randomly select an answer to hide:\n            answer_to_hide = random.choice(doc['choices'])        \n            doc['choices'].remove(answer_to_hide)\n            doc['choices'].append(\"None of the above\")\n            correct_answer = original_doc['choices'][original_doc['answer']]\n            if correct_answer not in doc['choices']:\n                correct_answer = \"None of the above\"\n            \n            doc['answer'] = doc['choices'].index(correct_answer)\n        return doc\n        \n    return dataset.map(process_doc)\n",
+      "doc_to_text": "{{question.strip()}}\nA. {{choices[0]}}\nB. {{choices[1]}}\nC. {{choices[2]}}\nD. {{choices[3]}}\nAnswer:",
+      "doc_to_target": "answer",
+      "doc_to_choice": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "description": "The following are multiple choice questions (with answers) about high school microeconomics.\n\n",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "fewshot_config": {
+        "sampler": "first_n"
+      },
+      "num_fewshot": 5,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0
+      }
+    },
+    "mmlu_high_school_physics": {
+      "task": "mmlu_high_school_physics",
+      "task_alias": "high_school_physics",
+      "tag": "mmlu_stem_tasks",
+      "dataset_path": "hails/mmlu_no_train",
+      "dataset_name": "high_school_physics",
+      "dataset_kwargs": {
+        "trust_remote_code": true
+      },
+      "test_split": "test",
+      "fewshot_split": "dev",
+      "process_docs": "def preprocessing(dataset):\n    \n    def process_doc(doc):\n        \n        original_doc = copy.copy(doc)\n        if can_be_flipped(doc['question']):\n            # randomly select an answer to hide:\n            answer_to_hide = random.choice(doc['choices'])        \n            doc['choices'].remove(answer_to_hide)\n            doc['choices'].append(\"None of the above\")\n            correct_answer = original_doc['choices'][original_doc['answer']]\n            if correct_answer not in doc['choices']:\n                correct_answer = \"None of the above\"\n            \n            doc['answer'] = doc['choices'].index(correct_answer)\n        return doc\n        \n    return dataset.map(process_doc)\n",
+      "doc_to_text": "{{question.strip()}}\nA. {{choices[0]}}\nB. {{choices[1]}}\nC. {{choices[2]}}\nD. {{choices[3]}}\nAnswer:",
+      "doc_to_target": "answer",
+      "doc_to_choice": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "description": "The following are multiple choice questions (with answers) about high school physics.\n\n",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "fewshot_config": {
+        "sampler": "first_n"
+      },
+      "num_fewshot": 5,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0
+      }
+    },
+    "mmlu_high_school_psychology": {
+      "task": "mmlu_high_school_psychology",
+      "task_alias": "high_school_psychology",
+      "tag": "mmlu_social_sciences_tasks",
+      "dataset_path": "hails/mmlu_no_train",
+      "dataset_name": "high_school_psychology",
+      "dataset_kwargs": {
+        "trust_remote_code": true
+      },
+      "test_split": "test",
+      "fewshot_split": "dev",
+      "process_docs": "def preprocessing(dataset):\n    \n    def process_doc(doc):\n        \n        original_doc = copy.copy(doc)\n        if can_be_flipped(doc['question']):\n            # randomly select an answer to hide:\n            answer_to_hide = random.choice(doc['choices'])        \n            doc['choices'].remove(answer_to_hide)\n            doc['choices'].append(\"None of the above\")\n            correct_answer = original_doc['choices'][original_doc['answer']]\n            if correct_answer not in doc['choices']:\n                correct_answer = \"None of the above\"\n            \n            doc['answer'] = doc['choices'].index(correct_answer)\n        return doc\n        \n    return dataset.map(process_doc)\n",
+      "doc_to_text": "{{question.strip()}}\nA. {{choices[0]}}\nB. {{choices[1]}}\nC. {{choices[2]}}\nD. {{choices[3]}}\nAnswer:",
+      "doc_to_target": "answer",
+      "doc_to_choice": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "description": "The following are multiple choice questions (with answers) about high school psychology.\n\n",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "fewshot_config": {
+        "sampler": "first_n"
+      },
+      "num_fewshot": 5,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0
+      }
+    },
+    "mmlu_high_school_statistics": {
+      "task": "mmlu_high_school_statistics",
+      "task_alias": "high_school_statistics",
+      "tag": "mmlu_stem_tasks",
+      "dataset_path": "hails/mmlu_no_train",
+      "dataset_name": "high_school_statistics",
+      "dataset_kwargs": {
+        "trust_remote_code": true
+      },
+      "test_split": "test",
+      "fewshot_split": "dev",
+      "process_docs": "def preprocessing(dataset):\n    \n    def process_doc(doc):\n        \n        original_doc = copy.copy(doc)\n        if can_be_flipped(doc['question']):\n            # randomly select an answer to hide:\n            answer_to_hide = random.choice(doc['choices'])        \n            doc['choices'].remove(answer_to_hide)\n            doc['choices'].append(\"None of the above\")\n            correct_answer = original_doc['choices'][original_doc['answer']]\n            if correct_answer not in doc['choices']:\n                correct_answer = \"None of the above\"\n            \n            doc['answer'] = doc['choices'].index(correct_answer)\n        return doc\n        \n    return dataset.map(process_doc)\n",
+      "doc_to_text": "{{question.strip()}}\nA. {{choices[0]}}\nB. {{choices[1]}}\nC. {{choices[2]}}\nD. {{choices[3]}}\nAnswer:",
+      "doc_to_target": "answer",
+      "doc_to_choice": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "description": "The following are multiple choice questions (with answers) about high school statistics.\n\n",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "fewshot_config": {
+        "sampler": "first_n"
+      },
+      "num_fewshot": 5,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0
+      }
+    },
+    "mmlu_high_school_us_history": {
+      "task": "mmlu_high_school_us_history",
+      "task_alias": "high_school_us_history",
+      "tag": "mmlu_humanities_tasks",
+      "dataset_path": "hails/mmlu_no_train",
+      "dataset_name": "high_school_us_history",
+      "dataset_kwargs": {
+        "trust_remote_code": true
+      },
+      "test_split": "test",
+      "fewshot_split": "dev",
+      "process_docs": "def preprocessing(dataset):\n    \n    def process_doc(doc):\n        \n        original_doc = copy.copy(doc)\n        if can_be_flipped(doc['question']):\n            # randomly select an answer to hide:\n            answer_to_hide = random.choice(doc['choices'])        \n            doc['choices'].remove(answer_to_hide)\n            doc['choices'].append(\"None of the above\")\n            correct_answer = original_doc['choices'][original_doc['answer']]\n            if correct_answer not in doc['choices']:\n                correct_answer = \"None of the above\"\n            \n            doc['answer'] = doc['choices'].index(correct_answer)\n        return doc\n        \n    return dataset.map(process_doc)\n",
+      "doc_to_text": "{{question.strip()}}\nA. {{choices[0]}}\nB. {{choices[1]}}\nC. {{choices[2]}}\nD. {{choices[3]}}\nAnswer:",
+      "doc_to_target": "answer",
+      "doc_to_choice": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "description": "The following are multiple choice questions (with answers) about high school us history.\n\n",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "fewshot_config": {
+        "sampler": "first_n"
+      },
+      "num_fewshot": 5,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0
+      }
+    },
+    "mmlu_high_school_world_history": {
+      "task": "mmlu_high_school_world_history",
+      "task_alias": "high_school_world_history",
+      "tag": "mmlu_humanities_tasks",
+      "dataset_path": "hails/mmlu_no_train",
+      "dataset_name": "high_school_world_history",
+      "dataset_kwargs": {
+        "trust_remote_code": true
+      },
+      "test_split": "test",
+      "fewshot_split": "dev",
+      "process_docs": "def preprocessing(dataset):\n    \n    def process_doc(doc):\n        \n        original_doc = copy.copy(doc)\n        if can_be_flipped(doc['question']):\n            # randomly select an answer to hide:\n            answer_to_hide = random.choice(doc['choices'])        \n            doc['choices'].remove(answer_to_hide)\n            doc['choices'].append(\"None of the above\")\n            correct_answer = original_doc['choices'][original_doc['answer']]\n            if correct_answer not in doc['choices']:\n                correct_answer = \"None of the above\"\n            \n            doc['answer'] = doc['choices'].index(correct_answer)\n        return doc\n        \n    return dataset.map(process_doc)\n",
+      "doc_to_text": "{{question.strip()}}\nA. {{choices[0]}}\nB. {{choices[1]}}\nC. {{choices[2]}}\nD. {{choices[3]}}\nAnswer:",
+      "doc_to_target": "answer",
+      "doc_to_choice": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "description": "The following are multiple choice questions (with answers) about high school world history.\n\n",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "fewshot_config": {
+        "sampler": "first_n"
+      },
+      "num_fewshot": 5,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0
+      }
+    },
+    "mmlu_human_aging": {
+      "task": "mmlu_human_aging",
+      "task_alias": "human_aging",
+      "tag": "mmlu_other_tasks",
+      "dataset_path": "hails/mmlu_no_train",
+      "dataset_name": "human_aging",
+      "dataset_kwargs": {
+        "trust_remote_code": true
+      },
+      "test_split": "test",
+      "fewshot_split": "dev",
+      "process_docs": "def preprocessing(dataset):\n    \n    def process_doc(doc):\n        \n        original_doc = copy.copy(doc)\n        if can_be_flipped(doc['question']):\n            # randomly select an answer to hide:\n            answer_to_hide = random.choice(doc['choices'])        \n            doc['choices'].remove(answer_to_hide)\n            doc['choices'].append(\"None of the above\")\n            correct_answer = original_doc['choices'][original_doc['answer']]\n            if correct_answer not in doc['choices']:\n                correct_answer = \"None of the above\"\n            \n            doc['answer'] = doc['choices'].index(correct_answer)\n        return doc\n        \n    return dataset.map(process_doc)\n",
+      "doc_to_text": "{{question.strip()}}\nA. {{choices[0]}}\nB. {{choices[1]}}\nC. {{choices[2]}}\nD. {{choices[3]}}\nAnswer:",
+      "doc_to_target": "answer",
+      "doc_to_choice": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "description": "The following are multiple choice questions (with answers) about human aging.\n\n",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "fewshot_config": {
+        "sampler": "first_n"
+      },
+      "num_fewshot": 5,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0
+      }
+    },
+    "mmlu_human_sexuality": {
+      "task": "mmlu_human_sexuality",
+      "task_alias": "human_sexuality",
+      "tag": "mmlu_social_sciences_tasks",
+      "dataset_path": "hails/mmlu_no_train",
+      "dataset_name": "human_sexuality",
+      "dataset_kwargs": {
+        "trust_remote_code": true
+      },
+      "test_split": "test",
+      "fewshot_split": "dev",
+      "process_docs": "def preprocessing(dataset):\n    \n    def process_doc(doc):\n        \n        original_doc = copy.copy(doc)\n        if can_be_flipped(doc['question']):\n            # randomly select an answer to hide:\n            answer_to_hide = random.choice(doc['choices'])        \n            doc['choices'].remove(answer_to_hide)\n            doc['choices'].append(\"None of the above\")\n            correct_answer = original_doc['choices'][original_doc['answer']]\n            if correct_answer not in doc['choices']:\n                correct_answer = \"None of the above\"\n            \n            doc['answer'] = doc['choices'].index(correct_answer)\n        return doc\n        \n    return dataset.map(process_doc)\n",
+      "doc_to_text": "{{question.strip()}}\nA. {{choices[0]}}\nB. {{choices[1]}}\nC. {{choices[2]}}\nD. {{choices[3]}}\nAnswer:",
+      "doc_to_target": "answer",
+      "doc_to_choice": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "description": "The following are multiple choice questions (with answers) about human sexuality.\n\n",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "fewshot_config": {
+        "sampler": "first_n"
+      },
+      "num_fewshot": 5,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0
+      }
+    },
+    "mmlu_international_law": {
+      "task": "mmlu_international_law",
+      "task_alias": "international_law",
+      "tag": "mmlu_humanities_tasks",
+      "dataset_path": "hails/mmlu_no_train",
+      "dataset_name": "international_law",
+      "dataset_kwargs": {
+        "trust_remote_code": true
+      },
+      "test_split": "test",
+      "fewshot_split": "dev",
+      "process_docs": "def preprocessing(dataset):\n    \n    def process_doc(doc):\n        \n        original_doc = copy.copy(doc)\n        if can_be_flipped(doc['question']):\n            # randomly select an answer to hide:\n            answer_to_hide = random.choice(doc['choices'])        \n            doc['choices'].remove(answer_to_hide)\n            doc['choices'].append(\"None of the above\")\n            correct_answer = original_doc['choices'][original_doc['answer']]\n            if correct_answer not in doc['choices']:\n                correct_answer = \"None of the above\"\n            \n            doc['answer'] = doc['choices'].index(correct_answer)\n        return doc\n        \n    return dataset.map(process_doc)\n",
+      "doc_to_text": "{{question.strip()}}\nA. {{choices[0]}}\nB. {{choices[1]}}\nC. {{choices[2]}}\nD. {{choices[3]}}\nAnswer:",
+      "doc_to_target": "answer",
+      "doc_to_choice": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "description": "The following are multiple choice questions (with answers) about international law.\n\n",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "fewshot_config": {
+        "sampler": "first_n"
+      },
+      "num_fewshot": 5,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0
+      }
+    },
+    "mmlu_jurisprudence": {
+      "task": "mmlu_jurisprudence",
+      "task_alias": "jurisprudence",
+      "tag": "mmlu_humanities_tasks",
+      "dataset_path": "hails/mmlu_no_train",
+      "dataset_name": "jurisprudence",
+      "dataset_kwargs": {
+        "trust_remote_code": true
+      },
+      "test_split": "test",
+      "fewshot_split": "dev",
+      "process_docs": "def preprocessing(dataset):\n    \n    def process_doc(doc):\n        \n        original_doc = copy.copy(doc)\n        if can_be_flipped(doc['question']):\n            # randomly select an answer to hide:\n            answer_to_hide = random.choice(doc['choices'])        \n            doc['choices'].remove(answer_to_hide)\n            doc['choices'].append(\"None of the above\")\n            correct_answer = original_doc['choices'][original_doc['answer']]\n            if correct_answer not in doc['choices']:\n                correct_answer = \"None of the above\"\n            \n            doc['answer'] = doc['choices'].index(correct_answer)\n        return doc\n        \n    return dataset.map(process_doc)\n",
+      "doc_to_text": "{{question.strip()}}\nA. {{choices[0]}}\nB. {{choices[1]}}\nC. {{choices[2]}}\nD. {{choices[3]}}\nAnswer:",
+      "doc_to_target": "answer",
+      "doc_to_choice": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "description": "The following are multiple choice questions (with answers) about jurisprudence.\n\n",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "fewshot_config": {
+        "sampler": "first_n"
+      },
+      "num_fewshot": 5,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0
+      }
+    },
+    "mmlu_logical_fallacies": {
+      "task": "mmlu_logical_fallacies",
+      "task_alias": "logical_fallacies",
+      "tag": "mmlu_humanities_tasks",
+      "dataset_path": "hails/mmlu_no_train",
+      "dataset_name": "logical_fallacies",
+      "dataset_kwargs": {
+        "trust_remote_code": true
+      },
+      "test_split": "test",
+      "fewshot_split": "dev",
+      "process_docs": "def preprocessing(dataset):\n    \n    def process_doc(doc):\n        \n        original_doc = copy.copy(doc)\n        if can_be_flipped(doc['question']):\n            # randomly select an answer to hide:\n            answer_to_hide = random.choice(doc['choices'])        \n            doc['choices'].remove(answer_to_hide)\n            doc['choices'].append(\"None of the above\")\n            correct_answer = original_doc['choices'][original_doc['answer']]\n            if correct_answer not in doc['choices']:\n                correct_answer = \"None of the above\"\n            \n            doc['answer'] = doc['choices'].index(correct_answer)\n        return doc\n        \n    return dataset.map(process_doc)\n",
+      "doc_to_text": "{{question.strip()}}\nA. {{choices[0]}}\nB. {{choices[1]}}\nC. {{choices[2]}}\nD. {{choices[3]}}\nAnswer:",
+      "doc_to_target": "answer",
+      "doc_to_choice": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "description": "The following are multiple choice questions (with answers) about logical fallacies.\n\n",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "fewshot_config": {
+        "sampler": "first_n"
+      },
+      "num_fewshot": 5,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0
+      }
+    },
+    "mmlu_machine_learning": {
+      "task": "mmlu_machine_learning",
+      "task_alias": "machine_learning",
+      "tag": "mmlu_stem_tasks",
+      "dataset_path": "hails/mmlu_no_train",
+      "dataset_name": "machine_learning",
+      "dataset_kwargs": {
+        "trust_remote_code": true
+      },
+      "test_split": "test",
+      "fewshot_split": "dev",
+      "process_docs": "def preprocessing(dataset):\n    \n    def process_doc(doc):\n        \n        original_doc = copy.copy(doc)\n        if can_be_flipped(doc['question']):\n            # randomly select an answer to hide:\n            answer_to_hide = random.choice(doc['choices'])        \n            doc['choices'].remove(answer_to_hide)\n            doc['choices'].append(\"None of the above\")\n            correct_answer = original_doc['choices'][original_doc['answer']]\n            if correct_answer not in doc['choices']:\n                correct_answer = \"None of the above\"\n            \n            doc['answer'] = doc['choices'].index(correct_answer)\n        return doc\n        \n    return dataset.map(process_doc)\n",
+      "doc_to_text": "{{question.strip()}}\nA. {{choices[0]}}\nB. {{choices[1]}}\nC. {{choices[2]}}\nD. {{choices[3]}}\nAnswer:",
+      "doc_to_target": "answer",
+      "doc_to_choice": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "description": "The following are multiple choice questions (with answers) about machine learning.\n\n",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "fewshot_config": {
+        "sampler": "first_n"
+      },
+      "num_fewshot": 5,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0
+      }
+    },
+    "mmlu_management": {
+      "task": "mmlu_management",
+      "task_alias": "management",
+      "tag": "mmlu_other_tasks",
+      "dataset_path": "hails/mmlu_no_train",
+      "dataset_name": "management",
+      "dataset_kwargs": {
+        "trust_remote_code": true
+      },
+      "test_split": "test",
+      "fewshot_split": "dev",
+      "process_docs": "def preprocessing(dataset):\n    \n    def process_doc(doc):\n        \n        original_doc = copy.copy(doc)\n        if can_be_flipped(doc['question']):\n            # randomly select an answer to hide:\n            answer_to_hide = random.choice(doc['choices'])        \n            doc['choices'].remove(answer_to_hide)\n            doc['choices'].append(\"None of the above\")\n            correct_answer = original_doc['choices'][original_doc['answer']]\n            if correct_answer not in doc['choices']:\n                correct_answer = \"None of the above\"\n            \n            doc['answer'] = doc['choices'].index(correct_answer)\n        return doc\n        \n    return dataset.map(process_doc)\n",
+      "doc_to_text": "{{question.strip()}}\nA. {{choices[0]}}\nB. {{choices[1]}}\nC. {{choices[2]}}\nD. {{choices[3]}}\nAnswer:",
+      "doc_to_target": "answer",
+      "doc_to_choice": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "description": "The following are multiple choice questions (with answers) about management.\n\n",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "fewshot_config": {
+        "sampler": "first_n"
+      },
+      "num_fewshot": 5,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0
+      }
+    },
+    "mmlu_marketing": {
+      "task": "mmlu_marketing",
+      "task_alias": "marketing",
+      "tag": "mmlu_other_tasks",
+      "dataset_path": "hails/mmlu_no_train",
+      "dataset_name": "marketing",
+      "dataset_kwargs": {
+        "trust_remote_code": true
+      },
+      "test_split": "test",
+      "fewshot_split": "dev",
+      "process_docs": "def preprocessing(dataset):\n    \n    def process_doc(doc):\n        \n        original_doc = copy.copy(doc)\n        if can_be_flipped(doc['question']):\n            # randomly select an answer to hide:\n            answer_to_hide = random.choice(doc['choices'])        \n            doc['choices'].remove(answer_to_hide)\n            doc['choices'].append(\"None of the above\")\n            correct_answer = original_doc['choices'][original_doc['answer']]\n            if correct_answer not in doc['choices']:\n                correct_answer = \"None of the above\"\n            \n            doc['answer'] = doc['choices'].index(correct_answer)\n        return doc\n        \n    return dataset.map(process_doc)\n",
+      "doc_to_text": "{{question.strip()}}\nA. {{choices[0]}}\nB. {{choices[1]}}\nC. {{choices[2]}}\nD. {{choices[3]}}\nAnswer:",
+      "doc_to_target": "answer",
+      "doc_to_choice": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "description": "The following are multiple choice questions (with answers) about marketing.\n\n",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "fewshot_config": {
+        "sampler": "first_n"
+      },
+      "num_fewshot": 5,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0
+      }
+    },
+    "mmlu_medical_genetics": {
+      "task": "mmlu_medical_genetics",
+      "task_alias": "medical_genetics",
+      "tag": "mmlu_other_tasks",
+      "dataset_path": "hails/mmlu_no_train",
+      "dataset_name": "medical_genetics",
+      "dataset_kwargs": {
+        "trust_remote_code": true
+      },
+      "test_split": "test",
+      "fewshot_split": "dev",
+      "process_docs": "def preprocessing(dataset):\n    \n    def process_doc(doc):\n        \n        original_doc = copy.copy(doc)\n        if can_be_flipped(doc['question']):\n            # randomly select an answer to hide:\n            answer_to_hide = random.choice(doc['choices'])        \n            doc['choices'].remove(answer_to_hide)\n            doc['choices'].append(\"None of the above\")\n            correct_answer = original_doc['choices'][original_doc['answer']]\n            if correct_answer not in doc['choices']:\n                correct_answer = \"None of the above\"\n            \n            doc['answer'] = doc['choices'].index(correct_answer)\n        return doc\n        \n    return dataset.map(process_doc)\n",
+      "doc_to_text": "{{question.strip()}}\nA. {{choices[0]}}\nB. {{choices[1]}}\nC. {{choices[2]}}\nD. {{choices[3]}}\nAnswer:",
+      "doc_to_target": "answer",
+      "doc_to_choice": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "description": "The following are multiple choice questions (with answers) about medical genetics.\n\n",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "fewshot_config": {
+        "sampler": "first_n"
+      },
+      "num_fewshot": 5,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0
+      }
+    },
+    "mmlu_miscellaneous": {
+      "task": "mmlu_miscellaneous",
+      "task_alias": "miscellaneous",
+      "tag": "mmlu_other_tasks",
+      "dataset_path": "hails/mmlu_no_train",
+      "dataset_name": "miscellaneous",
+      "dataset_kwargs": {
+        "trust_remote_code": true
+      },
+      "test_split": "test",
+      "fewshot_split": "dev",
+      "process_docs": "def preprocessing(dataset):\n    \n    def process_doc(doc):\n        \n        original_doc = copy.copy(doc)\n        if can_be_flipped(doc['question']):\n            # randomly select an answer to hide:\n            answer_to_hide = random.choice(doc['choices'])        \n            doc['choices'].remove(answer_to_hide)\n            doc['choices'].append(\"None of the above\")\n            correct_answer = original_doc['choices'][original_doc['answer']]\n            if correct_answer not in doc['choices']:\n                correct_answer = \"None of the above\"\n            \n            doc['answer'] = doc['choices'].index(correct_answer)\n        return doc\n        \n    return dataset.map(process_doc)\n",
+      "doc_to_text": "{{question.strip()}}\nA. {{choices[0]}}\nB. {{choices[1]}}\nC. {{choices[2]}}\nD. {{choices[3]}}\nAnswer:",
+      "doc_to_target": "answer",
+      "doc_to_choice": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "description": "The following are multiple choice questions (with answers) about miscellaneous.\n\n",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "fewshot_config": {
+        "sampler": "first_n"
+      },
+      "num_fewshot": 5,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0
+      }
+    },
+    "mmlu_moral_disputes": {
+      "task": "mmlu_moral_disputes",
+      "task_alias": "moral_disputes",
+      "tag": "mmlu_humanities_tasks",
+      "dataset_path": "hails/mmlu_no_train",
+      "dataset_name": "moral_disputes",
+      "dataset_kwargs": {
+        "trust_remote_code": true
+      },
+      "test_split": "test",
+      "fewshot_split": "dev",
+      "process_docs": "def preprocessing(dataset):\n    \n    def process_doc(doc):\n        \n        original_doc = copy.copy(doc)\n        if can_be_flipped(doc['question']):\n            # randomly select an answer to hide:\n            answer_to_hide = random.choice(doc['choices'])        \n            doc['choices'].remove(answer_to_hide)\n            doc['choices'].append(\"None of the above\")\n            correct_answer = original_doc['choices'][original_doc['answer']]\n            if correct_answer not in doc['choices']:\n                correct_answer = \"None of the above\"\n            \n            doc['answer'] = doc['choices'].index(correct_answer)\n        return doc\n        \n    return dataset.map(process_doc)\n",
+      "doc_to_text": "{{question.strip()}}\nA. {{choices[0]}}\nB. {{choices[1]}}\nC. {{choices[2]}}\nD. {{choices[3]}}\nAnswer:",
+      "doc_to_target": "answer",
+      "doc_to_choice": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "description": "The following are multiple choice questions (with answers) about moral disputes.\n\n",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "fewshot_config": {
+        "sampler": "first_n"
+      },
+      "num_fewshot": 5,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0
+      }
+    },
+    "mmlu_moral_scenarios": {
+      "task": "mmlu_moral_scenarios",
+      "task_alias": "moral_scenarios",
+      "tag": "mmlu_humanities_tasks",
+      "dataset_path": "hails/mmlu_no_train",
+      "dataset_name": "moral_scenarios",
+      "dataset_kwargs": {
+        "trust_remote_code": true
+      },
+      "test_split": "test",
+      "fewshot_split": "dev",
+      "process_docs": "def preprocessing(dataset):\n    \n    def process_doc(doc):\n        \n        original_doc = copy.copy(doc)\n        if can_be_flipped(doc['question']):\n            # randomly select an answer to hide:\n            answer_to_hide = random.choice(doc['choices'])        \n            doc['choices'].remove(answer_to_hide)\n            doc['choices'].append(\"None of the above\")\n            correct_answer = original_doc['choices'][original_doc['answer']]\n            if correct_answer not in doc['choices']:\n                correct_answer = \"None of the above\"\n            \n            doc['answer'] = doc['choices'].index(correct_answer)\n        return doc\n        \n    return dataset.map(process_doc)\n",
+      "doc_to_text": "{{question.strip()}}\nA. {{choices[0]}}\nB. {{choices[1]}}\nC. {{choices[2]}}\nD. {{choices[3]}}\nAnswer:",
+      "doc_to_target": "answer",
+      "doc_to_choice": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "description": "The following are multiple choice questions (with answers) about moral scenarios.\n\n",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "fewshot_config": {
+        "sampler": "first_n"
+      },
+      "num_fewshot": 5,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0
+      }
+    },
+    "mmlu_nutrition": {
+      "task": "mmlu_nutrition",
+      "task_alias": "nutrition",
+      "tag": "mmlu_other_tasks",
+      "dataset_path": "hails/mmlu_no_train",
+      "dataset_name": "nutrition",
+      "dataset_kwargs": {
+        "trust_remote_code": true
+      },
+      "test_split": "test",
+      "fewshot_split": "dev",
+      "process_docs": "def preprocessing(dataset):\n    \n    def process_doc(doc):\n        \n        original_doc = copy.copy(doc)\n        if can_be_flipped(doc['question']):\n            # randomly select an answer to hide:\n            answer_to_hide = random.choice(doc['choices'])        \n            doc['choices'].remove(answer_to_hide)\n            doc['choices'].append(\"None of the above\")\n            correct_answer = original_doc['choices'][original_doc['answer']]\n            if correct_answer not in doc['choices']:\n                correct_answer = \"None of the above\"\n            \n            doc['answer'] = doc['choices'].index(correct_answer)\n        return doc\n        \n    return dataset.map(process_doc)\n",
+      "doc_to_text": "{{question.strip()}}\nA. {{choices[0]}}\nB. {{choices[1]}}\nC. {{choices[2]}}\nD. {{choices[3]}}\nAnswer:",
+      "doc_to_target": "answer",
+      "doc_to_choice": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "description": "The following are multiple choice questions (with answers) about nutrition.\n\n",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "fewshot_config": {
+        "sampler": "first_n"
+      },
+      "num_fewshot": 5,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0
+      }
+    },
+    "mmlu_philosophy": {
+      "task": "mmlu_philosophy",
+      "task_alias": "philosophy",
+      "tag": "mmlu_humanities_tasks",
+      "dataset_path": "hails/mmlu_no_train",
+      "dataset_name": "philosophy",
+      "dataset_kwargs": {
+        "trust_remote_code": true
+      },
+      "test_split": "test",
+      "fewshot_split": "dev",
+      "process_docs": "def preprocessing(dataset):\n    \n    def process_doc(doc):\n        \n        original_doc = copy.copy(doc)\n        if can_be_flipped(doc['question']):\n            # randomly select an answer to hide:\n            answer_to_hide = random.choice(doc['choices'])        \n            doc['choices'].remove(answer_to_hide)\n            doc['choices'].append(\"None of the above\")\n            correct_answer = original_doc['choices'][original_doc['answer']]\n            if correct_answer not in doc['choices']:\n                correct_answer = \"None of the above\"\n            \n            doc['answer'] = doc['choices'].index(correct_answer)\n        return doc\n        \n    return dataset.map(process_doc)\n",
+      "doc_to_text": "{{question.strip()}}\nA. {{choices[0]}}\nB. {{choices[1]}}\nC. {{choices[2]}}\nD. {{choices[3]}}\nAnswer:",
+      "doc_to_target": "answer",
+      "doc_to_choice": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "description": "The following are multiple choice questions (with answers) about philosophy.\n\n",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "fewshot_config": {
+        "sampler": "first_n"
+      },
+      "num_fewshot": 5,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0
+      }
+    },
+    "mmlu_prehistory": {
+      "task": "mmlu_prehistory",
+      "task_alias": "prehistory",
+      "tag": "mmlu_humanities_tasks",
+      "dataset_path": "hails/mmlu_no_train",
+      "dataset_name": "prehistory",
+      "dataset_kwargs": {
+        "trust_remote_code": true
+      },
+      "test_split": "test",
+      "fewshot_split": "dev",
+      "process_docs": "def preprocessing(dataset):\n    \n    def process_doc(doc):\n        \n        original_doc = copy.copy(doc)\n        if can_be_flipped(doc['question']):\n            # randomly select an answer to hide:\n            answer_to_hide = random.choice(doc['choices'])        \n            doc['choices'].remove(answer_to_hide)\n            doc['choices'].append(\"None of the above\")\n            correct_answer = original_doc['choices'][original_doc['answer']]\n            if correct_answer not in doc['choices']:\n                correct_answer = \"None of the above\"\n            \n            doc['answer'] = doc['choices'].index(correct_answer)\n        return doc\n        \n    return dataset.map(process_doc)\n",
+      "doc_to_text": "{{question.strip()}}\nA. {{choices[0]}}\nB. {{choices[1]}}\nC. {{choices[2]}}\nD. {{choices[3]}}\nAnswer:",
+      "doc_to_target": "answer",
+      "doc_to_choice": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "description": "The following are multiple choice questions (with answers) about prehistory.\n\n",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "fewshot_config": {
+        "sampler": "first_n"
+      },
+      "num_fewshot": 5,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0
+      }
+    },
+    "mmlu_professional_accounting": {
+      "task": "mmlu_professional_accounting",
+      "task_alias": "professional_accounting",
+      "tag": "mmlu_other_tasks",
+      "dataset_path": "hails/mmlu_no_train",
+      "dataset_name": "professional_accounting",
+      "dataset_kwargs": {
+        "trust_remote_code": true
+      },
+      "test_split": "test",
+      "fewshot_split": "dev",
+      "process_docs": "def preprocessing(dataset):\n    \n    def process_doc(doc):\n        \n        original_doc = copy.copy(doc)\n        if can_be_flipped(doc['question']):\n            # randomly select an answer to hide:\n            answer_to_hide = random.choice(doc['choices'])        \n            doc['choices'].remove(answer_to_hide)\n            doc['choices'].append(\"None of the above\")\n            correct_answer = original_doc['choices'][original_doc['answer']]\n            if correct_answer not in doc['choices']:\n                correct_answer = \"None of the above\"\n            \n            doc['answer'] = doc['choices'].index(correct_answer)\n        return doc\n        \n    return dataset.map(process_doc)\n",
+      "doc_to_text": "{{question.strip()}}\nA. {{choices[0]}}\nB. {{choices[1]}}\nC. {{choices[2]}}\nD. {{choices[3]}}\nAnswer:",
+      "doc_to_target": "answer",
+      "doc_to_choice": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "description": "The following are multiple choice questions (with answers) about professional accounting.\n\n",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "fewshot_config": {
+        "sampler": "first_n"
+      },
+      "num_fewshot": 5,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0
+      }
+    },
+    "mmlu_professional_law": {
+      "task": "mmlu_professional_law",
+      "task_alias": "professional_law",
+      "tag": "mmlu_humanities_tasks",
+      "dataset_path": "hails/mmlu_no_train",
+      "dataset_name": "professional_law",
+      "dataset_kwargs": {
+        "trust_remote_code": true
+      },
+      "test_split": "test",
+      "fewshot_split": "dev",
+      "process_docs": "def preprocessing(dataset):\n    \n    def process_doc(doc):\n        \n        original_doc = copy.copy(doc)\n        if can_be_flipped(doc['question']):\n            # randomly select an answer to hide:\n            answer_to_hide = random.choice(doc['choices'])        \n            doc['choices'].remove(answer_to_hide)\n            doc['choices'].append(\"None of the above\")\n            correct_answer = original_doc['choices'][original_doc['answer']]\n            if correct_answer not in doc['choices']:\n                correct_answer = \"None of the above\"\n            \n            doc['answer'] = doc['choices'].index(correct_answer)\n        return doc\n        \n    return dataset.map(process_doc)\n",
+      "doc_to_text": "{{question.strip()}}\nA. {{choices[0]}}\nB. {{choices[1]}}\nC. {{choices[2]}}\nD. {{choices[3]}}\nAnswer:",
+      "doc_to_target": "answer",
+      "doc_to_choice": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "description": "The following are multiple choice questions (with answers) about professional law.\n\n",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "fewshot_config": {
+        "sampler": "first_n"
+      },
+      "num_fewshot": 5,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0
+      }
+    },
+    "mmlu_professional_medicine": {
+      "task": "mmlu_professional_medicine",
+      "task_alias": "professional_medicine",
+      "tag": "mmlu_other_tasks",
+      "dataset_path": "hails/mmlu_no_train",
+      "dataset_name": "professional_medicine",
+      "dataset_kwargs": {
+        "trust_remote_code": true
+      },
+      "test_split": "test",
+      "fewshot_split": "dev",
+      "process_docs": "def preprocessing(dataset):\n    \n    def process_doc(doc):\n        \n        original_doc = copy.copy(doc)\n        if can_be_flipped(doc['question']):\n            # randomly select an answer to hide:\n            answer_to_hide = random.choice(doc['choices'])        \n            doc['choices'].remove(answer_to_hide)\n            doc['choices'].append(\"None of the above\")\n            correct_answer = original_doc['choices'][original_doc['answer']]\n            if correct_answer not in doc['choices']:\n                correct_answer = \"None of the above\"\n            \n            doc['answer'] = doc['choices'].index(correct_answer)\n        return doc\n        \n    return dataset.map(process_doc)\n",
+      "doc_to_text": "{{question.strip()}}\nA. {{choices[0]}}\nB. {{choices[1]}}\nC. {{choices[2]}}\nD. {{choices[3]}}\nAnswer:",
+      "doc_to_target": "answer",
+      "doc_to_choice": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "description": "The following are multiple choice questions (with answers) about professional medicine.\n\n",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "fewshot_config": {
+        "sampler": "first_n"
+      },
+      "num_fewshot": 5,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0
+      }
+    },
+    "mmlu_professional_psychology": {
+      "task": "mmlu_professional_psychology",
+      "task_alias": "professional_psychology",
+      "tag": "mmlu_social_sciences_tasks",
+      "dataset_path": "hails/mmlu_no_train",
+      "dataset_name": "professional_psychology",
+      "dataset_kwargs": {
+        "trust_remote_code": true
+      },
+      "test_split": "test",
+      "fewshot_split": "dev",
+      "process_docs": "def preprocessing(dataset):\n    \n    def process_doc(doc):\n        \n        original_doc = copy.copy(doc)\n        if can_be_flipped(doc['question']):\n            # randomly select an answer to hide:\n            answer_to_hide = random.choice(doc['choices'])        \n            doc['choices'].remove(answer_to_hide)\n            doc['choices'].append(\"None of the above\")\n            correct_answer = original_doc['choices'][original_doc['answer']]\n            if correct_answer not in doc['choices']:\n                correct_answer = \"None of the above\"\n            \n            doc['answer'] = doc['choices'].index(correct_answer)\n        return doc\n        \n    return dataset.map(process_doc)\n",
+      "doc_to_text": "{{question.strip()}}\nA. {{choices[0]}}\nB. {{choices[1]}}\nC. {{choices[2]}}\nD. {{choices[3]}}\nAnswer:",
+      "doc_to_target": "answer",
+      "doc_to_choice": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "description": "The following are multiple choice questions (with answers) about professional psychology.\n\n",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "fewshot_config": {
+        "sampler": "first_n"
+      },
+      "num_fewshot": 5,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0
+      }
+    },
+    "mmlu_public_relations": {
+      "task": "mmlu_public_relations",
+      "task_alias": "public_relations",
+      "tag": "mmlu_social_sciences_tasks",
+      "dataset_path": "hails/mmlu_no_train",
+      "dataset_name": "public_relations",
+      "dataset_kwargs": {
+        "trust_remote_code": true
+      },
+      "test_split": "test",
+      "fewshot_split": "dev",
+      "process_docs": "def preprocessing(dataset):\n    \n    def process_doc(doc):\n        \n        original_doc = copy.copy(doc)\n        if can_be_flipped(doc['question']):\n            # randomly select an answer to hide:\n            answer_to_hide = random.choice(doc['choices'])        \n            doc['choices'].remove(answer_to_hide)\n            doc['choices'].append(\"None of the above\")\n            correct_answer = original_doc['choices'][original_doc['answer']]\n            if correct_answer not in doc['choices']:\n                correct_answer = \"None of the above\"\n            \n            doc['answer'] = doc['choices'].index(correct_answer)\n        return doc\n        \n    return dataset.map(process_doc)\n",
+      "doc_to_text": "{{question.strip()}}\nA. {{choices[0]}}\nB. {{choices[1]}}\nC. {{choices[2]}}\nD. {{choices[3]}}\nAnswer:",
+      "doc_to_target": "answer",
+      "doc_to_choice": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "description": "The following are multiple choice questions (with answers) about public relations.\n\n",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "fewshot_config": {
+        "sampler": "first_n"
+      },
+      "num_fewshot": 5,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0
+      }
+    },
+    "mmlu_security_studies": {
+      "task": "mmlu_security_studies",
+      "task_alias": "security_studies",
+      "tag": "mmlu_social_sciences_tasks",
+      "dataset_path": "hails/mmlu_no_train",
+      "dataset_name": "security_studies",
+      "dataset_kwargs": {
+        "trust_remote_code": true
+      },
+      "test_split": "test",
+      "fewshot_split": "dev",
+      "process_docs": "def preprocessing(dataset):\n    \n    def process_doc(doc):\n        \n        original_doc = copy.copy(doc)\n        if can_be_flipped(doc['question']):\n            # randomly select an answer to hide:\n            answer_to_hide = random.choice(doc['choices'])        \n            doc['choices'].remove(answer_to_hide)\n            doc['choices'].append(\"None of the above\")\n            correct_answer = original_doc['choices'][original_doc['answer']]\n            if correct_answer not in doc['choices']:\n                correct_answer = \"None of the above\"\n            \n            doc['answer'] = doc['choices'].index(correct_answer)\n        return doc\n        \n    return dataset.map(process_doc)\n",
+      "doc_to_text": "{{question.strip()}}\nA. {{choices[0]}}\nB. {{choices[1]}}\nC. {{choices[2]}}\nD. {{choices[3]}}\nAnswer:",
+      "doc_to_target": "answer",
+      "doc_to_choice": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "description": "The following are multiple choice questions (with answers) about security studies.\n\n",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "fewshot_config": {
+        "sampler": "first_n"
+      },
+      "num_fewshot": 5,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0
+      }
+    },
+    "mmlu_sociology": {
+      "task": "mmlu_sociology",
+      "task_alias": "sociology",
+      "tag": "mmlu_social_sciences_tasks",
+      "dataset_path": "hails/mmlu_no_train",
+      "dataset_name": "sociology",
+      "dataset_kwargs": {
+        "trust_remote_code": true
+      },
+      "test_split": "test",
+      "fewshot_split": "dev",
+      "process_docs": "def preprocessing(dataset):\n    \n    def process_doc(doc):\n        \n        original_doc = copy.copy(doc)\n        if can_be_flipped(doc['question']):\n            # randomly select an answer to hide:\n            answer_to_hide = random.choice(doc['choices'])        \n            doc['choices'].remove(answer_to_hide)\n            doc['choices'].append(\"None of the above\")\n            correct_answer = original_doc['choices'][original_doc['answer']]\n            if correct_answer not in doc['choices']:\n                correct_answer = \"None of the above\"\n            \n            doc['answer'] = doc['choices'].index(correct_answer)\n        return doc\n        \n    return dataset.map(process_doc)\n",
+      "doc_to_text": "{{question.strip()}}\nA. {{choices[0]}}\nB. {{choices[1]}}\nC. {{choices[2]}}\nD. {{choices[3]}}\nAnswer:",
+      "doc_to_target": "answer",
+      "doc_to_choice": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "description": "The following are multiple choice questions (with answers) about sociology.\n\n",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "fewshot_config": {
+        "sampler": "first_n"
+      },
+      "num_fewshot": 5,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0
+      }
+    },
+    "mmlu_us_foreign_policy": {
+      "task": "mmlu_us_foreign_policy",
+      "task_alias": "us_foreign_policy",
+      "tag": "mmlu_social_sciences_tasks",
+      "dataset_path": "hails/mmlu_no_train",
+      "dataset_name": "us_foreign_policy",
+      "dataset_kwargs": {
+        "trust_remote_code": true
+      },
+      "test_split": "test",
+      "fewshot_split": "dev",
+      "process_docs": "def preprocessing(dataset):\n    \n    def process_doc(doc):\n        \n        original_doc = copy.copy(doc)\n        if can_be_flipped(doc['question']):\n            # randomly select an answer to hide:\n            answer_to_hide = random.choice(doc['choices'])        \n            doc['choices'].remove(answer_to_hide)\n            doc['choices'].append(\"None of the above\")\n            correct_answer = original_doc['choices'][original_doc['answer']]\n            if correct_answer not in doc['choices']:\n                correct_answer = \"None of the above\"\n            \n            doc['answer'] = doc['choices'].index(correct_answer)\n        return doc\n        \n    return dataset.map(process_doc)\n",
+      "doc_to_text": "{{question.strip()}}\nA. {{choices[0]}}\nB. {{choices[1]}}\nC. {{choices[2]}}\nD. {{choices[3]}}\nAnswer:",
+      "doc_to_target": "answer",
+      "doc_to_choice": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "description": "The following are multiple choice questions (with answers) about us foreign policy.\n\n",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "fewshot_config": {
+        "sampler": "first_n"
+      },
+      "num_fewshot": 5,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0
+      }
+    },
+    "mmlu_virology": {
+      "task": "mmlu_virology",
+      "task_alias": "virology",
+      "tag": "mmlu_other_tasks",
+      "dataset_path": "hails/mmlu_no_train",
+      "dataset_name": "virology",
+      "dataset_kwargs": {
+        "trust_remote_code": true
+      },
+      "test_split": "test",
+      "fewshot_split": "dev",
+      "process_docs": "def preprocessing(dataset):\n    \n    def process_doc(doc):\n        \n        original_doc = copy.copy(doc)\n        if can_be_flipped(doc['question']):\n            # randomly select an answer to hide:\n            answer_to_hide = random.choice(doc['choices'])        \n            doc['choices'].remove(answer_to_hide)\n            doc['choices'].append(\"None of the above\")\n            correct_answer = original_doc['choices'][original_doc['answer']]\n            if correct_answer not in doc['choices']:\n                correct_answer = \"None of the above\"\n            \n            doc['answer'] = doc['choices'].index(correct_answer)\n        return doc\n        \n    return dataset.map(process_doc)\n",
+      "doc_to_text": "{{question.strip()}}\nA. {{choices[0]}}\nB. {{choices[1]}}\nC. {{choices[2]}}\nD. {{choices[3]}}\nAnswer:",
+      "doc_to_target": "answer",
+      "doc_to_choice": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "description": "The following are multiple choice questions (with answers) about virology.\n\n",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "fewshot_config": {
+        "sampler": "first_n"
+      },
+      "num_fewshot": 5,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0
+      }
+    },
+    "mmlu_world_religions": {
+      "task": "mmlu_world_religions",
+      "task_alias": "world_religions",
+      "tag": "mmlu_humanities_tasks",
+      "dataset_path": "hails/mmlu_no_train",
+      "dataset_name": "world_religions",
+      "dataset_kwargs": {
+        "trust_remote_code": true
+      },
+      "test_split": "test",
+      "fewshot_split": "dev",
+      "process_docs": "def preprocessing(dataset):\n    \n    def process_doc(doc):\n        \n        original_doc = copy.copy(doc)\n        if can_be_flipped(doc['question']):\n            # randomly select an answer to hide:\n            answer_to_hide = random.choice(doc['choices'])        \n            doc['choices'].remove(answer_to_hide)\n            doc['choices'].append(\"None of the above\")\n            correct_answer = original_doc['choices'][original_doc['answer']]\n            if correct_answer not in doc['choices']:\n                correct_answer = \"None of the above\"\n            \n            doc['answer'] = doc['choices'].index(correct_answer)\n        return doc\n        \n    return dataset.map(process_doc)\n",
+      "doc_to_text": "{{question.strip()}}\nA. {{choices[0]}}\nB. {{choices[1]}}\nC. {{choices[2]}}\nD. {{choices[3]}}\nAnswer:",
+      "doc_to_target": "answer",
+      "doc_to_choice": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "description": "The following are multiple choice questions (with answers) about world religions.\n\n",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "fewshot_config": {
+        "sampler": "first_n"
+      },
+      "num_fewshot": 5,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0
+      }
+    }
+  },
+  "versions": {
+    "mmlu": 2,
+    "mmlu_abstract_algebra": 1.0,
+    "mmlu_anatomy": 1.0,
+    "mmlu_astronomy": 1.0,
+    "mmlu_business_ethics": 1.0,
+    "mmlu_clinical_knowledge": 1.0,
+    "mmlu_college_biology": 1.0,
+    "mmlu_college_chemistry": 1.0,
+    "mmlu_college_computer_science": 1.0,
+    "mmlu_college_mathematics": 1.0,
+    "mmlu_college_medicine": 1.0,
+    "mmlu_college_physics": 1.0,
+    "mmlu_computer_security": 1.0,
+    "mmlu_conceptual_physics": 1.0,
+    "mmlu_econometrics": 1.0,
+    "mmlu_electrical_engineering": 1.0,
+    "mmlu_elementary_mathematics": 1.0,
+    "mmlu_formal_logic": 1.0,
+    "mmlu_global_facts": 1.0,
+    "mmlu_high_school_biology": 1.0,
+    "mmlu_high_school_chemistry": 1.0,
+    "mmlu_high_school_computer_science": 1.0,
+    "mmlu_high_school_european_history": 1.0,
+    "mmlu_high_school_geography": 1.0,
+    "mmlu_high_school_government_and_politics": 1.0,
+    "mmlu_high_school_macroeconomics": 1.0,
+    "mmlu_high_school_mathematics": 1.0,
+    "mmlu_high_school_microeconomics": 1.0,
+    "mmlu_high_school_physics": 1.0,
+    "mmlu_high_school_psychology": 1.0,
+    "mmlu_high_school_statistics": 1.0,
+    "mmlu_high_school_us_history": 1.0,
+    "mmlu_high_school_world_history": 1.0,
+    "mmlu_human_aging": 1.0,
+    "mmlu_human_sexuality": 1.0,
+    "mmlu_humanities": 2,
+    "mmlu_international_law": 1.0,
+    "mmlu_jurisprudence": 1.0,
+    "mmlu_logical_fallacies": 1.0,
+    "mmlu_machine_learning": 1.0,
+    "mmlu_management": 1.0,
+    "mmlu_marketing": 1.0,
+    "mmlu_medical_genetics": 1.0,
+    "mmlu_miscellaneous": 1.0,
+    "mmlu_moral_disputes": 1.0,
+    "mmlu_moral_scenarios": 1.0,
+    "mmlu_nutrition": 1.0,
+    "mmlu_other": 2,
+    "mmlu_philosophy": 1.0,
+    "mmlu_prehistory": 1.0,
+    "mmlu_professional_accounting": 1.0,
+    "mmlu_professional_law": 1.0,
+    "mmlu_professional_medicine": 1.0,
+    "mmlu_professional_psychology": 1.0,
+    "mmlu_public_relations": 1.0,
+    "mmlu_security_studies": 1.0,
+    "mmlu_social_sciences": 2,
+    "mmlu_sociology": 1.0,
+    "mmlu_stem": 2,
+    "mmlu_us_foreign_policy": 1.0,
+    "mmlu_virology": 1.0,
+    "mmlu_world_religions": 1.0
+  },
+  "n-shot": {
+    "mmlu_abstract_algebra": 5,
+    "mmlu_anatomy": 5,
+    "mmlu_astronomy": 5,
+    "mmlu_business_ethics": 5,
+    "mmlu_clinical_knowledge": 5,
+    "mmlu_college_biology": 5,
+    "mmlu_college_chemistry": 5,
+    "mmlu_college_computer_science": 5,
+    "mmlu_college_mathematics": 5,
+    "mmlu_college_medicine": 5,
+    "mmlu_college_physics": 5,
+    "mmlu_computer_security": 5,
+    "mmlu_conceptual_physics": 5,
+    "mmlu_econometrics": 5,
+    "mmlu_electrical_engineering": 5,
+    "mmlu_elementary_mathematics": 5,
+    "mmlu_formal_logic": 5,
+    "mmlu_global_facts": 5,
+    "mmlu_high_school_biology": 5,
+    "mmlu_high_school_chemistry": 5,
+    "mmlu_high_school_computer_science": 5,
+    "mmlu_high_school_european_history": 5,
+    "mmlu_high_school_geography": 5,
+    "mmlu_high_school_government_and_politics": 5,
+    "mmlu_high_school_macroeconomics": 5,
+    "mmlu_high_school_mathematics": 5,
+    "mmlu_high_school_microeconomics": 5,
+    "mmlu_high_school_physics": 5,
+    "mmlu_high_school_psychology": 5,
+    "mmlu_high_school_statistics": 5,
+    "mmlu_high_school_us_history": 5,
+    "mmlu_high_school_world_history": 5,
+    "mmlu_human_aging": 5,
+    "mmlu_human_sexuality": 5,
+    "mmlu_international_law": 5,
+    "mmlu_jurisprudence": 5,
+    "mmlu_logical_fallacies": 5,
+    "mmlu_machine_learning": 5,
+    "mmlu_management": 5,
+    "mmlu_marketing": 5,
+    "mmlu_medical_genetics": 5,
+    "mmlu_miscellaneous": 5,
+    "mmlu_moral_disputes": 5,
+    "mmlu_moral_scenarios": 5,
+    "mmlu_nutrition": 5,
+    "mmlu_philosophy": 5,
+    "mmlu_prehistory": 5,
+    "mmlu_professional_accounting": 5,
+    "mmlu_professional_law": 5,
+    "mmlu_professional_medicine": 5,
+    "mmlu_professional_psychology": 5,
+    "mmlu_public_relations": 5,
+    "mmlu_security_studies": 5,
+    "mmlu_sociology": 5,
+    "mmlu_us_foreign_policy": 5,
+    "mmlu_virology": 5,
+    "mmlu_world_religions": 5
+  },
+  "higher_is_better": {
+    "mmlu": {
+      "acc": true
+    },
+    "mmlu_abstract_algebra": {
+      "acc": true
+    },
+    "mmlu_anatomy": {
+      "acc": true
+    },
+    "mmlu_astronomy": {
+      "acc": true
+    },
+    "mmlu_business_ethics": {
+      "acc": true
+    },
+    "mmlu_clinical_knowledge": {
+      "acc": true
+    },
+    "mmlu_college_biology": {
+      "acc": true
+    },
+    "mmlu_college_chemistry": {
+      "acc": true
+    },
+    "mmlu_college_computer_science": {
+      "acc": true
+    },
+    "mmlu_college_mathematics": {
+      "acc": true
+    },
+    "mmlu_college_medicine": {
+      "acc": true
+    },
+    "mmlu_college_physics": {
+      "acc": true
+    },
+    "mmlu_computer_security": {
+      "acc": true
+    },
+    "mmlu_conceptual_physics": {
+      "acc": true
+    },
+    "mmlu_econometrics": {
+      "acc": true
+    },
+    "mmlu_electrical_engineering": {
+      "acc": true
+    },
+    "mmlu_elementary_mathematics": {
+      "acc": true
+    },
+    "mmlu_formal_logic": {
+      "acc": true
+    },
+    "mmlu_global_facts": {
+      "acc": true
+    },
+    "mmlu_high_school_biology": {
+      "acc": true
+    },
+    "mmlu_high_school_chemistry": {
+      "acc": true
+    },
+    "mmlu_high_school_computer_science": {
+      "acc": true
+    },
+    "mmlu_high_school_european_history": {
+      "acc": true
+    },
+    "mmlu_high_school_geography": {
+      "acc": true
+    },
+    "mmlu_high_school_government_and_politics": {
+      "acc": true
+    },
+    "mmlu_high_school_macroeconomics": {
+      "acc": true
+    },
+    "mmlu_high_school_mathematics": {
+      "acc": true
+    },
+    "mmlu_high_school_microeconomics": {
+      "acc": true
+    },
+    "mmlu_high_school_physics": {
+      "acc": true
+    },
+    "mmlu_high_school_psychology": {
+      "acc": true
+    },
+    "mmlu_high_school_statistics": {
+      "acc": true
+    },
+    "mmlu_high_school_us_history": {
+      "acc": true
+    },
+    "mmlu_high_school_world_history": {
+      "acc": true
+    },
+    "mmlu_human_aging": {
+      "acc": true
+    },
+    "mmlu_human_sexuality": {
+      "acc": true
+    },
+    "mmlu_humanities": {
+      "acc": true
+    },
+    "mmlu_international_law": {
+      "acc": true
+    },
+    "mmlu_jurisprudence": {
+      "acc": true
+    },
+    "mmlu_logical_fallacies": {
+      "acc": true
+    },
+    "mmlu_machine_learning": {
+      "acc": true
+    },
+    "mmlu_management": {
+      "acc": true
+    },
+    "mmlu_marketing": {
+      "acc": true
+    },
+    "mmlu_medical_genetics": {
+      "acc": true
+    },
+    "mmlu_miscellaneous": {
+      "acc": true
+    },
+    "mmlu_moral_disputes": {
+      "acc": true
+    },
+    "mmlu_moral_scenarios": {
+      "acc": true
+    },
+    "mmlu_nutrition": {
+      "acc": true
+    },
+    "mmlu_other": {
+      "acc": true
+    },
+    "mmlu_philosophy": {
+      "acc": true
+    },
+    "mmlu_prehistory": {
+      "acc": true
+    },
+    "mmlu_professional_accounting": {
+      "acc": true
+    },
+    "mmlu_professional_law": {
+      "acc": true
+    },
+    "mmlu_professional_medicine": {
+      "acc": true
+    },
+    "mmlu_professional_psychology": {
+      "acc": true
+    },
+    "mmlu_public_relations": {
+      "acc": true
+    },
+    "mmlu_security_studies": {
+      "acc": true
+    },
+    "mmlu_social_sciences": {
+      "acc": true
+    },
+    "mmlu_sociology": {
+      "acc": true
+    },
+    "mmlu_stem": {
+      "acc": true
+    },
+    "mmlu_us_foreign_policy": {
+      "acc": true
+    },
+    "mmlu_virology": {
+      "acc": true
+    },
+    "mmlu_world_religions": {
+      "acc": true
+    }
+  },
+  "n-samples": {
+    "mmlu_high_school_statistics": {
+      "original": 216,
+      "effective": 216
+    },
+    "mmlu_electrical_engineering": {
+      "original": 145,
+      "effective": 145
+    },
+    "mmlu_college_biology": {
+      "original": 144,
+      "effective": 144
+    },
+    "mmlu_anatomy": {
+      "original": 135,
+      "effective": 135
+    },
+    "mmlu_college_physics": {
+      "original": 102,
+      "effective": 102
+    },
+    "mmlu_abstract_algebra": {
+      "original": 100,
+      "effective": 100
+    },
+    "mmlu_college_mathematics": {
+      "original": 100,
+      "effective": 100
+    },
+    "mmlu_machine_learning": {
+      "original": 112,
+      "effective": 112
+    },
+    "mmlu_high_school_biology": {
+      "original": 310,
+      "effective": 310
+    },
+    "mmlu_computer_security": {
+      "original": 100,
+      "effective": 100
+    },
+    "mmlu_conceptual_physics": {
+      "original": 235,
+      "effective": 235
+    },
+    "mmlu_astronomy": {
+      "original": 152,
+      "effective": 152
+    },
+    "mmlu_college_chemistry": {
+      "original": 100,
+      "effective": 100
+    },
+    "mmlu_high_school_physics": {
+      "original": 151,
+      "effective": 151
+    },
+    "mmlu_elementary_mathematics": {
+      "original": 378,
+      "effective": 378
+    },
+    "mmlu_high_school_mathematics": {
+      "original": 270,
+      "effective": 270
+    },
+    "mmlu_high_school_chemistry": {
+      "original": 203,
+      "effective": 203
+    },
+    "mmlu_college_computer_science": {
+      "original": 100,
+      "effective": 100
+    },
+    "mmlu_high_school_computer_science": {
+      "original": 100,
+      "effective": 100
+    },
+    "mmlu_miscellaneous": {
+      "original": 783,
+      "effective": 783
+    },
+    "mmlu_professional_accounting": {
+      "original": 282,
+      "effective": 282
+    },
+    "mmlu_virology": {
+      "original": 166,
+      "effective": 166
+    },
+    "mmlu_clinical_knowledge": {
+      "original": 265,
+      "effective": 265
+    },
+    "mmlu_professional_medicine": {
+      "original": 272,
+      "effective": 272
+    },
+    "mmlu_medical_genetics": {
+      "original": 100,
+      "effective": 100
+    },
+    "mmlu_marketing": {
+      "original": 234,
+      "effective": 234
+    },
+    "mmlu_college_medicine": {
+      "original": 173,
+      "effective": 173
+    },
+    "mmlu_human_aging": {
+      "original": 223,
+      "effective": 223
+    },
+    "mmlu_business_ethics": {
+      "original": 100,
+      "effective": 100
+    },
+    "mmlu_global_facts": {
+      "original": 100,
+      "effective": 100
+    },
+    "mmlu_management": {
+      "original": 103,
+      "effective": 103
+    },
+    "mmlu_nutrition": {
+      "original": 306,
+      "effective": 306
+    },
+    "mmlu_us_foreign_policy": {
+      "original": 100,
+      "effective": 100
+    },
+    "mmlu_high_school_government_and_politics": {
+      "original": 193,
+      "effective": 193
+    },
+    "mmlu_professional_psychology": {
+      "original": 612,
+      "effective": 612
+    },
+    "mmlu_high_school_macroeconomics": {
+      "original": 390,
+      "effective": 390
+    },
+    "mmlu_econometrics": {
+      "original": 114,
+      "effective": 114
+    },
+    "mmlu_high_school_geography": {
+      "original": 198,
+      "effective": 198
+    },
+    "mmlu_high_school_psychology": {
+      "original": 545,
+      "effective": 545
+    },
+    "mmlu_human_sexuality": {
+      "original": 131,
+      "effective": 131
+    },
+    "mmlu_sociology": {
+      "original": 201,
+      "effective": 201
+    },
+    "mmlu_public_relations": {
+      "original": 110,
+      "effective": 110
+    },
+    "mmlu_security_studies": {
+      "original": 245,
+      "effective": 245
+    },
+    "mmlu_high_school_microeconomics": {
+      "original": 238,
+      "effective": 238
+    },
+    "mmlu_international_law": {
+      "original": 121,
+      "effective": 121
+    },
+    "mmlu_professional_law": {
+      "original": 1534,
+      "effective": 1534
+    },
+    "mmlu_philosophy": {
+      "original": 311,
+      "effective": 311
+    },
+    "mmlu_logical_fallacies": {
+      "original": 163,
+      "effective": 163
+    },
+    "mmlu_formal_logic": {
+      "original": 126,
+      "effective": 126
+    },
+    "mmlu_high_school_european_history": {
+      "original": 165,
+      "effective": 165
+    },
+    "mmlu_prehistory": {
+      "original": 324,
+      "effective": 324
+    },
+    "mmlu_moral_scenarios": {
+      "original": 895,
+      "effective": 895
+    },
+    "mmlu_world_religions": {
+      "original": 171,
+      "effective": 171
+    },
+    "mmlu_moral_disputes": {
+      "original": 346,
+      "effective": 346
+    },
+    "mmlu_high_school_world_history": {
+      "original": 237,
+      "effective": 237
+    },
+    "mmlu_high_school_us_history": {
+      "original": 204,
+      "effective": 204
+    },
+    "mmlu_jurisprudence": {
+      "original": 108,
+      "effective": 108
+    }
+  },
+  "config": {
+    "model": "hf",
+    "model_args": "pretrained=deepseek-ai/DeepSeek-R1-Distill-Llama-8B,parallelize=True,attn_implementation=sdpa",
+    "model_num_parameters": 8030261248,
+    "model_dtype": "torch.bfloat16",
+    "model_revision": "main",
+    "model_sha": "81cee02dd020268dced5fa1327e8555acce9c63c",
+    "batch_size": 1,
+    "batch_sizes": [],
+    "device": "cuda",
+    "use_cache": null,
+    "limit": null,
+    "bootstrap_iters": 100000,
+    "gen_kwargs": null,
+    "random_seed": 0,
+    "numpy_seed": 1234,
+    "torch_seed": 1234,
+    "fewshot_seed": 1234
+  },
+  "git_hash": "f0bcb72",
+  "date": 1737861488.1769009,
+  "pretty_env_info": "PyTorch version: 2.5.1+cu124\nIs debug build: False\nCUDA used to build PyTorch: 12.4\nROCM used to build PyTorch: N/A\n\nOS: Rocky Linux 8.4 (Green Obsidian) (x86_64)\nGCC version: (GCC) 8.5.0 20210514 (Red Hat 8.5.0-4)\nClang version: Could not collect\nCMake version: Could not collect\nLibc version: glibc-2.28\n\nPython version: 3.11.7 (main, Dec 15 2023, 18:12:31) [GCC 11.2.0] (64-bit runtime)\nPython platform: Linux-4.18.0-305.19.1.el8_4.x86_64-x86_64-with-glibc2.28\nIs CUDA available: True\nCUDA runtime version: Could not collect\nCUDA_MODULE_LOADING set to: LAZY\nGPU models and configuration: \nGPU 0: NVIDIA A100-SXM4-80GB\nGPU 1: NVIDIA A100-SXM4-80GB\nGPU 2: NVIDIA A100-SXM4-80GB\nGPU 3: NVIDIA A100-SXM4-80GB\n\nNvidia driver version: 535.104.12\ncuDNN version: Probably one of the following:\n/usr/local/cuda-11.3/targets/x86_64-linux/lib/libcudnn.so.8.2.1\n/usr/local/cuda-11.3/targets/x86_64-linux/lib/libcudnn_adv_infer.so.8.2.1\n/usr/local/cuda-11.3/targets/x86_64-linux/lib/libcudnn_adv_train.so.8.2.1\n/usr/local/cuda-11.3/targets/x86_64-linux/lib/libcudnn_cnn_infer.so.8.2.1\n/usr/local/cuda-11.3/targets/x86_64-linux/lib/libcudnn_cnn_train.so.8.2.1\n/usr/local/cuda-11.3/targets/x86_64-linux/lib/libcudnn_ops_infer.so.8.2.1\n/usr/local/cuda-11.3/targets/x86_64-linux/lib/libcudnn_ops_train.so.8.2.1\nHIP runtime version: N/A\nMIOpen runtime version: N/A\nIs XNNPACK available: True\n\nCPU:\nArchitecture:        x86_64\nCPU op-mode(s):      32-bit, 64-bit\nByte Order:          Little Endian\nCPU(s):              128\nOn-line CPU(s) list: 0-127\nThread(s) per core:  2\nCore(s) per socket:  32\nSocket(s):           2\nNUMA node(s):        2\nVendor ID:           AuthenticAMD\nCPU family:          25\nModel:               1\nModel name:          AMD EPYC 7513 32-Core Processor\nStepping:            1\nCPU MHz:             3492.856\nCPU max MHz:         2600.0000\nCPU min MHz:         1500.0000\nBogoMIPS:            5190.38\nVirtualization:      AMD-V\nL1d cache:           32K\nL1i cache:           32K\nL2 cache:            512K\nL3 cache:            32768K\nNUMA node0 CPU(s):   0-31,64-95\nNUMA node1 CPU(s):   32-63,96-127\nFlags:               fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx mmxext fxsr_opt pdpe1gb rdtscp lm constant_tsc rep_good nopl nonstop_tsc cpuid extd_apicid aperfmperf pni pclmulqdq monitor ssse3 fma cx16 pcid sse4_1 sse4_2 movbe popcnt aes xsave avx f16c rdrand lahf_lm cmp_legacy svm extapic cr8_legacy abm sse4a misalignsse 3dnowprefetch osvw ibs skinit wdt tce topoext perfctr_core perfctr_nb bpext perfctr_llc mwaitx cpb cat_l3 cdp_l3 invpcid_single hw_pstate sme ssbd mba sev ibrs ibpb stibp vmmcall sev_es fsgsbase bmi1 avx2 smep bmi2 erms invpcid cqm rdt_a rdseed adx smap clflushopt clwb sha_ni xsaveopt xsavec xgetbv1 xsaves cqm_llc cqm_occup_llc cqm_mbm_total cqm_mbm_local clzero irperf xsaveerptr wbnoinvd amd_ppin arat npt lbrv svm_lock nrip_save tsc_scale vmcb_clean flushbyasid decodeassists pausefilter pfthreshold v_vmsave_vmload vgif umip pku ospke vaes vpclmulqdq rdpid overflow_recov succor smca fsrm\n\nVersions of relevant libraries:\n[pip3] numpy==2.1.3\n[pip3] torch==2.5.1\n[pip3] triton==3.1.0\n[conda] numpy                     1.26.4                   pypi_0    pypi\n[conda] optree                    0.11.0                   pypi_0    pypi\n[conda] torch                     2.4.1                    pypi_0    pypi\n[conda] torchvision               0.19.1                   pypi_0    pypi\n[conda] triton                    3.0.0                    pypi_0    pypi",
+  "transformers_version": "4.46.2",
+  "upper_git_hash": null,
+  "tokenizer_pad_token": [
+    "<｜end▁of▁sentence｜>",
+    "128001"
+  ],
+  "tokenizer_eos_token": [
+    "<｜end▁of▁sentence｜>",
+    "128001"
+  ],
+  "tokenizer_bos_token": [
+    "<｜begin▁of▁sentence｜>",
+    "128000"
+  ],
+  "eot_token_id": 128001,
+  "max_length": 131072,
+  "task_hashes": {
+    "mmlu_high_school_statistics": "9a1d70d58c8ad0c2f9e26f2fe604e49bdfd36225fd5ae861c20dbfcaeafa2f8c",
+    "mmlu_electrical_engineering": "0a80089c129c193ae20aa8fd8e65f19c7d043f76d4e293fbb3dc4e686fb5546b",
+    "mmlu_college_biology": "3ee913d0395ccd9ca4bd71ad0929365ee3ad41b93bb0531ae889106d67cdb5cb",
+    "mmlu_anatomy": "a0adf6d2b8a299ba01efd16bf883420a3856932ae7aeb6b19da9aad5f83d929a",
+    "mmlu_college_physics": "51fd6eb113ec9cc1f1774d3da0a48b99684d588dcbb4351f1422fdd7f249f3ab",
+    "mmlu_abstract_algebra": "b1c3dcd4f64cace739250e8b85b691ff45f3f937e2e27344c811cc6b4cbf4356",
+    "mmlu_college_mathematics": "6ba22762922a660c30e569199566f845f10b762afed762310560d4c7e7ec18d9",
+    "mmlu_machine_learning": "6a42ab8e0d5067edd1597e6b52a66e841240890a9680603dd7c1c060f8318387",
+    "mmlu_high_school_biology": "7f26ffbc931cd95365ed4cd9d3f08cfa0ec434fa63d5bf778ff7c6c5b362013d",
+    "mmlu_computer_security": "3dcc6c699bc452d0bec8b7c260c43e0eff94142178d6f86f30d007b9fec62d19",
+    "mmlu_conceptual_physics": "2fec6ba0dd69569699dd3a325d7345a0e435dcbc1759ee638266b961c6d5962a",
+    "mmlu_astronomy": "7719d9787acb409691b54bc05772f61d7c69ba191a477b4692832851f65630a3",
+    "mmlu_college_chemistry": "50ef43928305dc3239816aafce31fea317b1cea04d14fee019456641ad71a597",
+    "mmlu_high_school_physics": "e13a0fae7f2e2eef7daecd724ff4b21f4b94669175d1b3bea2d711ec2d6057e6",
+    "mmlu_elementary_mathematics": "b92bb659c92ae788a7aab2a7eccfe71ef1d4e265bb425bb7eb8990c2274a96c0",
+    "mmlu_high_school_mathematics": "82ee69833f810f32d0e7a6dbb1ae56385a22b0263f8e827ba16a83a4fdb41445",
+    "mmlu_high_school_chemistry": "731f8791bdce11f8fd1b97e945f3ace76ceef4b898b0cb0d9a1cc98346887d59",
+    "mmlu_college_computer_science": "12e36feda2ae80186549f468d93e80725b64bb0a7a26527ab85820d963b404d0",
+    "mmlu_high_school_computer_science": "6a58ce93f649ea4a561587383b5e4b3ad4fb786ed9ec777d317452de7a075518",
+    "mmlu_miscellaneous": "45b62b08b50bd94facf1a5a20f4ca0285731098d20a5b82382981e3ff10353e1",
+    "mmlu_professional_accounting": "d8f1a99ff0145c0de7982d6127fcfa4039092ebb2fef6d9ff12b9971f5e8a504",
+    "mmlu_virology": "cc99e223d8b24e2c32187e2161f63dbb95f54aeeaf9be0dfedcd85f99a8c8f03",
+    "mmlu_clinical_knowledge": "3192a9a067a0a011abd62ac9d26ab3f836a90cdb74ee7deb0f6941340edb30ca",
+    "mmlu_professional_medicine": "37da70a4e8b1449f1f90d922662a7dc900e0fd0d419f24f308387a3b865e2df1",
+    "mmlu_medical_genetics": "a0c0c463d466deb111024f8d5b5e05e1e55748abfa6f4cb98b82afdb2a022943",
+    "mmlu_marketing": "6a281e6b74c510b9eedf7223c128c8a4d165cec905c56274a892c28193142f65",
+    "mmlu_college_medicine": "4773baffc4f3b2a4b52f4b4be418cc6adbc459b5a7d8356e2a073d96229268d6",
+    "mmlu_human_aging": "802fff5861bf030fe5c9849f5f4bd9c0314f81902c330bfa9fbb00e1efe24084",
+    "mmlu_business_ethics": "949090c74463f5a02fc5b8fa9a2bbff284a7294e736c6d5ec9658e4fa1468be2",
+    "mmlu_global_facts": "ecf6251b42c47d905e5ea9eaad94effd778746e306468f1c5a6043f9550797d7",
+    "mmlu_management": "8fec51da2577b0ec62bf450cf2c5da9ff458c2b5cd53a8ee781309b72f66f48a",
+    "mmlu_nutrition": "37ee7bdc1ce2cda0d3ca162c106806ce5b53fa4121487c83b4d7448961506359",
+    "mmlu_us_foreign_policy": "37ade560797ec954bd94016f6ee0a6e3ea5e1be7a800ee40208b9ff4e2131217",
+    "mmlu_high_school_government_and_politics": "52c98a374fc7ab01801ca1d86b3f7ea5a979f1f63e8cfcab8a19017dfd6d9634",
+    "mmlu_professional_psychology": "ccca9b6759c8a178b1c508bbbef42a7527f33a2e6ed0ea60de4634e7bf78c476",
+    "mmlu_high_school_macroeconomics": "a3b935b79e08eeec280f15e88d255bbb414f25e176858d8f28316f9dd21940c3",
+    "mmlu_econometrics": "3a5521553ac7b393d0fa615704dd1cbee20cd4aa78bcf836047aa37bb2e29b90",
+    "mmlu_high_school_geography": "79057c495e6312e863730e1a7573c8b8c3a9494d41bb53067b0dad9fd0989941",
+    "mmlu_high_school_psychology": "e2c4d81dbe3a4b0d6c15b6bc2ff9ea32f62a45cf584df41f6a08f9bb64fda674",
+    "mmlu_human_sexuality": "0f13882a3d28e694e5066f952d5007e2760bb4386455fc64023ca7577d5c0107",
+    "mmlu_sociology": "458827257bfc86c3d25644649cf0edbe19337a8b53609ace34a778fcdc430ef7",
+    "mmlu_public_relations": "d2860fd2cbdfcebf7421856203ed6967bb26c5ebe2e62c0fc6ac04828e998fda",
+    "mmlu_security_studies": "3d8a081dac22f805fde3c0e6d76ee766534ad9d8efd06f9ed1f299a949ba6da7",
+    "mmlu_high_school_microeconomics": "97f4c00c2d82f954da0ea09d9038c5ec1af1f838095d5f3bd55a18119f39cf53",
+    "mmlu_international_law": "8b18d1e6e13bd8454ffee1a68117a9a23bd6a60806b05ec2323aeda33ac70a77",
+    "mmlu_professional_law": "1a4a1a922183554526c996303e53a50d573f51bad34f9c98e613afc63f11c6ec",
+    "mmlu_philosophy": "537e9d84826a0e26fcbe162d63d367e1357ba89241ff676b1136104ac7c7cecb",
+    "mmlu_logical_fallacies": "87d8f238c1b4c4b85ae98bca3109f6b4aad07843f2af5858a7fbdecf93bf9fea",
+    "mmlu_formal_logic": "4c2850d8e13fa50f1be890a35ff6c38b5d9035e03cd4303944d75d7e39f8cae9",
+    "mmlu_high_school_european_history": "c1ebf175737720abc6b19c86cf1c9cb1693c2dca953e5464d80970e141fb6296",
+    "mmlu_prehistory": "0ea296c3e5827c0c5e0aa9ec6ba5b1dd04d530a44c789d37234ee1b29d0ccba7",
+    "mmlu_moral_scenarios": "1fa567f542b52f8bfe7c8f1d1f85059a88e1ea145637ebf80bb990919f6453ca",
+    "mmlu_world_religions": "08bb7976936d9316438916127fef38ca1016156077f06ab82fe0bed454864d08",
+    "mmlu_moral_disputes": "02df9058eab05da31f73b8eab9eaedd6f821c8cc1d374ff8cdf9009d6c0b3184",
+    "mmlu_high_school_world_history": "5abce66c8b5234c40ef5b2ceb934f17b767d12b5e3198c9b90b04e73e7bcdc0d",
+    "mmlu_high_school_us_history": "8c054daa1c2f4e2325314be7dec22975597fc53b247d55e8305f141aed56b1f1",
+    "mmlu_jurisprudence": "1972b444d41569167c8db57250355e78e8bed601855485cc5b166a6a0797d9cd"
+  },
+  "model_source": "hf",
+  "model_name": "deepseek-ai/DeepSeek-R1-Distill-Llama-8B",
+  "model_name_sanitized": "deepseek-ai__DeepSeek-R1-Distill-Llama-8B",
+  "system_instruction": null,
+  "system_instruction_sha": null,
+  "fewshot_as_multiturn": false,
+  "chat_template": null,
+  "chat_template_sha": null,
+  "start_time": 11098557.606865369,
+  "end_time": 11101033.709940407,
+  "total_evaluation_time_seconds": "2476.1030750386417"
+}

@@ -1,0 +1,4 @@
+include: _default_template_yaml
+task_alias: logical_fallacies
+task: mmlu_redux_logical_fallacies
+dataset_name: "logical_fallacies"

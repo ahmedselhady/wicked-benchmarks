@@ -1,0 +1,739 @@
+{
+  "results": {
+    "mmlu_pro": {
+      "alias": "mmlu_pro"
+    },
+    "mmlu_pro_biology": {
+      "alias": " - biology",
+      "acc,none": 0.4811715481171548,
+      "acc_stderr,none": 0.018672623935495635
+    },
+    "mmlu_pro_business": {
+      "alias": " - business",
+      "acc,none": 0.20532319391634982,
+      "acc_stderr,none": 0.014389680980700018
+    },
+    "mmlu_pro_chemistry": {
+      "alias": " - chemistry",
+      "acc,none": 0.19964664310954064,
+      "acc_stderr,none": 0.011886133098677008
+    },
+    "mmlu_pro_computer_science": {
+      "alias": " - computer_science",
+      "acc,none": 0.23902439024390243,
+      "acc_stderr,none": 0.021088457955825098
+    },
+    "mmlu_pro_economics": {
+      "alias": " - economics",
+      "acc,none": 0.3412322274881517,
+      "acc_stderr,none": 0.01632966990212136
+    },
+    "mmlu_pro_engineering": {
+      "alias": " - engineering",
+      "acc,none": 0.20330237358101136,
+      "acc_stderr,none": 0.012935413243587332
+    },
+    "mmlu_pro_health": {
+      "alias": " - health",
+      "acc,none": 0.29584352078239606,
+      "acc_stderr,none": 0.01596814960180406
+    },
+    "mmlu_pro_history": {
+      "alias": " - history",
+      "acc,none": 0.26246719160104987,
+      "acc_stderr,none": 0.022570250851747523
+    },
+    "mmlu_pro_law": {
+      "alias": " - law",
+      "acc,none": 0.2025431425976385,
+      "acc_stderr,none": 0.01211758369194084
+    },
+    "mmlu_pro_math": {
+      "alias": " - math",
+      "acc,none": 0.19393042190969653,
+      "acc_stderr,none": 0.010760745305580396
+    },
+    "mmlu_pro_other": {
+      "alias": " - other",
+      "acc,none": 0.24783549783549783,
+      "acc_stderr,none": 0.01421141499623294
+    },
+    "mmlu_pro_philosophy": {
+      "alias": " - philosophy",
+      "acc,none": 0.2545090180360721,
+      "acc_stderr,none": 0.019519024689983032
+    },
+    "mmlu_pro_physics": {
+      "alias": " - physics",
+      "acc,none": 0.1716705157813703,
+      "acc_stderr,none": 0.01046675527286319
+    },
+    "mmlu_pro_psychology": {
+      "alias": " - psychology",
+      "acc,none": 0.41478696741854637,
+      "acc_stderr,none": 0.01745180634319112
+    }
+  },
+  "groups": {
+    "mmlu_pro": {
+      "alias": "mmlu_pro"
+    }
+  },
+  "group_subtasks": {
+    "mmlu_pro": [
+      "mmlu_pro_biology",
+      "mmlu_pro_business",
+      "mmlu_pro_chemistry",
+      "mmlu_pro_computer_science",
+      "mmlu_pro_economics",
+      "mmlu_pro_engineering",
+      "mmlu_pro_health",
+      "mmlu_pro_history",
+      "mmlu_pro_law",
+      "mmlu_pro_math",
+      "mmlu_pro_other",
+      "mmlu_pro_philosophy",
+      "mmlu_pro_physics",
+      "mmlu_pro_psychology"
+    ]
+  },
+  "configs": {
+    "mmlu_pro_biology": {
+      "task": "mmlu_pro_biology",
+      "task_alias": "biology",
+      "dataset_path": "TIGER-Lab/MMLU-Pro",
+      "test_split": "test",
+      "fewshot_split": "validation",
+      "process_docs": "functools.partial(<function process_docs at 0x7fb93116d760>, subject='biology')",
+      "doc_to_text": "def doc2text_mc(doc):\n    \n    prompt = f\"Question: {doc['question']}\\n\"\n    options = doc[\"options\"]\n    \n    char_idx = 0\n    for i, opt in enumerate(options):\n    \n        if opt != \"N/A\":\n            prompt += \"{}. {}\\n\".format(choices[char_idx], opt)\n            char_idx += 1\n    \n    prompt +=\"Answer:\"\n    return prompt\n",
+      "doc_to_target": "def doc2tgt(doc):\n    return doc['answer_index']\n",
+      "doc_to_choice": "def doc2choice(doc):\n    return alphabets[: len(doc[\"options\"])]\n",
+      "description": "The following are multiple choice questions (with answers) about biology. Think step by step and then finish your answer with \"the answer is (X)\" where X is the correct letter choice.\n",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "fewshot_config": {
+        "sampler": "first_n"
+      },
+      "num_fewshot": 5,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0
+      }
+    },
+    "mmlu_pro_business": {
+      "task": "mmlu_pro_business",
+      "task_alias": "business",
+      "dataset_path": "TIGER-Lab/MMLU-Pro",
+      "test_split": "test",
+      "fewshot_split": "validation",
+      "process_docs": "functools.partial(<function process_docs at 0x7fb93116f420>, subject='business')",
+      "doc_to_text": "def doc2text_mc(doc):\n    \n    prompt = f\"Question: {doc['question']}\\n\"\n    options = doc[\"options\"]\n    \n    char_idx = 0\n    for i, opt in enumerate(options):\n    \n        if opt != \"N/A\":\n            prompt += \"{}. {}\\n\".format(choices[char_idx], opt)\n            char_idx += 1\n    \n    prompt +=\"Answer:\"\n    return prompt\n",
+      "doc_to_target": "def doc2tgt(doc):\n    return doc['answer_index']\n",
+      "doc_to_choice": "def doc2choice(doc):\n    return alphabets[: len(doc[\"options\"])]\n",
+      "description": "The following are multiple choice questions (with answers) about business. Think step by step and then finish your answer with \"the answer is (X)\" where X is the correct letter choice.\n",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "fewshot_config": {
+        "sampler": "first_n"
+      },
+      "num_fewshot": 5,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0
+      }
+    },
+    "mmlu_pro_chemistry": {
+      "task": "mmlu_pro_chemistry",
+      "task_alias": "chemistry",
+      "dataset_path": "TIGER-Lab/MMLU-Pro",
+      "test_split": "test",
+      "fewshot_split": "validation",
+      "process_docs": "functools.partial(<function process_docs at 0x7fbd34184ea0>, subject='chemistry')",
+      "doc_to_text": "def doc2text_mc(doc):\n    \n    prompt = f\"Question: {doc['question']}\\n\"\n    options = doc[\"options\"]\n    \n    char_idx = 0\n    for i, opt in enumerate(options):\n    \n        if opt != \"N/A\":\n            prompt += \"{}. {}\\n\".format(choices[char_idx], opt)\n            char_idx += 1\n    \n    prompt +=\"Answer:\"\n    return prompt\n",
+      "doc_to_target": "def doc2tgt(doc):\n    return doc['answer_index']\n",
+      "doc_to_choice": "def doc2choice(doc):\n    return alphabets[: len(doc[\"options\"])]\n",
+      "description": "The following are multiple choice questions (with answers) about chemistry. Think step by step and then finish your answer with \"the answer is (X)\" where X is the correct letter choice.\n",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "fewshot_config": {
+        "sampler": "first_n"
+      },
+      "num_fewshot": 5,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0
+      }
+    },
+    "mmlu_pro_computer_science": {
+      "task": "mmlu_pro_computer_science",
+      "task_alias": "computer_science",
+      "dataset_path": "TIGER-Lab/MMLU-Pro",
+      "test_split": "test",
+      "fewshot_split": "validation",
+      "process_docs": "functools.partial(<function process_docs at 0x7fbd34185080>, subject='computer science')",
+      "doc_to_text": "def doc2text_mc(doc):\n    \n    prompt = f\"Question: {doc['question']}\\n\"\n    options = doc[\"options\"]\n    \n    char_idx = 0\n    for i, opt in enumerate(options):\n    \n        if opt != \"N/A\":\n            prompt += \"{}. {}\\n\".format(choices[char_idx], opt)\n            char_idx += 1\n    \n    prompt +=\"Answer:\"\n    return prompt\n",
+      "doc_to_target": "def doc2tgt(doc):\n    return doc['answer_index']\n",
+      "doc_to_choice": "def doc2choice(doc):\n    return alphabets[: len(doc[\"options\"])]\n",
+      "description": "The following are multiple choice questions (with answers) about computer science. Think step by step and then finish your answer with \"the answer is (X)\" where X is the correct letter choice.\n",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "fewshot_config": {
+        "sampler": "first_n"
+      },
+      "num_fewshot": 5,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0
+      }
+    },
+    "mmlu_pro_economics": {
+      "task": "mmlu_pro_economics",
+      "task_alias": "economics",
+      "dataset_path": "TIGER-Lab/MMLU-Pro",
+      "test_split": "test",
+      "fewshot_split": "validation",
+      "process_docs": "functools.partial(<function process_docs at 0x7fbd341872e0>, subject='economics')",
+      "doc_to_text": "def doc2text_mc(doc):\n    \n    prompt = f\"Question: {doc['question']}\\n\"\n    options = doc[\"options\"]\n    \n    char_idx = 0\n    for i, opt in enumerate(options):\n    \n        if opt != \"N/A\":\n            prompt += \"{}. {}\\n\".format(choices[char_idx], opt)\n            char_idx += 1\n    \n    prompt +=\"Answer:\"\n    return prompt\n",
+      "doc_to_target": "def doc2tgt(doc):\n    return doc['answer_index']\n",
+      "doc_to_choice": "def doc2choice(doc):\n    return alphabets[: len(doc[\"options\"])]\n",
+      "description": "The following are multiple choice questions (with answers) about economics. Think step by step and then finish your answer with \"the answer is (X)\" where X is the correct letter choice.\n",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "fewshot_config": {
+        "sampler": "first_n"
+      },
+      "num_fewshot": 5,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0
+      }
+    },
+    "mmlu_pro_engineering": {
+      "task": "mmlu_pro_engineering",
+      "task_alias": "engineering",
+      "dataset_path": "TIGER-Lab/MMLU-Pro",
+      "test_split": "test",
+      "fewshot_split": "validation",
+      "process_docs": "functools.partial(<function process_docs at 0x7fbd5c190180>, subject='engineering')",
+      "doc_to_text": "def doc2text_mc(doc):\n    \n    prompt = f\"Question: {doc['question']}\\n\"\n    options = doc[\"options\"]\n    \n    char_idx = 0\n    for i, opt in enumerate(options):\n    \n        if opt != \"N/A\":\n            prompt += \"{}. {}\\n\".format(choices[char_idx], opt)\n            char_idx += 1\n    \n    prompt +=\"Answer:\"\n    return prompt\n",
+      "doc_to_target": "def doc2tgt(doc):\n    return doc['answer_index']\n",
+      "doc_to_choice": "def doc2choice(doc):\n    return alphabets[: len(doc[\"options\"])]\n",
+      "description": "The following are multiple choice questions (with answers) about engineering. Think step by step and then finish your answer with \"the answer is (X)\" where X is the correct letter choice.\n",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "fewshot_config": {
+        "sampler": "first_n"
+      },
+      "num_fewshot": 5,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0
+      }
+    },
+    "mmlu_pro_health": {
+      "task": "mmlu_pro_health",
+      "task_alias": "health",
+      "dataset_path": "TIGER-Lab/MMLU-Pro",
+      "test_split": "test",
+      "fewshot_split": "validation",
+      "process_docs": "functools.partial(<function process_docs at 0x7fbd5c193380>, subject='health')",
+      "doc_to_text": "def doc2text_mc(doc):\n    \n    prompt = f\"Question: {doc['question']}\\n\"\n    options = doc[\"options\"]\n    \n    char_idx = 0\n    for i, opt in enumerate(options):\n    \n        if opt != \"N/A\":\n            prompt += \"{}. {}\\n\".format(choices[char_idx], opt)\n            char_idx += 1\n    \n    prompt +=\"Answer:\"\n    return prompt\n",
+      "doc_to_target": "def doc2tgt(doc):\n    return doc['answer_index']\n",
+      "doc_to_choice": "def doc2choice(doc):\n    return alphabets[: len(doc[\"options\"])]\n",
+      "description": "The following are multiple choice questions (with answers) about health. Think step by step and then finish your answer with \"the answer is (X)\" where X is the correct letter choice.\n",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "fewshot_config": {
+        "sampler": "first_n"
+      },
+      "num_fewshot": 5,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0
+      }
+    },
+    "mmlu_pro_history": {
+      "task": "mmlu_pro_history",
+      "task_alias": "history",
+      "dataset_path": "TIGER-Lab/MMLU-Pro",
+      "test_split": "test",
+      "fewshot_split": "validation",
+      "process_docs": "functools.partial(<function process_docs at 0x7fbd7026c180>, subject='history')",
+      "doc_to_text": "def doc2text_mc(doc):\n    \n    prompt = f\"Question: {doc['question']}\\n\"\n    options = doc[\"options\"]\n    \n    char_idx = 0\n    for i, opt in enumerate(options):\n    \n        if opt != \"N/A\":\n            prompt += \"{}. {}\\n\".format(choices[char_idx], opt)\n            char_idx += 1\n    \n    prompt +=\"Answer:\"\n    return prompt\n",
+      "doc_to_target": "def doc2tgt(doc):\n    return doc['answer_index']\n",
+      "doc_to_choice": "def doc2choice(doc):\n    return alphabets[: len(doc[\"options\"])]\n",
+      "description": "The following are multiple choice questions (with answers) about history. Think step by step and then finish your answer with \"the answer is (X)\" where X is the correct letter choice.\n",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "fewshot_config": {
+        "sampler": "first_n"
+      },
+      "num_fewshot": 5,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0
+      }
+    },
+    "mmlu_pro_law": {
+      "task": "mmlu_pro_law",
+      "task_alias": "law",
+      "dataset_path": "TIGER-Lab/MMLU-Pro",
+      "test_split": "test",
+      "fewshot_split": "validation",
+      "process_docs": "functools.partial(<function process_docs at 0x7fbd70d1a7a0>, subject='law')",
+      "doc_to_text": "def doc2text_mc(doc):\n    \n    prompt = f\"Question: {doc['question']}\\n\"\n    options = doc[\"options\"]\n    \n    char_idx = 0\n    for i, opt in enumerate(options):\n    \n        if opt != \"N/A\":\n            prompt += \"{}. {}\\n\".format(choices[char_idx], opt)\n            char_idx += 1\n    \n    prompt +=\"Answer:\"\n    return prompt\n",
+      "doc_to_target": "def doc2tgt(doc):\n    return doc['answer_index']\n",
+      "doc_to_choice": "def doc2choice(doc):\n    return alphabets[: len(doc[\"options\"])]\n",
+      "description": "The following are multiple choice questions (with answers) about law. Think step by step and then finish your answer with \"the answer is (X)\" where X is the correct letter choice.\n",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "fewshot_config": {
+        "sampler": "first_n"
+      },
+      "num_fewshot": 5,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0
+      }
+    },
+    "mmlu_pro_math": {
+      "task": "mmlu_pro_math",
+      "task_alias": "math",
+      "dataset_path": "TIGER-Lab/MMLU-Pro",
+      "test_split": "test",
+      "fewshot_split": "validation",
+      "process_docs": "functools.partial(<function process_docs at 0x7fbd7026f2e0>, subject='math')",
+      "doc_to_text": "def doc2text_mc(doc):\n    \n    prompt = f\"Question: {doc['question']}\\n\"\n    options = doc[\"options\"]\n    \n    char_idx = 0\n    for i, opt in enumerate(options):\n    \n        if opt != \"N/A\":\n            prompt += \"{}. {}\\n\".format(choices[char_idx], opt)\n            char_idx += 1\n    \n    prompt +=\"Answer:\"\n    return prompt\n",
+      "doc_to_target": "def doc2tgt(doc):\n    return doc['answer_index']\n",
+      "doc_to_choice": "def doc2choice(doc):\n    return alphabets[: len(doc[\"options\"])]\n",
+      "description": "The following are multiple choice questions (with answers) about math. Think step by step and then finish your answer with \"the answer is (X)\" where X is the correct letter choice.\n",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "fewshot_config": {
+        "sampler": "first_n"
+      },
+      "num_fewshot": 5,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0
+      }
+    },
+    "mmlu_pro_other": {
+      "task": "mmlu_pro_other",
+      "task_alias": "other",
+      "dataset_path": "TIGER-Lab/MMLU-Pro",
+      "test_split": "test",
+      "fewshot_split": "validation",
+      "process_docs": "functools.partial(<function process_docs at 0x7fbd70d185e0>, subject='other')",
+      "doc_to_text": "def doc2text_mc(doc):\n    \n    prompt = f\"Question: {doc['question']}\\n\"\n    options = doc[\"options\"]\n    \n    char_idx = 0\n    for i, opt in enumerate(options):\n    \n        if opt != \"N/A\":\n            prompt += \"{}. {}\\n\".format(choices[char_idx], opt)\n            char_idx += 1\n    \n    prompt +=\"Answer:\"\n    return prompt\n",
+      "doc_to_target": "def doc2tgt(doc):\n    return doc['answer_index']\n",
+      "doc_to_choice": "def doc2choice(doc):\n    return alphabets[: len(doc[\"options\"])]\n",
+      "description": "The following are multiple choice questions (with answers) about other. Think step by step and then finish your answer with \"the answer is (X)\" where X is the correct letter choice.\n",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "fewshot_config": {
+        "sampler": "first_n"
+      },
+      "num_fewshot": 5,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0
+      }
+    },
+    "mmlu_pro_philosophy": {
+      "task": "mmlu_pro_philosophy",
+      "task_alias": "philosophy",
+      "dataset_path": "TIGER-Lab/MMLU-Pro",
+      "test_split": "test",
+      "fewshot_split": "validation",
+      "process_docs": "functools.partial(<function process_docs at 0x7fbd70d1b1a0>, subject='philosophy')",
+      "doc_to_text": "def doc2text_mc(doc):\n    \n    prompt = f\"Question: {doc['question']}\\n\"\n    options = doc[\"options\"]\n    \n    char_idx = 0\n    for i, opt in enumerate(options):\n    \n        if opt != \"N/A\":\n            prompt += \"{}. {}\\n\".format(choices[char_idx], opt)\n            char_idx += 1\n    \n    prompt +=\"Answer:\"\n    return prompt\n",
+      "doc_to_target": "def doc2tgt(doc):\n    return doc['answer_index']\n",
+      "doc_to_choice": "def doc2choice(doc):\n    return alphabets[: len(doc[\"options\"])]\n",
+      "description": "The following are multiple choice questions (with answers) about philosophy. Think step by step and then finish your answer with \"the answer is (X)\" where X is the correct letter choice.\n",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "fewshot_config": {
+        "sampler": "first_n"
+      },
+      "num_fewshot": 5,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0
+      }
+    },
+    "mmlu_pro_physics": {
+      "task": "mmlu_pro_physics",
+      "task_alias": "physics",
+      "dataset_path": "TIGER-Lab/MMLU-Pro",
+      "test_split": "test",
+      "fewshot_split": "validation",
+      "process_docs": "functools.partial(<function process_docs at 0x7fbd70ce28e0>, subject='physics')",
+      "doc_to_text": "def doc2text_mc(doc):\n    \n    prompt = f\"Question: {doc['question']}\\n\"\n    options = doc[\"options\"]\n    \n    char_idx = 0\n    for i, opt in enumerate(options):\n    \n        if opt != \"N/A\":\n            prompt += \"{}. {}\\n\".format(choices[char_idx], opt)\n            char_idx += 1\n    \n    prompt +=\"Answer:\"\n    return prompt\n",
+      "doc_to_target": "def doc2tgt(doc):\n    return doc['answer_index']\n",
+      "doc_to_choice": "def doc2choice(doc):\n    return alphabets[: len(doc[\"options\"])]\n",
+      "description": "The following are multiple choice questions (with answers) about physics. Think step by step and then finish your answer with \"the answer is (X)\" where X is the correct letter choice.\n",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "fewshot_config": {
+        "sampler": "first_n"
+      },
+      "num_fewshot": 5,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0
+      }
+    },
+    "mmlu_pro_psychology": {
+      "task": "mmlu_pro_psychology",
+      "task_alias": "psychology",
+      "dataset_path": "TIGER-Lab/MMLU-Pro",
+      "test_split": "test",
+      "fewshot_split": "validation",
+      "process_docs": "functools.partial(<function process_docs at 0x7fbd70791b20>, subject='psychology')",
+      "doc_to_text": "def doc2text_mc(doc):\n    \n    prompt = f\"Question: {doc['question']}\\n\"\n    options = doc[\"options\"]\n    \n    char_idx = 0\n    for i, opt in enumerate(options):\n    \n        if opt != \"N/A\":\n            prompt += \"{}. {}\\n\".format(choices[char_idx], opt)\n            char_idx += 1\n    \n    prompt +=\"Answer:\"\n    return prompt\n",
+      "doc_to_target": "def doc2tgt(doc):\n    return doc['answer_index']\n",
+      "doc_to_choice": "def doc2choice(doc):\n    return alphabets[: len(doc[\"options\"])]\n",
+      "description": "The following are multiple choice questions (with answers) about psychology. Think step by step and then finish your answer with \"the answer is (X)\" where X is the correct letter choice.\n",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "fewshot_config": {
+        "sampler": "first_n"
+      },
+      "num_fewshot": 5,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0
+      }
+    }
+  },
+  "versions": {
+    "mmlu_pro": 2.0,
+    "mmlu_pro_biology": 1.0,
+    "mmlu_pro_business": 1.0,
+    "mmlu_pro_chemistry": 1.0,
+    "mmlu_pro_computer_science": 1.0,
+    "mmlu_pro_economics": 1.0,
+    "mmlu_pro_engineering": 1.0,
+    "mmlu_pro_health": 1.0,
+    "mmlu_pro_history": 1.0,
+    "mmlu_pro_law": 1.0,
+    "mmlu_pro_math": 1.0,
+    "mmlu_pro_other": 1.0,
+    "mmlu_pro_philosophy": 1.0,
+    "mmlu_pro_physics": 1.0,
+    "mmlu_pro_psychology": 1.0
+  },
+  "n-shot": {
+    "mmlu_pro_biology": 5,
+    "mmlu_pro_business": 5,
+    "mmlu_pro_chemistry": 5,
+    "mmlu_pro_computer_science": 5,
+    "mmlu_pro_economics": 5,
+    "mmlu_pro_engineering": 5,
+    "mmlu_pro_health": 5,
+    "mmlu_pro_history": 5,
+    "mmlu_pro_law": 5,
+    "mmlu_pro_math": 5,
+    "mmlu_pro_other": 5,
+    "mmlu_pro_philosophy": 5,
+    "mmlu_pro_physics": 5,
+    "mmlu_pro_psychology": 5
+  },
+  "higher_is_better": {
+    "mmlu_pro": {
+      "acc": true
+    },
+    "mmlu_pro_biology": {
+      "acc": true
+    },
+    "mmlu_pro_business": {
+      "acc": true
+    },
+    "mmlu_pro_chemistry": {
+      "acc": true
+    },
+    "mmlu_pro_computer_science": {
+      "acc": true
+    },
+    "mmlu_pro_economics": {
+      "acc": true
+    },
+    "mmlu_pro_engineering": {
+      "acc": true
+    },
+    "mmlu_pro_health": {
+      "acc": true
+    },
+    "mmlu_pro_history": {
+      "acc": true
+    },
+    "mmlu_pro_law": {
+      "acc": true
+    },
+    "mmlu_pro_math": {
+      "acc": true
+    },
+    "mmlu_pro_other": {
+      "acc": true
+    },
+    "mmlu_pro_philosophy": {
+      "acc": true
+    },
+    "mmlu_pro_physics": {
+      "acc": true
+    },
+    "mmlu_pro_psychology": {
+      "acc": true
+    }
+  },
+  "n-samples": {
+    "mmlu_pro_biology": {
+      "original": 717,
+      "effective": 717
+    },
+    "mmlu_pro_business": {
+      "original": 789,
+      "effective": 789
+    },
+    "mmlu_pro_chemistry": {
+      "original": 1132,
+      "effective": 1132
+    },
+    "mmlu_pro_computer_science": {
+      "original": 410,
+      "effective": 410
+    },
+    "mmlu_pro_economics": {
+      "original": 844,
+      "effective": 844
+    },
+    "mmlu_pro_engineering": {
+      "original": 969,
+      "effective": 969
+    },
+    "mmlu_pro_health": {
+      "original": 818,
+      "effective": 818
+    },
+    "mmlu_pro_history": {
+      "original": 381,
+      "effective": 381
+    },
+    "mmlu_pro_law": {
+      "original": 1101,
+      "effective": 1101
+    },
+    "mmlu_pro_math": {
+      "original": 1351,
+      "effective": 1351
+    },
+    "mmlu_pro_other": {
+      "original": 924,
+      "effective": 924
+    },
+    "mmlu_pro_philosophy": {
+      "original": 499,
+      "effective": 499
+    },
+    "mmlu_pro_physics": {
+      "original": 1299,
+      "effective": 1299
+    },
+    "mmlu_pro_psychology": {
+      "original": 798,
+      "effective": 798
+    }
+  },
+  "config": {
+    "model": "hf",
+    "model_args": "pretrained=deepseek-ai/DeepSeek-R1-Distill-Llama-8B,parallelize=True,attn_implementation=sdpa",
+    "model_num_parameters": 8030261248,
+    "model_dtype": "torch.bfloat16",
+    "model_revision": "main",
+    "model_sha": "81cee02dd020268dced5fa1327e8555acce9c63c",
+    "batch_size": 1,
+    "batch_sizes": [],
+    "device": "cuda",
+    "use_cache": null,
+    "limit": null,
+    "bootstrap_iters": 100000,
+    "gen_kwargs": null,
+    "random_seed": 0,
+    "numpy_seed": 1234,
+    "torch_seed": 1234,
+    "fewshot_seed": 1234
+  },
+  "git_hash": "f0bcb72",
+  "date": 1737864672.233247,
+  "pretty_env_info": "PyTorch version: 2.5.1+cu124\nIs debug build: False\nCUDA used to build PyTorch: 12.4\nROCM used to build PyTorch: N/A\n\nOS: Rocky Linux 8.4 (Green Obsidian) (x86_64)\nGCC version: (GCC) 8.5.0 20210514 (Red Hat 8.5.0-4)\nClang version: Could not collect\nCMake version: Could not collect\nLibc version: glibc-2.28\n\nPython version: 3.11.7 (main, Dec 15 2023, 18:12:31) [GCC 11.2.0] (64-bit runtime)\nPython platform: Linux-4.18.0-305.19.1.el8_4.x86_64-x86_64-with-glibc2.28\nIs CUDA available: True\nCUDA runtime version: Could not collect\nCUDA_MODULE_LOADING set to: LAZY\nGPU models and configuration: \nGPU 0: NVIDIA A100-SXM4-80GB\nGPU 1: NVIDIA A100-SXM4-80GB\nGPU 2: NVIDIA A100-SXM4-80GB\nGPU 3: NVIDIA A100-SXM4-80GB\n\nNvidia driver version: 535.104.12\ncuDNN version: Probably one of the following:\n/usr/local/cuda-11.3/targets/x86_64-linux/lib/libcudnn.so.8.2.1\n/usr/local/cuda-11.3/targets/x86_64-linux/lib/libcudnn_adv_infer.so.8.2.1\n/usr/local/cuda-11.3/targets/x86_64-linux/lib/libcudnn_adv_train.so.8.2.1\n/usr/local/cuda-11.3/targets/x86_64-linux/lib/libcudnn_cnn_infer.so.8.2.1\n/usr/local/cuda-11.3/targets/x86_64-linux/lib/libcudnn_cnn_train.so.8.2.1\n/usr/local/cuda-11.3/targets/x86_64-linux/lib/libcudnn_ops_infer.so.8.2.1\n/usr/local/cuda-11.3/targets/x86_64-linux/lib/libcudnn_ops_train.so.8.2.1\nHIP runtime version: N/A\nMIOpen runtime version: N/A\nIs XNNPACK available: True\n\nCPU:\nArchitecture:        x86_64\nCPU op-mode(s):      32-bit, 64-bit\nByte Order:          Little Endian\nCPU(s):              128\nOn-line CPU(s) list: 0-127\nThread(s) per core:  2\nCore(s) per socket:  32\nSocket(s):           2\nNUMA node(s):        2\nVendor ID:           AuthenticAMD\nCPU family:          25\nModel:               1\nModel name:          AMD EPYC 7513 32-Core Processor\nStepping:            1\nCPU MHz:             3493.214\nCPU max MHz:         2600.0000\nCPU min MHz:         1500.0000\nBogoMIPS:            5190.38\nVirtualization:      AMD-V\nL1d cache:           32K\nL1i cache:           32K\nL2 cache:            512K\nL3 cache:            32768K\nNUMA node0 CPU(s):   0-31,64-95\nNUMA node1 CPU(s):   32-63,96-127\nFlags:               fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx mmxext fxsr_opt pdpe1gb rdtscp lm constant_tsc rep_good nopl nonstop_tsc cpuid extd_apicid aperfmperf pni pclmulqdq monitor ssse3 fma cx16 pcid sse4_1 sse4_2 movbe popcnt aes xsave avx f16c rdrand lahf_lm cmp_legacy svm extapic cr8_legacy abm sse4a misalignsse 3dnowprefetch osvw ibs skinit wdt tce topoext perfctr_core perfctr_nb bpext perfctr_llc mwaitx cpb cat_l3 cdp_l3 invpcid_single hw_pstate sme ssbd mba sev ibrs ibpb stibp vmmcall sev_es fsgsbase bmi1 avx2 smep bmi2 erms invpcid cqm rdt_a rdseed adx smap clflushopt clwb sha_ni xsaveopt xsavec xgetbv1 xsaves cqm_llc cqm_occup_llc cqm_mbm_total cqm_mbm_local clzero irperf xsaveerptr wbnoinvd amd_ppin arat npt lbrv svm_lock nrip_save tsc_scale vmcb_clean flushbyasid decodeassists pausefilter pfthreshold v_vmsave_vmload vgif umip pku ospke vaes vpclmulqdq rdpid overflow_recov succor smca fsrm\n\nVersions of relevant libraries:\n[pip3] numpy==2.1.3\n[pip3] torch==2.5.1\n[pip3] triton==3.1.0\n[conda] numpy                     1.26.4                   pypi_0    pypi\n[conda] optree                    0.11.0                   pypi_0    pypi\n[conda] torch                     2.4.1                    pypi_0    pypi\n[conda] torchvision               0.19.1                   pypi_0    pypi\n[conda] triton                    3.0.0                    pypi_0    pypi",
+  "transformers_version": "4.46.2",
+  "upper_git_hash": null,
+  "tokenizer_pad_token": [
+    "<｜end▁of▁sentence｜>",
+    "128001"
+  ],
+  "tokenizer_eos_token": [
+    "<｜end▁of▁sentence｜>",
+    "128001"
+  ],
+  "tokenizer_bos_token": [
+    "<｜begin▁of▁sentence｜>",
+    "128000"
+  ],
+  "eot_token_id": 128001,
+  "max_length": 131072,
+  "task_hashes": {
+    "mmlu_pro_biology": "5f1eec860b114c6ed8d0bb23b746c4b05c3f40561382a84ae36ddcc722935a11",
+    "mmlu_pro_business": "2575b2eb8001e7be06223599d1bf3cea49b835a36dfa17931b2cbef12b337811",
+    "mmlu_pro_chemistry": "f359114a31e96aefc513cf39fa93c62a43e807466df0a493366071ed8532a09a",
+    "mmlu_pro_computer_science": "55fd0f2ebfb82e732e06f42e809b6dab55afd86ba00985599773df2afcc4768d",
+    "mmlu_pro_economics": "5c4efaec2ae0c80d522d25a9bb1942dad894708c24ddb9596547acfaf5eeae13",
+    "mmlu_pro_engineering": "e4b85ea986d0a6a5b292f00f0eb6a00e72d278352afbe4eb8631c3fc9a3164c1",
+    "mmlu_pro_health": "f0dfe7bb5f6658aa4e791dc09f122012587202ef007781c6d292e4d8f436d7db",
+    "mmlu_pro_history": "46e81cf5195fbfe08c98e1efeffe041c4e980c58e5362b4391eb5f574c61033c",
+    "mmlu_pro_law": "65d669755935990a4e2e1192ce201760f233e2cc6d97b77d9f5df42b6c6dff5a",
+    "mmlu_pro_math": "edce7a0c1c6493cd4b79b77bbe0cf9d2629e8b04657e0f0a92d69d0260e4c488",
+    "mmlu_pro_other": "74b8b1bbc5c2b02cd90dcf3be515f1c86fc24b344078f9cf16c7cc995a284db1",
+    "mmlu_pro_philosophy": "4f465845d1eb5dcb4a595ee0c7a8feb48f2caddab3ce11affaeca4e7eda0c9e0",
+    "mmlu_pro_physics": "eaafb90ab9407758107ac1aee2168a590301bb002271eaed045a97c2d312eb43",
+    "mmlu_pro_psychology": "8916646162032ee45325883d8ca3f3396582323e54c56d61501e6bc3c5939ab1"
+  },
+  "model_source": "hf",
+  "model_name": "deepseek-ai/DeepSeek-R1-Distill-Llama-8B",
+  "model_name_sanitized": "deepseek-ai__DeepSeek-R1-Distill-Llama-8B",
+  "system_instruction": null,
+  "system_instruction_sha": null,
+  "fewshot_as_multiturn": false,
+  "chat_template": null,
+  "chat_template_sha": null,
+  "start_time": 11101741.504346311,
+  "end_time": 11103137.25187562,
+  "total_evaluation_time_seconds": "1395.747529309243"
+}

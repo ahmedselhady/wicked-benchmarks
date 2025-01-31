@@ -1,0 +1,4 @@
+include: _default_template_yaml
+task_alias: machine_learning
+task: mmlu_redux_machine_learning
+dataset_name: "machine_learning"

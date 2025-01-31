@@ -1,0 +1,33 @@
+group: mmlu_generative_cot
+group_alias: mmlu (generative)
+task:
+  - group: stem
+    task:
+      - mmlu_stem_generative_cot
+    aggregate_metric_list:
+      - metric: acc
+        weight_by_size: True
+  - group: other
+    task:
+      - mmlu_other_generative_cot
+    aggregate_metric_list:
+      - metric: acc
+        weight_by_size: True
+  - group: social sciences
+    task:
+      - mmlu_social_sciences_generative_cot
+    aggregate_metric_list:
+      - metric: acc
+        weight_by_size: True
+  - group: humanities
+    task:
+      - mmlu_humanities_generative_cot
+    aggregate_metric_list:
+      - metric: acc
+        weight_by_size: True
+aggregate_metric_list:
+  - aggregation: mean
+    metric: exact_match
+    weight_by_size: True
+metadata:
+  version: 2

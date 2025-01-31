@@ -1,0 +1,4 @@
+include: _default_template_yaml
+task_alias: astronomy
+task: mmlu_redux_astronomy
+dataset_name: "astronomy"

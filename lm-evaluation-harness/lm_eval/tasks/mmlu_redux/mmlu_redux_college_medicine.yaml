@@ -1,0 +1,4 @@
+include: _default_template_yaml
+task_alias: college_medicine
+task: mmlu_redux_college_medicine
+dataset_name: "college_medicine"

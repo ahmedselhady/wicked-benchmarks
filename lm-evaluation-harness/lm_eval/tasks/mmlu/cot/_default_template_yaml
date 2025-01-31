@@ -1,0 +1,35 @@
+dataset_path: hails/mmlu_no_train # a copy of `cais/mmlu` with no auxiliary_train split
+test_split: test
+output_type: generate_until
+doc_to_text: "Question:{{question.strip()}}\nChoices:\nA. {{choices[0]}}\nB. {{choices[1]}}\nC. {{choices[2]}}\nD. {{choices[3]}}\nLet's think step by step: "
+doc_to_target: "{{['A', 'B', 'C', 'D'][answer]}}"
+filter_list:
+  - name: "strict-match"
+    filter:
+      - function: "regex"
+        regex_pattern: "(?<=The answer is )(.*)(?=.)"
+      - function: "take_first"
+  - name: "flexible-extract"
+    filter:
+      - function: "multi_choice_regex"
+        group_select: -1
+        ignore_case: true
+        ignore_punctuation: true
+        regex_pattern: "(\\([A-Z]\\))"
+      - function: "take_first"
+generation_kwargs:
+  until:
+    - "</s>"
+  do_sample: false
+  temperature: 0.0
+num_fewshot: 0
+metric_list:
+  - metric: exact_match
+    aggregation: mean
+    higher_is_better: true
+    ignore_case: true
+    ignore_punctuation: true
+metadata:
+  version: 1.0
+dataset_kwargs:
+  trust_remote_code: true

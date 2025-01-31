@@ -1,0 +1,4 @@
+include: _default_template_yaml
+task_alias: electrical_engineering
+task: mmlu_redux_electrical_engineering
+dataset_name: "electrical_engineering"

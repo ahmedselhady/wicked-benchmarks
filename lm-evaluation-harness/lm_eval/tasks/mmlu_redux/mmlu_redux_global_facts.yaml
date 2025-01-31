@@ -1,0 +1,4 @@
+include: _default_template_yaml
+task_alias: global_facts
+task: mmlu_redux_global_facts
+dataset_name: "global_facts"

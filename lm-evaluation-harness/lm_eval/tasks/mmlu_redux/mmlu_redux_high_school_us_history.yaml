@@ -1,0 +1,4 @@
+include: _default_template_yaml
+task_alias: high_school_us_history
+task: mmlu_redux_high_school_us_history
+dataset_name: "high_school_us_history"

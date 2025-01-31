@@ -1,0 +1,1731 @@
+{
+  "results": {
+    "mmlu_redux": {
+      "alias": "mmlu_redux"
+    },
+    "mmlu_redux_anatomy": {
+      "alias": " - anatomy",
+      "acc,none": 0.68,
+      "acc_stderr,none": 0.046882617226215034
+    },
+    "mmlu_redux_astronomy": {
+      "alias": " - astronomy",
+      "acc,none": 0.71,
+      "acc_stderr,none": 0.045604802157206845
+    },
+    "mmlu_redux_business_ethics": {
+      "alias": " - business_ethics",
+      "acc,none": 0.68,
+      "acc_stderr,none": 0.04688261722621504
+    },
+    "mmlu_redux_clinical_knowledge": {
+      "alias": " - clinical_knowledge",
+      "acc,none": 0.78,
+      "acc_stderr,none": 0.04163331998932263
+    },
+    "mmlu_redux_college_chemistry": {
+      "alias": " - college_chemistry",
+      "acc,none": 0.51,
+      "acc_stderr,none": 0.05024183937956912
+    },
+    "mmlu_redux_college_computer_science": {
+      "alias": " - college_computer_science",
+      "acc,none": 0.56,
+      "acc_stderr,none": 0.04988876515698589
+    },
+    "mmlu_redux_college_mathematics": {
+      "alias": " - college_mathematics",
+      "acc,none": 0.4,
+      "acc_stderr,none": 0.04923659639173309
+    },
+    "mmlu_redux_college_medicine": {
+      "alias": " - college_medicine",
+      "acc,none": 0.66,
+      "acc_stderr,none": 0.04760952285695237
+    },
+    "mmlu_redux_college_physics": {
+      "alias": " - college_physics",
+      "acc,none": 0.45,
+      "acc_stderr,none": 0.05
+    },
+    "mmlu_redux_conceptual_physics": {
+      "alias": " - conceptual_physics",
+      "acc,none": 0.55,
+      "acc_stderr,none": 0.04999999999999999
+    },
+    "mmlu_redux_econometrics": {
+      "alias": " - econometrics",
+      "acc,none": 0.44,
+      "acc_stderr,none": 0.04988876515698589
+    },
+    "mmlu_redux_electrical_engineering": {
+      "alias": " - electrical_engineering",
+      "acc,none": 0.6,
+      "acc_stderr,none": 0.04923659639173309
+    },
+    "mmlu_redux_formal_logic": {
+      "alias": " - formal_logic",
+      "acc,none": 0.57,
+      "acc_stderr,none": 0.04975698519562428
+    },
+    "mmlu_redux_global_facts": {
+      "alias": " - global_facts",
+      "acc,none": 0.38,
+      "acc_stderr,none": 0.04878317312145633
+    },
+    "mmlu_redux_high_school_chemistry": {
+      "alias": " - high_school_chemistry",
+      "acc,none": 0.64,
+      "acc_stderr,none": 0.04824181513244218
+    },
+    "mmlu_redux_high_school_geography": {
+      "alias": " - high_school_geography",
+      "acc,none": 0.8,
+      "acc_stderr,none": 0.04020151261036845
+    },
+    "mmlu_redux_high_school_macroeconomics": {
+      "alias": " - high_school_macroeconomics",
+      "acc,none": 0.63,
+      "acc_stderr,none": 0.048523658709391
+    },
+    "mmlu_redux_high_school_mathematics": {
+      "alias": " - high_school_mathematics",
+      "acc,none": 0.44,
+      "acc_stderr,none": 0.04988876515698589
+    },
+    "mmlu_redux_high_school_physics": {
+      "alias": " - high_school_physics",
+      "acc,none": 0.54,
+      "acc_stderr,none": 0.05009082659620333
+    },
+    "mmlu_redux_high_school_statistics": {
+      "alias": " - high_school_statistics",
+      "acc,none": 0.54,
+      "acc_stderr,none": 0.05009082659620332
+    },
+    "mmlu_redux_high_school_us_history": {
+      "alias": " - high_school_us_history",
+      "acc,none": 0.84,
+      "acc_stderr,none": 0.0368452949177471
+    },
+    "mmlu_redux_human_aging": {
+      "alias": " - human_aging",
+      "acc,none": 0.67,
+      "acc_stderr,none": 0.04725815626252607
+    },
+    "mmlu_redux_logical_fallacies": {
+      "alias": " - logical_fallacies",
+      "acc,none": 0.87,
+      "acc_stderr,none": 0.033799766898963086
+    },
+    "mmlu_redux_machine_learning": {
+      "alias": " - machine_learning",
+      "acc,none": 0.55,
+      "acc_stderr,none": 0.05
+    },
+    "mmlu_redux_miscellaneous": {
+      "alias": " - miscellaneous",
+      "acc,none": 0.89,
+      "acc_stderr,none": 0.031446603773522035
+    },
+    "mmlu_redux_philosophy": {
+      "alias": " - philosophy",
+      "acc,none": 0.75,
+      "acc_stderr,none": 0.04351941398892446
+    },
+    "mmlu_redux_professional_accounting": {
+      "alias": " - professional_accounting",
+      "acc,none": 0.54,
+      "acc_stderr,none": 0.05009082659620332
+    },
+    "mmlu_redux_professional_law": {
+      "alias": " - professional_law",
+      "acc,none": 0.5,
+      "acc_stderr,none": 0.050251890762960605
+    },
+    "mmlu_redux_public_relations": {
+      "alias": " - public_relations",
+      "acc,none": 0.71,
+      "acc_stderr,none": 0.04560480215720684
+    },
+    "mmlu_redux_virology": {
+      "alias": " - virology",
+      "acc,none": 0.52,
+      "acc_stderr,none": 0.05021167315686779
+    }
+  },
+  "groups": {
+    "mmlu_redux": {
+      "alias": "mmlu_redux"
+    }
+  },
+  "group_subtasks": {
+    "mmlu_redux": [
+      "mmlu_redux_machine_learning",
+      "mmlu_redux_professional_law",
+      "mmlu_redux_logical_fallacies",
+      "mmlu_redux_high_school_macroeconomics",
+      "mmlu_redux_conceptual_physics",
+      "mmlu_redux_human_aging",
+      "mmlu_redux_philosophy",
+      "mmlu_redux_virology",
+      "mmlu_redux_clinical_knowledge",
+      "mmlu_redux_college_chemistry",
+      "mmlu_redux_astronomy",
+      "mmlu_redux_public_relations",
+      "mmlu_redux_miscellaneous",
+      "mmlu_redux_college_medicine",
+      "mmlu_redux_high_school_mathematics",
+      "mmlu_redux_high_school_physics",
+      "mmlu_redux_anatomy",
+      "mmlu_redux_global_facts",
+      "mmlu_redux_high_school_statistics",
+      "mmlu_redux_high_school_us_history",
+      "mmlu_redux_high_school_chemistry",
+      "mmlu_redux_college_computer_science",
+      "mmlu_redux_econometrics",
+      "mmlu_redux_high_school_geography",
+      "mmlu_redux_professional_accounting",
+      "mmlu_redux_business_ethics",
+      "mmlu_redux_formal_logic",
+      "mmlu_redux_college_mathematics",
+      "mmlu_redux_electrical_engineering",
+      "mmlu_redux_college_physics"
+    ]
+  },
+  "configs": {
+    "mmlu_redux_anatomy": {
+      "task": "mmlu_redux_anatomy",
+      "task_alias": "anatomy",
+      "dataset_path": "edinburgh-dawg/mmlu-redux",
+      "dataset_name": "anatomy",
+      "dataset_kwargs": {
+        "trust_remote_code": true
+      },
+      "test_split": "test",
+      "fewshot_split": "test",
+      "doc_to_text": "{{question.strip()}}\nA. {{choices[0]}}\nB. {{choices[1]}}\nC. {{choices[2]}}\nD. {{choices[3]}}\nAnswer:",
+      "doc_to_target": "answer",
+      "doc_to_choice": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "fewshot_config": {
+        "sampler": "first_n"
+      },
+      "num_fewshot": 3,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0
+      }
+    },
+    "mmlu_redux_astronomy": {
+      "task": "mmlu_redux_astronomy",
+      "task_alias": "astronomy",
+      "dataset_path": "edinburgh-dawg/mmlu-redux",
+      "dataset_name": "astronomy",
+      "dataset_kwargs": {
+        "trust_remote_code": true
+      },
+      "test_split": "test",
+      "fewshot_split": "test",
+      "doc_to_text": "{{question.strip()}}\nA. {{choices[0]}}\nB. {{choices[1]}}\nC. {{choices[2]}}\nD. {{choices[3]}}\nAnswer:",
+      "doc_to_target": "answer",
+      "doc_to_choice": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "fewshot_config": {
+        "sampler": "first_n"
+      },
+      "num_fewshot": 3,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0
+      }
+    },
+    "mmlu_redux_business_ethics": {
+      "task": "mmlu_redux_business_ethics",
+      "task_alias": "business_ethics",
+      "dataset_path": "edinburgh-dawg/mmlu-redux",
+      "dataset_name": "business_ethics",
+      "dataset_kwargs": {
+        "trust_remote_code": true
+      },
+      "test_split": "test",
+      "fewshot_split": "test",
+      "doc_to_text": "{{question.strip()}}\nA. {{choices[0]}}\nB. {{choices[1]}}\nC. {{choices[2]}}\nD. {{choices[3]}}\nAnswer:",
+      "doc_to_target": "answer",
+      "doc_to_choice": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "fewshot_config": {
+        "sampler": "first_n"
+      },
+      "num_fewshot": 3,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0
+      }
+    },
+    "mmlu_redux_clinical_knowledge": {
+      "task": "mmlu_redux_clinical_knowledge",
+      "task_alias": "clinical_knowledge",
+      "dataset_path": "edinburgh-dawg/mmlu-redux",
+      "dataset_name": "clinical_knowledge",
+      "dataset_kwargs": {
+        "trust_remote_code": true
+      },
+      "test_split": "test",
+      "fewshot_split": "test",
+      "doc_to_text": "{{question.strip()}}\nA. {{choices[0]}}\nB. {{choices[1]}}\nC. {{choices[2]}}\nD. {{choices[3]}}\nAnswer:",
+      "doc_to_target": "answer",
+      "doc_to_choice": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "fewshot_config": {
+        "sampler": "first_n"
+      },
+      "num_fewshot": 3,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0
+      }
+    },
+    "mmlu_redux_college_chemistry": {
+      "task": "mmlu_redux_college_chemistry",
+      "task_alias": "college_chemistry",
+      "dataset_path": "edinburgh-dawg/mmlu-redux",
+      "dataset_name": "college_chemistry",
+      "dataset_kwargs": {
+        "trust_remote_code": true
+      },
+      "test_split": "test",
+      "fewshot_split": "test",
+      "doc_to_text": "{{question.strip()}}\nA. {{choices[0]}}\nB. {{choices[1]}}\nC. {{choices[2]}}\nD. {{choices[3]}}\nAnswer:",
+      "doc_to_target": "answer",
+      "doc_to_choice": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "fewshot_config": {
+        "sampler": "first_n"
+      },
+      "num_fewshot": 3,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0
+      }
+    },
+    "mmlu_redux_college_computer_science": {
+      "task": "mmlu_redux_college_computer_science",
+      "task_alias": "college_computer_science",
+      "dataset_path": "edinburgh-dawg/mmlu-redux",
+      "dataset_name": "college_computer_science",
+      "dataset_kwargs": {
+        "trust_remote_code": true
+      },
+      "test_split": "test",
+      "fewshot_split": "test",
+      "doc_to_text": "{{question.strip()}}\nA. {{choices[0]}}\nB. {{choices[1]}}\nC. {{choices[2]}}\nD. {{choices[3]}}\nAnswer:",
+      "doc_to_target": "answer",
+      "doc_to_choice": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "fewshot_config": {
+        "sampler": "first_n"
+      },
+      "num_fewshot": 3,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0
+      }
+    },
+    "mmlu_redux_college_mathematics": {
+      "task": "mmlu_redux_college_mathematics",
+      "task_alias": "college_mathematics",
+      "dataset_path": "edinburgh-dawg/mmlu-redux",
+      "dataset_name": "college_mathematics",
+      "dataset_kwargs": {
+        "trust_remote_code": true
+      },
+      "test_split": "test",
+      "fewshot_split": "test",
+      "doc_to_text": "{{question.strip()}}\nA. {{choices[0]}}\nB. {{choices[1]}}\nC. {{choices[2]}}\nD. {{choices[3]}}\nAnswer:",
+      "doc_to_target": "answer",
+      "doc_to_choice": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "fewshot_config": {
+        "sampler": "first_n"
+      },
+      "num_fewshot": 3,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0
+      }
+    },
+    "mmlu_redux_college_medicine": {
+      "task": "mmlu_redux_college_medicine",
+      "task_alias": "college_medicine",
+      "dataset_path": "edinburgh-dawg/mmlu-redux",
+      "dataset_name": "college_medicine",
+      "dataset_kwargs": {
+        "trust_remote_code": true
+      },
+      "test_split": "test",
+      "fewshot_split": "test",
+      "doc_to_text": "{{question.strip()}}\nA. {{choices[0]}}\nB. {{choices[1]}}\nC. {{choices[2]}}\nD. {{choices[3]}}\nAnswer:",
+      "doc_to_target": "answer",
+      "doc_to_choice": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "fewshot_config": {
+        "sampler": "first_n"
+      },
+      "num_fewshot": 3,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0
+      }
+    },
+    "mmlu_redux_college_physics": {
+      "task": "mmlu_redux_college_physics",
+      "task_alias": "college_physics",
+      "dataset_path": "edinburgh-dawg/mmlu-redux",
+      "dataset_name": "college_physics",
+      "dataset_kwargs": {
+        "trust_remote_code": true
+      },
+      "test_split": "test",
+      "fewshot_split": "test",
+      "doc_to_text": "{{question.strip()}}\nA. {{choices[0]}}\nB. {{choices[1]}}\nC. {{choices[2]}}\nD. {{choices[3]}}\nAnswer:",
+      "doc_to_target": "answer",
+      "doc_to_choice": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "fewshot_config": {
+        "sampler": "first_n"
+      },
+      "num_fewshot": 3,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0
+      }
+    },
+    "mmlu_redux_conceptual_physics": {
+      "task": "mmlu_redux_conceptual_physics",
+      "task_alias": "conceptual_physics",
+      "dataset_path": "edinburgh-dawg/mmlu-redux",
+      "dataset_name": "conceptual_physics",
+      "dataset_kwargs": {
+        "trust_remote_code": true
+      },
+      "test_split": "test",
+      "fewshot_split": "test",
+      "doc_to_text": "{{question.strip()}}\nA. {{choices[0]}}\nB. {{choices[1]}}\nC. {{choices[2]}}\nD. {{choices[3]}}\nAnswer:",
+      "doc_to_target": "answer",
+      "doc_to_choice": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "fewshot_config": {
+        "sampler": "first_n"
+      },
+      "num_fewshot": 3,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0
+      }
+    },
+    "mmlu_redux_econometrics": {
+      "task": "mmlu_redux_econometrics",
+      "task_alias": "econometrics",
+      "dataset_path": "edinburgh-dawg/mmlu-redux",
+      "dataset_name": "econometrics",
+      "dataset_kwargs": {
+        "trust_remote_code": true
+      },
+      "test_split": "test",
+      "fewshot_split": "test",
+      "doc_to_text": "{{question.strip()}}\nA. {{choices[0]}}\nB. {{choices[1]}}\nC. {{choices[2]}}\nD. {{choices[3]}}\nAnswer:",
+      "doc_to_target": "answer",
+      "doc_to_choice": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "fewshot_config": {
+        "sampler": "first_n"
+      },
+      "num_fewshot": 3,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0
+      }
+    },
+    "mmlu_redux_electrical_engineering": {
+      "task": "mmlu_redux_electrical_engineering",
+      "task_alias": "electrical_engineering",
+      "dataset_path": "edinburgh-dawg/mmlu-redux",
+      "dataset_name": "electrical_engineering",
+      "dataset_kwargs": {
+        "trust_remote_code": true
+      },
+      "test_split": "test",
+      "fewshot_split": "test",
+      "doc_to_text": "{{question.strip()}}\nA. {{choices[0]}}\nB. {{choices[1]}}\nC. {{choices[2]}}\nD. {{choices[3]}}\nAnswer:",
+      "doc_to_target": "answer",
+      "doc_to_choice": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "fewshot_config": {
+        "sampler": "first_n"
+      },
+      "num_fewshot": 3,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0
+      }
+    },
+    "mmlu_redux_formal_logic": {
+      "task": "mmlu_redux_formal_logic",
+      "task_alias": "formal_logic",
+      "dataset_path": "edinburgh-dawg/mmlu-redux",
+      "dataset_name": "formal_logic",
+      "dataset_kwargs": {
+        "trust_remote_code": true
+      },
+      "test_split": "test",
+      "fewshot_split": "test",
+      "doc_to_text": "{{question.strip()}}\nA. {{choices[0]}}\nB. {{choices[1]}}\nC. {{choices[2]}}\nD. {{choices[3]}}\nAnswer:",
+      "doc_to_target": "answer",
+      "doc_to_choice": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "fewshot_config": {
+        "sampler": "first_n"
+      },
+      "num_fewshot": 3,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0
+      }
+    },
+    "mmlu_redux_global_facts": {
+      "task": "mmlu_redux_global_facts",
+      "task_alias": "global_facts",
+      "dataset_path": "edinburgh-dawg/mmlu-redux",
+      "dataset_name": "global_facts",
+      "dataset_kwargs": {
+        "trust_remote_code": true
+      },
+      "test_split": "test",
+      "fewshot_split": "test",
+      "doc_to_text": "{{question.strip()}}\nA. {{choices[0]}}\nB. {{choices[1]}}\nC. {{choices[2]}}\nD. {{choices[3]}}\nAnswer:",
+      "doc_to_target": "answer",
+      "doc_to_choice": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "fewshot_config": {
+        "sampler": "first_n"
+      },
+      "num_fewshot": 3,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0
+      }
+    },
+    "mmlu_redux_high_school_chemistry": {
+      "task": "mmlu_redux_high_school_chemistry",
+      "task_alias": "high_school_chemistry",
+      "dataset_path": "edinburgh-dawg/mmlu-redux",
+      "dataset_name": "high_school_chemistry",
+      "dataset_kwargs": {
+        "trust_remote_code": true
+      },
+      "test_split": "test",
+      "fewshot_split": "test",
+      "doc_to_text": "{{question.strip()}}\nA. {{choices[0]}}\nB. {{choices[1]}}\nC. {{choices[2]}}\nD. {{choices[3]}}\nAnswer:",
+      "doc_to_target": "answer",
+      "doc_to_choice": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "fewshot_config": {
+        "sampler": "first_n"
+      },
+      "num_fewshot": 3,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0
+      }
+    },
+    "mmlu_redux_high_school_geography": {
+      "task": "mmlu_redux_high_school_geography",
+      "task_alias": "high_school_geography",
+      "dataset_path": "edinburgh-dawg/mmlu-redux",
+      "dataset_name": "high_school_geography",
+      "dataset_kwargs": {
+        "trust_remote_code": true
+      },
+      "test_split": "test",
+      "fewshot_split": "test",
+      "doc_to_text": "{{question.strip()}}\nA. {{choices[0]}}\nB. {{choices[1]}}\nC. {{choices[2]}}\nD. {{choices[3]}}\nAnswer:",
+      "doc_to_target": "answer",
+      "doc_to_choice": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "fewshot_config": {
+        "sampler": "first_n"
+      },
+      "num_fewshot": 3,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0
+      }
+    },
+    "mmlu_redux_high_school_macroeconomics": {
+      "task": "mmlu_redux_high_school_macroeconomics",
+      "task_alias": "high_school_macroeconomics",
+      "dataset_path": "edinburgh-dawg/mmlu-redux",
+      "dataset_name": "high_school_macroeconomics",
+      "dataset_kwargs": {
+        "trust_remote_code": true
+      },
+      "test_split": "test",
+      "fewshot_split": "test",
+      "doc_to_text": "{{question.strip()}}\nA. {{choices[0]}}\nB. {{choices[1]}}\nC. {{choices[2]}}\nD. {{choices[3]}}\nAnswer:",
+      "doc_to_target": "answer",
+      "doc_to_choice": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "fewshot_config": {
+        "sampler": "first_n"
+      },
+      "num_fewshot": 3,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0
+      }
+    },
+    "mmlu_redux_high_school_mathematics": {
+      "task": "mmlu_redux_high_school_mathematics",
+      "task_alias": "high_school_mathematics",
+      "dataset_path": "edinburgh-dawg/mmlu-redux",
+      "dataset_name": "high_school_mathematics",
+      "dataset_kwargs": {
+        "trust_remote_code": true
+      },
+      "test_split": "test",
+      "fewshot_split": "test",
+      "doc_to_text": "{{question.strip()}}\nA. {{choices[0]}}\nB. {{choices[1]}}\nC. {{choices[2]}}\nD. {{choices[3]}}\nAnswer:",
+      "doc_to_target": "answer",
+      "doc_to_choice": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "fewshot_config": {
+        "sampler": "first_n"
+      },
+      "num_fewshot": 3,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0
+      }
+    },
+    "mmlu_redux_high_school_physics": {
+      "task": "mmlu_redux_high_school_physics",
+      "task_alias": "high_school_physics",
+      "dataset_path": "edinburgh-dawg/mmlu-redux",
+      "dataset_name": "high_school_physics",
+      "dataset_kwargs": {
+        "trust_remote_code": true
+      },
+      "test_split": "test",
+      "fewshot_split": "test",
+      "doc_to_text": "{{question.strip()}}\nA. {{choices[0]}}\nB. {{choices[1]}}\nC. {{choices[2]}}\nD. {{choices[3]}}\nAnswer:",
+      "doc_to_target": "answer",
+      "doc_to_choice": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "fewshot_config": {
+        "sampler": "first_n"
+      },
+      "num_fewshot": 3,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0
+      }
+    },
+    "mmlu_redux_high_school_statistics": {
+      "task": "mmlu_redux_high_school_statistics",
+      "task_alias": "high_school_statistics",
+      "dataset_path": "edinburgh-dawg/mmlu-redux",
+      "dataset_name": "high_school_statistics",
+      "dataset_kwargs": {
+        "trust_remote_code": true
+      },
+      "test_split": "test",
+      "fewshot_split": "test",
+      "doc_to_text": "{{question.strip()}}\nA. {{choices[0]}}\nB. {{choices[1]}}\nC. {{choices[2]}}\nD. {{choices[3]}}\nAnswer:",
+      "doc_to_target": "answer",
+      "doc_to_choice": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "fewshot_config": {
+        "sampler": "first_n"
+      },
+      "num_fewshot": 3,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0
+      }
+    },
+    "mmlu_redux_high_school_us_history": {
+      "task": "mmlu_redux_high_school_us_history",
+      "task_alias": "high_school_us_history",
+      "dataset_path": "edinburgh-dawg/mmlu-redux",
+      "dataset_name": "high_school_us_history",
+      "dataset_kwargs": {
+        "trust_remote_code": true
+      },
+      "test_split": "test",
+      "fewshot_split": "test",
+      "doc_to_text": "{{question.strip()}}\nA. {{choices[0]}}\nB. {{choices[1]}}\nC. {{choices[2]}}\nD. {{choices[3]}}\nAnswer:",
+      "doc_to_target": "answer",
+      "doc_to_choice": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "fewshot_config": {
+        "sampler": "first_n"
+      },
+      "num_fewshot": 3,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0
+      }
+    },
+    "mmlu_redux_human_aging": {
+      "task": "mmlu_redux_human_aging",
+      "task_alias": "human_aging",
+      "dataset_path": "edinburgh-dawg/mmlu-redux",
+      "dataset_name": "human_aging",
+      "dataset_kwargs": {
+        "trust_remote_code": true
+      },
+      "test_split": "test",
+      "fewshot_split": "test",
+      "doc_to_text": "{{question.strip()}}\nA. {{choices[0]}}\nB. {{choices[1]}}\nC. {{choices[2]}}\nD. {{choices[3]}}\nAnswer:",
+      "doc_to_target": "answer",
+      "doc_to_choice": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "fewshot_config": {
+        "sampler": "first_n"
+      },
+      "num_fewshot": 3,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0
+      }
+    },
+    "mmlu_redux_logical_fallacies": {
+      "task": "mmlu_redux_logical_fallacies",
+      "task_alias": "logical_fallacies",
+      "dataset_path": "edinburgh-dawg/mmlu-redux",
+      "dataset_name": "logical_fallacies",
+      "dataset_kwargs": {
+        "trust_remote_code": true
+      },
+      "test_split": "test",
+      "fewshot_split": "test",
+      "doc_to_text": "{{question.strip()}}\nA. {{choices[0]}}\nB. {{choices[1]}}\nC. {{choices[2]}}\nD. {{choices[3]}}\nAnswer:",
+      "doc_to_target": "answer",
+      "doc_to_choice": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "fewshot_config": {
+        "sampler": "first_n"
+      },
+      "num_fewshot": 3,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0
+      }
+    },
+    "mmlu_redux_machine_learning": {
+      "task": "mmlu_redux_machine_learning",
+      "task_alias": "machine_learning",
+      "dataset_path": "edinburgh-dawg/mmlu-redux",
+      "dataset_name": "machine_learning",
+      "dataset_kwargs": {
+        "trust_remote_code": true
+      },
+      "test_split": "test",
+      "fewshot_split": "test",
+      "doc_to_text": "{{question.strip()}}\nA. {{choices[0]}}\nB. {{choices[1]}}\nC. {{choices[2]}}\nD. {{choices[3]}}\nAnswer:",
+      "doc_to_target": "answer",
+      "doc_to_choice": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "fewshot_config": {
+        "sampler": "first_n"
+      },
+      "num_fewshot": 3,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0
+      }
+    },
+    "mmlu_redux_miscellaneous": {
+      "task": "mmlu_redux_miscellaneous",
+      "task_alias": "miscellaneous",
+      "dataset_path": "edinburgh-dawg/mmlu-redux",
+      "dataset_name": "miscellaneous",
+      "dataset_kwargs": {
+        "trust_remote_code": true
+      },
+      "test_split": "test",
+      "fewshot_split": "test",
+      "doc_to_text": "{{question.strip()}}\nA. {{choices[0]}}\nB. {{choices[1]}}\nC. {{choices[2]}}\nD. {{choices[3]}}\nAnswer:",
+      "doc_to_target": "answer",
+      "doc_to_choice": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "fewshot_config": {
+        "sampler": "first_n"
+      },
+      "num_fewshot": 3,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0
+      }
+    },
+    "mmlu_redux_philosophy": {
+      "task": "mmlu_redux_philosophy",
+      "task_alias": "philosophy",
+      "dataset_path": "edinburgh-dawg/mmlu-redux",
+      "dataset_name": "philosophy",
+      "dataset_kwargs": {
+        "trust_remote_code": true
+      },
+      "test_split": "test",
+      "fewshot_split": "test",
+      "doc_to_text": "{{question.strip()}}\nA. {{choices[0]}}\nB. {{choices[1]}}\nC. {{choices[2]}}\nD. {{choices[3]}}\nAnswer:",
+      "doc_to_target": "answer",
+      "doc_to_choice": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "fewshot_config": {
+        "sampler": "first_n"
+      },
+      "num_fewshot": 3,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0
+      }
+    },
+    "mmlu_redux_professional_accounting": {
+      "task": "mmlu_redux_professional_accounting",
+      "task_alias": "professional_accounting",
+      "dataset_path": "edinburgh-dawg/mmlu-redux",
+      "dataset_name": "professional_accounting",
+      "dataset_kwargs": {
+        "trust_remote_code": true
+      },
+      "test_split": "test",
+      "fewshot_split": "test",
+      "doc_to_text": "{{question.strip()}}\nA. {{choices[0]}}\nB. {{choices[1]}}\nC. {{choices[2]}}\nD. {{choices[3]}}\nAnswer:",
+      "doc_to_target": "answer",
+      "doc_to_choice": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "fewshot_config": {
+        "sampler": "first_n"
+      },
+      "num_fewshot": 3,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0
+      }
+    },
+    "mmlu_redux_professional_law": {
+      "task": "mmlu_redux_professional_law",
+      "task_alias": "professional_law",
+      "dataset_path": "edinburgh-dawg/mmlu-redux",
+      "dataset_name": "professional_law",
+      "dataset_kwargs": {
+        "trust_remote_code": true
+      },
+      "test_split": "test",
+      "fewshot_split": "test",
+      "doc_to_text": "{{question.strip()}}\nA. {{choices[0]}}\nB. {{choices[1]}}\nC. {{choices[2]}}\nD. {{choices[3]}}\nAnswer:",
+      "doc_to_target": "answer",
+      "doc_to_choice": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "fewshot_config": {
+        "sampler": "first_n"
+      },
+      "num_fewshot": 3,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0
+      }
+    },
+    "mmlu_redux_public_relations": {
+      "task": "mmlu_redux_public_relations",
+      "task_alias": "public_relations",
+      "dataset_path": "edinburgh-dawg/mmlu-redux",
+      "dataset_name": "public_relations",
+      "dataset_kwargs": {
+        "trust_remote_code": true
+      },
+      "test_split": "test",
+      "fewshot_split": "test",
+      "doc_to_text": "{{question.strip()}}\nA. {{choices[0]}}\nB. {{choices[1]}}\nC. {{choices[2]}}\nD. {{choices[3]}}\nAnswer:",
+      "doc_to_target": "answer",
+      "doc_to_choice": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "fewshot_config": {
+        "sampler": "first_n"
+      },
+      "num_fewshot": 3,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0
+      }
+    },
+    "mmlu_redux_virology": {
+      "task": "mmlu_redux_virology",
+      "task_alias": "virology",
+      "dataset_path": "edinburgh-dawg/mmlu-redux",
+      "dataset_name": "virology",
+      "dataset_kwargs": {
+        "trust_remote_code": true
+      },
+      "test_split": "test",
+      "fewshot_split": "test",
+      "doc_to_text": "{{question.strip()}}\nA. {{choices[0]}}\nB. {{choices[1]}}\nC. {{choices[2]}}\nD. {{choices[3]}}\nAnswer:",
+      "doc_to_target": "answer",
+      "doc_to_choice": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "fewshot_config": {
+        "sampler": "first_n"
+      },
+      "num_fewshot": 3,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0
+      }
+    }
+  },
+  "versions": {
+    "mmlu_redux": 2.0,
+    "mmlu_redux_anatomy": 1.0,
+    "mmlu_redux_astronomy": 1.0,
+    "mmlu_redux_business_ethics": 1.0,
+    "mmlu_redux_clinical_knowledge": 1.0,
+    "mmlu_redux_college_chemistry": 1.0,
+    "mmlu_redux_college_computer_science": 1.0,
+    "mmlu_redux_college_mathematics": 1.0,
+    "mmlu_redux_college_medicine": 1.0,
+    "mmlu_redux_college_physics": 1.0,
+    "mmlu_redux_conceptual_physics": 1.0,
+    "mmlu_redux_econometrics": 1.0,
+    "mmlu_redux_electrical_engineering": 1.0,
+    "mmlu_redux_formal_logic": 1.0,
+    "mmlu_redux_global_facts": 1.0,
+    "mmlu_redux_high_school_chemistry": 1.0,
+    "mmlu_redux_high_school_geography": 1.0,
+    "mmlu_redux_high_school_macroeconomics": 1.0,
+    "mmlu_redux_high_school_mathematics": 1.0,
+    "mmlu_redux_high_school_physics": 1.0,
+    "mmlu_redux_high_school_statistics": 1.0,
+    "mmlu_redux_high_school_us_history": 1.0,
+    "mmlu_redux_human_aging": 1.0,
+    "mmlu_redux_logical_fallacies": 1.0,
+    "mmlu_redux_machine_learning": 1.0,
+    "mmlu_redux_miscellaneous": 1.0,
+    "mmlu_redux_philosophy": 1.0,
+    "mmlu_redux_professional_accounting": 1.0,
+    "mmlu_redux_professional_law": 1.0,
+    "mmlu_redux_public_relations": 1.0,
+    "mmlu_redux_virology": 1.0
+  },
+  "n-shot": {
+    "mmlu_redux_anatomy": 3,
+    "mmlu_redux_astronomy": 3,
+    "mmlu_redux_business_ethics": 3,
+    "mmlu_redux_clinical_knowledge": 3,
+    "mmlu_redux_college_chemistry": 3,
+    "mmlu_redux_college_computer_science": 3,
+    "mmlu_redux_college_mathematics": 3,
+    "mmlu_redux_college_medicine": 3,
+    "mmlu_redux_college_physics": 3,
+    "mmlu_redux_conceptual_physics": 3,
+    "mmlu_redux_econometrics": 3,
+    "mmlu_redux_electrical_engineering": 3,
+    "mmlu_redux_formal_logic": 3,
+    "mmlu_redux_global_facts": 3,
+    "mmlu_redux_high_school_chemistry": 3,
+    "mmlu_redux_high_school_geography": 3,
+    "mmlu_redux_high_school_macroeconomics": 3,
+    "mmlu_redux_high_school_mathematics": 3,
+    "mmlu_redux_high_school_physics": 3,
+    "mmlu_redux_high_school_statistics": 3,
+    "mmlu_redux_high_school_us_history": 3,
+    "mmlu_redux_human_aging": 3,
+    "mmlu_redux_logical_fallacies": 3,
+    "mmlu_redux_machine_learning": 3,
+    "mmlu_redux_miscellaneous": 3,
+    "mmlu_redux_philosophy": 3,
+    "mmlu_redux_professional_accounting": 3,
+    "mmlu_redux_professional_law": 3,
+    "mmlu_redux_public_relations": 3,
+    "mmlu_redux_virology": 3
+  },
+  "higher_is_better": {
+    "mmlu_redux": {
+      "acc": true
+    },
+    "mmlu_redux_anatomy": {
+      "acc": true
+    },
+    "mmlu_redux_astronomy": {
+      "acc": true
+    },
+    "mmlu_redux_business_ethics": {
+      "acc": true
+    },
+    "mmlu_redux_clinical_knowledge": {
+      "acc": true
+    },
+    "mmlu_redux_college_chemistry": {
+      "acc": true
+    },
+    "mmlu_redux_college_computer_science": {
+      "acc": true
+    },
+    "mmlu_redux_college_mathematics": {
+      "acc": true
+    },
+    "mmlu_redux_college_medicine": {
+      "acc": true
+    },
+    "mmlu_redux_college_physics": {
+      "acc": true
+    },
+    "mmlu_redux_conceptual_physics": {
+      "acc": true
+    },
+    "mmlu_redux_econometrics": {
+      "acc": true
+    },
+    "mmlu_redux_electrical_engineering": {
+      "acc": true
+    },
+    "mmlu_redux_formal_logic": {
+      "acc": true
+    },
+    "mmlu_redux_global_facts": {
+      "acc": true
+    },
+    "mmlu_redux_high_school_chemistry": {
+      "acc": true
+    },
+    "mmlu_redux_high_school_geography": {
+      "acc": true
+    },
+    "mmlu_redux_high_school_macroeconomics": {
+      "acc": true
+    },
+    "mmlu_redux_high_school_mathematics": {
+      "acc": true
+    },
+    "mmlu_redux_high_school_physics": {
+      "acc": true
+    },
+    "mmlu_redux_high_school_statistics": {
+      "acc": true
+    },
+    "mmlu_redux_high_school_us_history": {
+      "acc": true
+    },
+    "mmlu_redux_human_aging": {
+      "acc": true
+    },
+    "mmlu_redux_logical_fallacies": {
+      "acc": true
+    },
+    "mmlu_redux_machine_learning": {
+      "acc": true
+    },
+    "mmlu_redux_miscellaneous": {
+      "acc": true
+    },
+    "mmlu_redux_philosophy": {
+      "acc": true
+    },
+    "mmlu_redux_professional_accounting": {
+      "acc": true
+    },
+    "mmlu_redux_professional_law": {
+      "acc": true
+    },
+    "mmlu_redux_public_relations": {
+      "acc": true
+    },
+    "mmlu_redux_virology": {
+      "acc": true
+    }
+  },
+  "n-samples": {
+    "mmlu_redux_machine_learning": {
+      "original": 100,
+      "effective": 100
+    },
+    "mmlu_redux_professional_law": {
+      "original": 100,
+      "effective": 100
+    },
+    "mmlu_redux_logical_fallacies": {
+      "original": 100,
+      "effective": 100
+    },
+    "mmlu_redux_high_school_macroeconomics": {
+      "original": 100,
+      "effective": 100
+    },
+    "mmlu_redux_conceptual_physics": {
+      "original": 100,
+      "effective": 100
+    },
+    "mmlu_redux_human_aging": {
+      "original": 100,
+      "effective": 100
+    },
+    "mmlu_redux_philosophy": {
+      "original": 100,
+      "effective": 100
+    },
+    "mmlu_redux_virology": {
+      "original": 100,
+      "effective": 100
+    },
+    "mmlu_redux_clinical_knowledge": {
+      "original": 100,
+      "effective": 100
+    },
+    "mmlu_redux_college_chemistry": {
+      "original": 100,
+      "effective": 100
+    },
+    "mmlu_redux_astronomy": {
+      "original": 100,
+      "effective": 100
+    },
+    "mmlu_redux_public_relations": {
+      "original": 100,
+      "effective": 100
+    },
+    "mmlu_redux_miscellaneous": {
+      "original": 100,
+      "effective": 100
+    },
+    "mmlu_redux_college_medicine": {
+      "original": 100,
+      "effective": 100
+    },
+    "mmlu_redux_high_school_mathematics": {
+      "original": 100,
+      "effective": 100
+    },
+    "mmlu_redux_high_school_physics": {
+      "original": 100,
+      "effective": 100
+    },
+    "mmlu_redux_anatomy": {
+      "original": 100,
+      "effective": 100
+    },
+    "mmlu_redux_global_facts": {
+      "original": 100,
+      "effective": 100
+    },
+    "mmlu_redux_high_school_statistics": {
+      "original": 100,
+      "effective": 100
+    },
+    "mmlu_redux_high_school_us_history": {
+      "original": 100,
+      "effective": 100
+    },
+    "mmlu_redux_high_school_chemistry": {
+      "original": 100,
+      "effective": 100
+    },
+    "mmlu_redux_college_computer_science": {
+      "original": 100,
+      "effective": 100
+    },
+    "mmlu_redux_econometrics": {
+      "original": 100,
+      "effective": 100
+    },
+    "mmlu_redux_high_school_geography": {
+      "original": 100,
+      "effective": 100
+    },
+    "mmlu_redux_professional_accounting": {
+      "original": 100,
+      "effective": 100
+    },
+    "mmlu_redux_business_ethics": {
+      "original": 100,
+      "effective": 100
+    },
+    "mmlu_redux_formal_logic": {
+      "original": 100,
+      "effective": 100
+    },
+    "mmlu_redux_college_mathematics": {
+      "original": 100,
+      "effective": 100
+    },
+    "mmlu_redux_electrical_engineering": {
+      "original": 100,
+      "effective": 100
+    },
+    "mmlu_redux_college_physics": {
+      "original": 100,
+      "effective": 100
+    }
+  },
+  "config": {
+    "model": "hf",
+    "model_args": "pretrained=meta-llama/Llama-3.1-8B-Instruct,parallelize=True,attn_implementation=sdpa",
+    "model_num_parameters": 8030261248,
+    "model_dtype": "torch.bfloat16",
+    "model_revision": "main",
+    "model_sha": "0e9e39f249a16976918f6564b8830bc894c89659",
+    "batch_size": 1,
+    "batch_sizes": [],
+    "device": "cuda",
+    "use_cache": null,
+    "limit": null,
+    "bootstrap_iters": 100000,
+    "gen_kwargs": null,
+    "random_seed": 0,
+    "numpy_seed": 1234,
+    "torch_seed": 1234,
+    "fewshot_seed": 1234
+  },
+  "git_hash": null,
+  "date": 1734395794.0038774,
+  "pretty_env_info": "PyTorch version: 2.5.1+cu124\nIs debug build: False\nCUDA used to build PyTorch: 12.4\nROCM used to build PyTorch: N/A\n\nOS: Rocky Linux 8.4 (Green Obsidian) (x86_64)\nGCC version: (GCC) 8.5.0 20210514 (Red Hat 8.5.0-4)\nClang version: Could not collect\nCMake version: version 3.26.5\nLibc version: glibc-2.28\n\nPython version: 3.11.7 (main, Dec 15 2023, 18:12:31) [GCC 11.2.0] (64-bit runtime)\nPython platform: Linux-4.18.0-305.19.1.el8_4.x86_64-x86_64-with-glibc2.28\nIs CUDA available: True\nCUDA runtime version: Could not collect\nCUDA_MODULE_LOADING set to: LAZY\nGPU models and configuration: \nGPU 0: NVIDIA A100-SXM4-80GB\nGPU 1: NVIDIA A100-SXM4-80GB\nGPU 2: NVIDIA A100-SXM4-80GB\nGPU 3: NVIDIA A100-SXM4-80GB\nGPU 4: NVIDIA A100-SXM4-80GB\nGPU 5: NVIDIA A100-SXM4-80GB\nGPU 6: NVIDIA A100-SXM4-80GB\nGPU 7: NVIDIA A100-SXM4-80GB\n\nNvidia driver version: 545.23.06\ncuDNN version: Probably one of the following:\n/usr/local/cuda-11.3/targets/x86_64-linux/lib/libcudnn.so.8.2.1\n/usr/local/cuda-11.3/targets/x86_64-linux/lib/libcudnn_adv_infer.so.8.2.1\n/usr/local/cuda-11.3/targets/x86_64-linux/lib/libcudnn_adv_train.so.8.2.1\n/usr/local/cuda-11.3/targets/x86_64-linux/lib/libcudnn_cnn_infer.so.8.2.1\n/usr/local/cuda-11.3/targets/x86_64-linux/lib/libcudnn_cnn_train.so.8.2.1\n/usr/local/cuda-11.3/targets/x86_64-linux/lib/libcudnn_ops_infer.so.8.2.1\n/usr/local/cuda-11.3/targets/x86_64-linux/lib/libcudnn_ops_train.so.8.2.1\nHIP runtime version: N/A\nMIOpen runtime version: N/A\nIs XNNPACK available: True\n\nCPU:\nArchitecture:        x86_64\nCPU op-mode(s):      32-bit, 64-bit\nByte Order:          Little Endian\nCPU(s):              128\nOn-line CPU(s) list: 0-127\nThread(s) per core:  2\nCore(s) per socket:  32\nSocket(s):           2\nNUMA node(s):        2\nVendor ID:           AuthenticAMD\nCPU family:          25\nModel:               1\nModel name:          AMD EPYC 7513 32-Core Processor\nStepping:            1\nCPU MHz:             3047.422\nCPU max MHz:         2600.0000\nCPU min MHz:         1500.0000\nBogoMIPS:            5190.14\nVirtualization:      AMD-V\nL1d cache:           32K\nL1i cache:           32K\nL2 cache:            512K\nL3 cache:            32768K\nNUMA node0 CPU(s):   0-31,64-95\nNUMA node1 CPU(s):   32-63,96-127\nFlags:               fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx mmxext fxsr_opt pdpe1gb rdtscp lm constant_tsc rep_good nopl nonstop_tsc cpuid extd_apicid aperfmperf pni pclmulqdq monitor ssse3 fma cx16 pcid sse4_1 sse4_2 movbe popcnt aes xsave avx f16c rdrand lahf_lm cmp_legacy svm extapic cr8_legacy abm sse4a misalignsse 3dnowprefetch osvw ibs skinit wdt tce topoext perfctr_core perfctr_nb bpext perfctr_llc mwaitx cpb cat_l3 cdp_l3 invpcid_single hw_pstate sme ssbd mba sev ibrs ibpb stibp vmmcall sev_es fsgsbase bmi1 avx2 smep bmi2 erms invpcid cqm rdt_a rdseed adx smap clflushopt clwb sha_ni xsaveopt xsavec xgetbv1 xsaves cqm_llc cqm_occup_llc cqm_mbm_total cqm_mbm_local clzero irperf xsaveerptr wbnoinvd amd_ppin arat npt lbrv svm_lock nrip_save tsc_scale vmcb_clean flushbyasid decodeassists pausefilter pfthreshold v_vmsave_vmload vgif umip pku ospke vaes vpclmulqdq rdpid overflow_recov succor smca fsrm\n\nVersions of relevant libraries:\n[pip3] numpy==2.1.3\n[pip3] torch==2.5.1\n[pip3] triton==3.1.0\n[conda] numpy                     1.26.4                   pypi_0    pypi\n[conda] optree                    0.11.0                   pypi_0    pypi\n[conda] torch                     2.4.1                    pypi_0    pypi\n[conda] torchvision               0.19.1                   pypi_0    pypi\n[conda] triton                    3.0.0                    pypi_0    pypi",
+  "transformers_version": "4.46.2",
+  "upper_git_hash": null,
+  "tokenizer_pad_token": [
+    "<|eot_id|>",
+    "128009"
+  ],
+  "tokenizer_eos_token": [
+    "<|eot_id|>",
+    "128009"
+  ],
+  "tokenizer_bos_token": [
+    "<|begin_of_text|>",
+    "128000"
+  ],
+  "eot_token_id": 128009,
+  "max_length": 131072,
+  "task_hashes": {
+    "mmlu_redux_machine_learning": "c8d45aed23b2c27d4d6fe23be7aff70e26170a1b8c2fedd72c97bc4e88091b70",
+    "mmlu_redux_professional_law": "989d221b0eeb91fcba1988f0f5c918045d12b03320ef2a7bdf5171fcc3713a5f",
+    "mmlu_redux_logical_fallacies": "a2388052e88a23a7195ac8fe2a06da3edcb2ad9ec422d9079a0221b28cee91c2",
+    "mmlu_redux_high_school_macroeconomics": "91388b05ccef5fb792a033a3c74c3019a120f4994b538bd72817d9e84f72e8cc",
+    "mmlu_redux_conceptual_physics": "b9faf120d4cda4dfb3d5fc5b9dca377ea1cab411ba5a729d97c66eaaed5465d9",
+    "mmlu_redux_human_aging": "78f5f72ebc981c3cf65d177cbc37e4db937b92a984d75c0c2b08d6b07a2f25c1",
+    "mmlu_redux_philosophy": "37d2210e68becb34ae70db33516bd9beb549b9a8b5a9eb0b45b9a1b4b5a29bdc",
+    "mmlu_redux_virology": "3339fd165f26df3451343fd32593f1a7905ade4d7c95ee39e200374a55a04fa4",
+    "mmlu_redux_clinical_knowledge": "7ad1cf129462d070ff61d5e3d20c5fe103329c273220d99011304ac928758c48",
+    "mmlu_redux_college_chemistry": "141457ef621bdd9023d9fb5dbb3f37386ab4c28e9e652f9037bf5ed5db0aab09",
+    "mmlu_redux_astronomy": "8ec44db51eb6bee5dd4abe648ed40fff77b41ea13dcd90ff51ac1c0f305d0a7d",
+    "mmlu_redux_public_relations": "03667c3c0184260e0f443607edd7e65c57c41db19021bfc60c4415bf9fdc48cd",
+    "mmlu_redux_miscellaneous": "95c1ac2cbc6822f628fdee2e94494a6e51843a8f381efa12b69bbd6cc76a9512",
+    "mmlu_redux_college_medicine": "2741d11509c46498136a4570bbfe704775806749b1968234c7e0ec566e270e9e",
+    "mmlu_redux_high_school_mathematics": "f96b067d6f7c38d4bf3c90c9e6207c35c472d37a92e64e4c4f5ecbe214d4c2d3",
+    "mmlu_redux_high_school_physics": "bae8b97251dd42394eff7b6e53d018f214079c5ab401059d1674d387fc30f285",
+    "mmlu_redux_anatomy": "00708b1d804aab0e4d9048cd4cb79e41c5035fab0c4288bbc11daf6eb7b7d24a",
+    "mmlu_redux_global_facts": "f440bed2a2c851852b11687e3d5d05171f788398585492335dad1329468f7b5f",
+    "mmlu_redux_high_school_statistics": "7315d1a3234ed78a6ae90f9fb132e40d1274de28a3528273ef39863c7e0b440a",
+    "mmlu_redux_high_school_us_history": "65151a150b26f42b69e57820bf89dc4dc7af0786d3afdcea158481a9d5174966",
+    "mmlu_redux_high_school_chemistry": "cdbf892567a2d007269ab240c996aa9a6bd30f78186b2ed3c6e174dc529ad3df",
+    "mmlu_redux_college_computer_science": "f611ddf25e9e0a982971e56f3c0ae05856a86e803e1b0e738bfe22ef26ac54b6",
+    "mmlu_redux_econometrics": "30ef7c56f4a93e66ad3e1a40f9d76123bac5188a69c8bf66b4f92c88c86e8e6a",
+    "mmlu_redux_high_school_geography": "79b6813b6a673849868ca9a10d801e4367f7ffcdfe4d6aecb27a33bb524ef90e",
+    "mmlu_redux_professional_accounting": "b6eeceaf3f2e06c5061a69388e1c5c479725d8382df53429533adba5e6c22f03",
+    "mmlu_redux_business_ethics": "8451b407c16bca0b680d4542ebbb58fba5799d0aaedb733c17e22380407a459c",
+    "mmlu_redux_formal_logic": "5692845303e409bf856f2450e0a1c2e1511317f5d7ad05eb9586b05d46d95588",
+    "mmlu_redux_college_mathematics": "1aae588b77ba0dc3dabc5ea42411705b1a6472f6c58ba05b7024b9b522282900",
+    "mmlu_redux_electrical_engineering": "7e46e97ad4d40880ff464ab4f8d12f1c33429781d5519be0f079ca6956e841b8",
+    "mmlu_redux_college_physics": "3a40937f4e9e0f7e77e8c8b5239f5e485981861c955beaa951b9914435bde26c"
+  },
+  "model_source": "hf",
+  "model_name": "meta-llama/Llama-3.1-8B-Instruct",
+  "model_name_sanitized": "meta-llama__Llama-3.1-8B-Instruct",
+  "system_instruction": null,
+  "system_instruction_sha": null,
+  "fewshot_as_multiturn": false,
+  "chat_template": null,
+  "chat_template_sha": null,
+  "start_time": 10242291.867272574,
+  "end_time": 10243286.092716524,
+  "total_evaluation_time_seconds": "994.2254439499229"
+}

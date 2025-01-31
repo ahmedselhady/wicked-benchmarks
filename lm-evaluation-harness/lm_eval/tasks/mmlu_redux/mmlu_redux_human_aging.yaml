@@ -1,0 +1,4 @@
+include: _default_template_yaml
+task_alias: human_aging
+task: mmlu_redux_human_aging
+dataset_name: "human_aging"

@@ -1,0 +1,4 @@
+include: _default_template_yaml
+task_alias: college_computer_science
+task: mmlu_redux_college_computer_science
+dataset_name: "college_computer_science"

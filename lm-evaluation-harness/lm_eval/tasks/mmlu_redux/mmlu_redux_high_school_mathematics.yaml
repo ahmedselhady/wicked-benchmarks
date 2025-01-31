@@ -1,0 +1,4 @@
+include: _default_template_yaml
+task_alias: high_school_mathematics
+task: mmlu_redux_high_school_mathematics
+dataset_name: "high_school_mathematics"

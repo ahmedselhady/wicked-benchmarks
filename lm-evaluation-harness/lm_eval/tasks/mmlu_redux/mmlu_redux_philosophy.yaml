@@ -1,0 +1,4 @@
+include: _default_template_yaml
+task_alias: philosophy
+task: mmlu_redux_philosophy
+dataset_name: "philosophy"

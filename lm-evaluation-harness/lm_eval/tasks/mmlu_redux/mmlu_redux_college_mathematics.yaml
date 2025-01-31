@@ -1,0 +1,4 @@
+include: _default_template_yaml
+task_alias: college_mathematics
+task: mmlu_redux_college_mathematics
+dataset_name: "college_mathematics"

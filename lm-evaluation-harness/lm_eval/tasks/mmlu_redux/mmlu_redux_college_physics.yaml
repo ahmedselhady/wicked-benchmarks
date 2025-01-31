@@ -1,0 +1,4 @@
+include: _default_template_yaml
+task_alias: college_physics
+task: mmlu_redux_college_physics
+dataset_name: "college_physics"

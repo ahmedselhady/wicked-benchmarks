@@ -1,0 +1,4 @@
+include: _default_template_yaml
+task_alias: conceptual_physics
+task: mmlu_redux_conceptual_physics
+dataset_name: "conceptual_physics"

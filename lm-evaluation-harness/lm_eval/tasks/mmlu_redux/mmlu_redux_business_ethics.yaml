@@ -1,0 +1,4 @@
+include: _default_template_yaml
+task_alias: business_ethics
+task: mmlu_redux_business_ethics
+dataset_name: "business_ethics"

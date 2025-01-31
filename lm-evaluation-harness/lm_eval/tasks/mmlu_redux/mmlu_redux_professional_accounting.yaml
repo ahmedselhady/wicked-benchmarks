@@ -1,0 +1,4 @@
+include: _default_template_yaml
+task_alias: professional_accounting
+task: mmlu_redux_professional_accounting
+dataset_name: "professional_accounting"

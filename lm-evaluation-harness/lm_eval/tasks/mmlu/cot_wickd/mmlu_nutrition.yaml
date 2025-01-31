@@ -1,0 +1,7 @@
+"dataset_name": "nutrition"
+"description": "The following are multiple choice questions (with answers) about nutrition.\n\
+  \n"
+"tag": "mmlu_other__generative_cot_wickd"
+"include": "_default_template_yaml"
+"task": "mmlu_nutrition__generative_cot_wickd"
+"task_alias": "nutrition"

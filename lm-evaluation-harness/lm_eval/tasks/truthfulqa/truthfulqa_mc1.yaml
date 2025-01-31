@@ -1,0 +1,22 @@
+tag:
+  - truthfulqa
+task: truthfulqa_mc1
+dataset_path: truthful_qa
+dataset_name: multiple_choice
+output_type: multiple_choice
+training_split: null
+validation_split: validation
+process_docs: !function utils.process_wicked
+test_split: null
+num_fewshot: 5
+doc_to_text: !function utils.doc2text_mc1
+doc_to_target: !function utils.doc2target_mc1
+doc_to_choice: !function utils.doc2choice_mc1 #"{{mc1_targets.labels}}"
+should_decontaminate: True
+doc_to_decontamination_query: question
+metric_list:
+  - metric: acc
+    aggregation: mean
+    higher_is_better: true
+metadata:
+  version: 2.0

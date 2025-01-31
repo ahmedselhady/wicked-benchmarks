@@ -1,0 +1,7 @@
+"dataset_name": "abstract_algebra"
+"description": "The following are multiple choice questions (with answers) about abstract\
+  \ algebra.\n\n"
+"tag": "mmlu_stem__generative_cot_wickd"
+"include": "_default_template_yaml"
+"task": "mmlu_abstract_algebra__generative_cot_wickd_cot"
+"task_alias": "abstract_algebra"

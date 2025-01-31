@@ -1,0 +1,4 @@
+include: _default_template_yaml
+task_alias: professional_law
+task: mmlu_redux_professional_law
+dataset_name: "professional_law"
