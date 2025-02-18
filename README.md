@@ -1,6 +1,6 @@
 <p align="center">
     <br>
-    <img src="assets/wicked_logo.drawio.png" alt="Logo">
+    <img src="assets/ai_generated_logo.jpg" alt="Logo", width="400">
     <br>
     <h1 align="center">
     WiCkeD: A Simple Method to Make Multiple Choice LLM Benchmarks More Challenging
