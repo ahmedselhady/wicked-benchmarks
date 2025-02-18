@@ -55,13 +55,13 @@ For more details, please refer to our Wickedly clever [paper](#)
 ## WiCkeD with Multiple Choice Prompting
 
 <p align="center">
-<!--     <img src="assets/mean.wickd_org_acc.hf_models-1.png" alt="MCQ Results" width=700>
-</p> -->
+    <img src="assets/mcp_table.png" alt="MCQ Results" width=700>
+</p>
 
 ## WiCkeD with Chain of Thoughts
 
 <p align="center">
-<!--     <img src="assets/mean.cot-and-mcq-1.png" alt="CoT Results" width=700> -->
+    <img src="assets/cot_vs_mcp.png" alt="CoT Results" width=700>
 </p>
 
 
