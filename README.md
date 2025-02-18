@@ -1,5 +1,5 @@
 <p >
-    <div style="display: flex; align-items: center;">
+    <div style="display: flex; ">
         <img src="assets/ai_generated_logo.png" alt="Logo" width="200">
         <h1 style="margin-left: 5px;">
             WiCkeD: A Simple Method to Make Multiple Choice LLM Benchmarks More Challenging
@@ -13,7 +13,7 @@
 
 TODO: Add the paper abstract
 
-- 📖 Paper: [TODO](#)
+- 📖 Paper: [Under Review](#)
 
 <!-- </p>     -->
 
