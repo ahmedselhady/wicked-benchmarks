@@ -1,6 +1,7 @@
 <p align="center">
     <img src="assets/ai_generated_logo.png" alt="Logo" width="250">
 </p>
+<p align="center">
 <h1 style="padding-left: 10px; padding-right: 10px; text-align: center;">Wicked: A Simple Method to Make Multiple Choice Benchmarks More Challenging</h1>
 <p align="center">
     <a href="#"><img alt="Paper" src="https://img.shields.io/badge/📖-Paper-orange"></a>
