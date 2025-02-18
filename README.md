@@ -1,5 +1,5 @@
 <p align="center">
-    <img src="assets/ai_generated_logo.png" alt="Logo" width="200">
+    <img src="assets/ai_generated_logo.png" alt="Logo" width="250">
 </p>
 <h1 style="padding-left: 10px; padding-right: 10px; text-align: center;">Wicked: A Simple Method to Make Multiple Choice Benchmarks More Challenging</h1>
 <p align="center">
@@ -10,8 +10,8 @@
 <!-- <a href="#"><img alt="Paper" src="https://img.shields.io/badge/📖-Paper-orange"></a> -->
 <!-- <a href="https://huggingface.co/ahmedselhady/bert-base-uncased-sba-clf"><img alt="SBA Classifier" src="https://img.shields.io/badge/-%F0%9F%A4%97HuggingFace%20-grey"></a>  -->
 </p>
-
-We introduce WiCkeD, a simple method to increase the complexity of existing multiple choice benchmarks by randomly replacing a choice with "None of the above", a method often used in educational tests. We show that WiCkeD can be automatically applied to any existing benchmark, making it more challenging. We apply WiCkeD to 6 popular benchmarks and use it to evaluate 18 open-weight LLMs. The performance of the models drops 12.1 points on average with respect to the original versions of the datasets. When using chain-of-thought on 3 MMLU datasets, the performance drop for the WiCkeD variant is similar to the one observed when using the LLMs directly, showing that WiCkeD is also challenging for models with enhanced reasoning abilities. WiCkeD also uncovers that some models are more sensitive to the extra reasoning required, providing additional information with respect to the original benchmarks.
+<!-- 
+We introduce WiCkeD, a simple method to increase the complexity of existing multiple choice benchmarks by randomly replacing a choice with "None of the above", a method often used in educational tests. We show that WiCkeD can be automatically applied to any existing benchmark, making it more challenging. We apply WiCkeD to 6 popular benchmarks and use it to evaluate 18 open-weight LLMs. The performance of the models drops 12.1 points on average with respect to the original versions of the datasets. When using chain-of-thought on 3 MMLU datasets, the performance drop for the WiCkeD variant is similar to the one observed when using the LLMs directly, showing that WiCkeD is also challenging for models with enhanced reasoning abilities. WiCkeD also uncovers that some models are more sensitive to the extra reasoning required, providing additional information with respect to the original benchmarks. -->
 
 - 📖 Paper: [Under Review](#)
 
