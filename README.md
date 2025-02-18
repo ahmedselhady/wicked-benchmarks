@@ -1,14 +1,14 @@
-<p align="center">
-    <br>
-    <img src="assets/ai_generated_logo.jpg" alt="Logo", width="400">
-    <br>
-    <h1 align="center">
-    WiCkeD: A Simple Method to Make Multiple Choice LLM Benchmarks More Challenging
-    </h1>
+<p >
+    <div style="display: flex; align-items: center;">
+        <img src="assets/ai_generated_logo.png" alt="Logo" width="200">
+        <h1 style="margin-left: 20px;">
+            WiCkeD: A Simple Method to Make Multiple Choice LLM Benchmarks More Challenging
+        </h1>
+    </div>
 <p align="center">
 
-<a href="#"><img alt="Paper" src="https://img.shields.io/badge/📖-Paper-orange"></a>
-<a href="https://huggingface.co/ahmedselhady/bert-base-uncased-sba-clf"><img alt="SBA Classifier" src="https://img.shields.io/badge/-%F0%9F%A4%97HuggingFace%20-grey"></a> 
+<!-- <a href="#"><img alt="Paper" src="https://img.shields.io/badge/📖-Paper-orange"></a> -->
+<!-- <a href="https://huggingface.co/ahmedselhady/bert-base-uncased-sba-clf"><img alt="SBA Classifier" src="https://img.shields.io/badge/-%F0%9F%A4%97HuggingFace%20-grey"></a>  -->
 </p>
 
 TODO: Add the paper abstract
