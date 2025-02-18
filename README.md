@@ -1,8 +1,11 @@
-<div style="display: flex; align-items: center;">
-    <img src="assets/ai_generated_logo.png" alt="Logo" width="200">
-    <h1 style="margin-left: 10px;">Wicked: A Simple Method to Make Multiple Choice Benchmarks More Challenging</h1>
-</div>
 <p align="center">
+    <img src="assets/ai_generated_logo.png" alt="Logo" width="200">
+</p>
+<h1 style="padding-left: 10px; padding-right: 10px; text-align: center;">Wicked: A Simple Method to Make Multiple Choice Benchmarks More Challenging</h1>
+<p align="center">
+    <a href="#"><img alt="Paper" src="https://img.shields.io/badge/📖-Paper-orange"></a>
+    <a href="https://huggingface.co/ahmedselhady/bert-base-uncased-sba-clf"><img alt="SBA Classifier" src="https://img.shields.io/badge/-%F0%9F%A4%97HuggingFace%20-grey"></a>
+</p>
 
 <!-- <a href="#"><img alt="Paper" src="https://img.shields.io/badge/📖-Paper-orange"></a> -->
 <!-- <a href="https://huggingface.co/ahmedselhady/bert-base-uncased-sba-clf"><img alt="SBA Classifier" src="https://img.shields.io/badge/-%F0%9F%A4%97HuggingFace%20-grey"></a>  -->
