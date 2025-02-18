@@ -1,7 +1,7 @@
 <p >
     <div style="display: flex; align-items: center;">
         <img src="assets/ai_generated_logo.png" alt="Logo" width="200">
-        <h1 style="margin-left: 20px;">
+        <h1 style="margin-left: 5px;">
             WiCkeD: A Simple Method to Make Multiple Choice LLM Benchmarks More Challenging
         </h1>
     </div>
