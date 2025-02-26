@@ -11,7 +11,7 @@
 <!-- 
 We introduce WiCkeD, a simple method to increase the complexity of existing multiple choice benchmarks by randomly replacing a choice with "None of the above", a method often used in educational tests. We show that WiCkeD can be automatically applied to any existing benchmark, making it more challenging. We apply WiCkeD to 6 popular benchmarks and use it to evaluate 18 open-weight LLMs. The performance of the models drops 12.1 points on average with respect to the original versions of the datasets. When using chain-of-thought on 3 MMLU datasets, the performance drop for the WiCkeD variant is similar to the one observed when using the LLMs directly, showing that WiCkeD is also challenging for models with enhanced reasoning abilities. WiCkeD also uncovers that some models are more sensitive to the extra reasoning required, providing additional information with respect to the original benchmarks. -->
 
-- 📖 Paper: [Under Review](#)
+- 📖 Paper: [Preprint](https://arxiv.org/pdf/2502.18316)
 
 <!-- </p>     -->
 
