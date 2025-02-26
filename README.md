@@ -94,8 +94,17 @@ Example run scripts are available [here](https://github.com/ahmedselhady/wicked/
 
 
 # Citation
+
+```
+@misc{elhady2025wickedsimplemethodmake,
+      title={WiCkeD: A Simple Method to Make Multiple Choice Benchmarks More Challenging}, 
+      author={Ahmed Elhady and Eneko Agirre and Mikel Artetxe},
+      year={2025},
+      eprint={2502.18316},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2502.18316}, 
+}
+```
  
-TODO: add paper citation
-```
-```
 
