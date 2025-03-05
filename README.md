@@ -88,7 +88,7 @@ pip install -e .
 
 # Evaluation Run Scripts
 
-Example run scripts are available [here](https://github.com/ahmedselhady/wicked/tree/main/scripts)
+Example run scripts are available [here](https://github.com/ahmedselhady/wicked-benchmarks/tree/main/scripts)
 
 **N.B** For some models, you may need to add your 🤗 access token.
 
